@@ -1,0 +1,17 @@
+﻿global using Mapster;
+global using Microsoft.AspNetCore.Authorization;
+global using Microsoft.AspNetCore.Http;
+global using Microsoft.AspNetCore.Mvc;
+global using Microsoft.CodeAnalysis;
+global using Microsoft.Extensions.Logging;
+global using AttcMN.Common.Data;
+global using AttcMN.Data;
+global using AttcMN.Data.Dtos;
+global using AttcMN.Data.Entities;
+global using AttcMN.Framework;
+global using AttcMN.Framework.DependencyInjection;
+global using AttcMN.Framework.Extensions;
+global using AttcMN.Framework.Logging;
+global using AttcMN.Framework.Utils;
+global using SqlSugar;
+global using System.ComponentModel.DataAnnotations;

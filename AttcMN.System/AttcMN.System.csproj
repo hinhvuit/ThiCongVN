@@ -1,0 +1,16 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net8.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\AttcMN.Common\AttcMN.Common.csproj" />
+    <ProjectReference Include="..\AttcMN.Data\AttcMN.Data.csproj" />
+    <ProjectReference Include="..\AttcMN.Framework\AttcMN.Framework.csproj" />
+  </ItemGroup>
+
+</Project>
+

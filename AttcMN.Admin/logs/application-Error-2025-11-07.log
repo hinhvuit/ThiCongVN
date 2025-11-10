@@ -1,0 +1,1402 @@
+fail: 2025-11-07 08:09:57.8720829 +07:00 Friday L System.Logging.LoggingMonitor[0] #35
+      ┏━━━━━━━━━━━  Logging Monitor ━━━━━━━━━━━
+      ┣ AttcMN.System.Controllers.FactoryController.AddFactory
+      ┣ 
+      ┣ 控制器名称：                FactoryController
+      ┣ 操作名称：                  AddFactory
+      ┣ 显示名称：                  
+      ┣ 路由信息：                  [area]: ; [controller]: Factory; [action]: AddFactory
+      ┣ 请求方式：                  POST
+      ┣ 请求地址：                  https://localhost:44326/system/factory
+      ┣ 来源地址：                  https://localhost:44326/api-doc/index.html?urls.primaryName=System
+      ┣ 请求端源：                  swagger
+      ┣ 浏览器标识：                Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/141.0.0.0 Safari/537.36
+      ┣ 客户端区域语言：            en-US,en;q=0.9,vi;q=0.8
+      ┣ 客户端 IP 地址：            0.0.0.1
+      ┣ 服务端 IP 地址：            0.0.0.1
+      ┣ 客户端连接 ID：             00-64843bf7ad90634f35b31809efd028d1-93366e56359bd770-00
+      ┣ 服务线程 ID：               #35
+      ┣ 执行耗时：                  194ms
+      ┣ ━━━━━━━━━━━━━━━  Cookies ━━━━━━━━━━━━━━━
+      ┣ 请求端：                    lang=en; Hm_lvt_3824e56a483ef95673d119166354712c=1761450141; .AspNetCore.Identity.Application=CfDJ8A_pruwfiuBFp_pFvYUTjgSCWWfo3Z47qZAjJE7FoJwOBU7JrpJzjuolrAeFzEwbNF5VkEIkB1K7Xw8YY4ADMgafZlElHia02YYyFnD-DqFWWHndOLt8TtLTDC_nf2LjPK2Z8uOezwyLZaxqTkKYswBf2vdQbBhP2xxqTk2yel9bdUSGdUsU5gDbVhvuu3HjxQefiZLg4UvttRgQzHMrvKpPNo7Zi2Cs3i-ZnSkjK8xID6zNmWmIpocuEQU1m05bo8bl0PbouQEKWEj8T_McPUiAB6Wsbx1CYIH_dyaxvfwSc8jVqNrfUwiOtL8HSeXuhgflYVo-E0Lw15XV8QBycaFNSdjokmWmtzx_o5_yUZBIbl64PKw64RA296cSOBL2FjxrIIALZkH7qUvHi4kJUM3LOJ9gVwaVBtWf_XTz2qJJ2HYT4JU7GNzu2bc8VeseFZoJ7S4Q04cdiz0M_ha96WcTbJ7g4btRGt1OPl0X4DcFAUh5lZmiB-Fkt1SwmyVzD23oy2CFzJ8_a_P_J00S2RRdWzWuQLil2ePO_jQeTtYAuykK-uECd3pZTukdqrxynJEMZp61pcElQQ22qJmNMhGjmHrZ10V4oqt4TgiYeVWC99-udGrZL9sbrjyvzppfag9xuPEav4b_gofla2vHe2pboyxEL0cTvAmIvP5sPa5UVgV_F_3Di_y5ehMswQjnwX0Q6inKFnKyN0cfqrpURWi_VPGZbICp37SjSCfo2LJMzYZ9H8rUKkBk_bBOfO5GLswRvsUgmmivB3dmrlIg9fxE_FIveH84nfU7E6XAlpzOPd0iLrufYDFAzSFh1xPHADIgiZwNzeuGylg0DOHc1MY; rememberMe=true; CurrentLanguageATTW=zh-tw; username=admin; password=Y5DVcauWlE+60bF329/2dhGnuH0ubxw4VMlMv95SxWT6L1UfwFv4Y6UPw5qi0bY1NQduLqUwsZk/4DQkGTH6Lw==; Admin-Token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJsb2dpbl91c2VyX2tleSI6IjFlNTI3Zjc5LWY3ZGYtNGUxZi1hNTI5LWQ3YTRlZjVhNTg2ZiIsIlVzZXJJZCI6MSwiVXNlck5hbWUiOiJhZG1pbiIsIkRlcHRJZCI6MTAzLCJleHAiOjE3NjMwODI1MDgsImlhdCI6MTc2MjQ3NzcwOCwibmJmIjoxNzYyNDc3NzA4LCJpc3MiOiJydW95aS5uZXQuaXNzdWVyIiwiYXVkIjoicnVveWkubmV0LmF1ZGllbmNlIn0.WYhyaokBzDcF9ODON6P0k6M5TIg_MkBKJn-2XQ2C2X4
+      ┣ 响应端：                    
+      ┣ ━━━━━━━━━━━━━━━  系统信息 ━━━━━━━━━━━━━━━
+      ┣ 系统名称：                  Microsoft Windows 10.0.26200
+      ┣ 系统架构：                  X64
+      ┣ 基础框架：                  AttcMN.Framework v1.0.0.0
+      ┣ .NET 架构：                 .NET 8.0.21
+      ┣ ━━━━━━━━━━━━━━━  启动信息 ━━━━━━━━━━━━━━━
+      ┣ 运行环境：                  Development
+      ┣ 启动程序集：                AttcMN.Admin
+      ┣ 进程名称：                  iisexpress
+      ┣ 托管程序：                  iisexpress
+      ┣ ━━━━━━━━━━━━━━━  请求头信息 ━━━━━━━━━━━━━━━
+      ┣ 
+      ┣ Accept：                    text/plain
+      ┣ Accept-Encoding：           gzip, deflate, br, zstd
+      ┣ Accept-Language：           en-US,en;q=0.9,vi;q=0.8
+      ┣ Connection：                close
+      ┣ Content-Length：            215
+      ┣ Content-Type：              application/json-patch+json
+      ┣ Cookie：                    lang=en; Hm_lvt_3824e56a483ef95673d119166354712c=1761450141; .AspNetCore.Identity.Application=CfDJ8A_pruwfiuBFp_pFvYUTjgSCWWfo3Z47qZAjJE7FoJwOBU7JrpJzjuolrAeFzEwbNF5VkEIkB1K7Xw8YY4ADMgafZlElHia02YYyFnD-DqFWWHndOLt8TtLTDC_nf2LjPK2Z8uOezwyLZaxqTkKYswBf2vdQbBhP2xxqTk2yel9bdUSGdUsU5gDbVhvuu3HjxQefiZLg4UvttRgQzHMrvKpPNo7Zi2Cs3i-ZnSkjK8xID6zNmWmIpocuEQU1m05bo8bl0PbouQEKWEj8T_McPUiAB6Wsbx1CYIH_dyaxvfwSc8jVqNrfUwiOtL8HSeXuhgflYVo-E0Lw15XV8QBycaFNSdjokmWmtzx_o5_yUZBIbl64PKw64RA296cSOBL2FjxrIIALZkH7qUvHi4kJUM3LOJ9gVwaVBtWf_XTz2qJJ2HYT4JU7GNzu2bc8VeseFZoJ7S4Q04cdiz0M_ha96WcTbJ7g4btRGt1OPl0X4DcFAUh5lZmiB-Fkt1SwmyVzD23oy2CFzJ8_a_P_J00S2RRdWzWuQLil2ePO_jQeTtYAuykK-uECd3pZTukdqrxynJEMZp61pcElQQ22qJmNMhGjmHrZ10V4oqt4TgiYeVWC99-udGrZL9sbrjyvzppfag9xuPEav4b_gofla2vHe2pboyxEL0cTvAmIvP5sPa5UVgV_F_3Di_y5ehMswQjnwX0Q6inKFnKyN0cfqrpURWi_VPGZbICp37SjSCfo2LJMzYZ9H8rUKkBk_bBOfO5GLswRvsUgmmivB3dmrlIg9fxE_FIveH84nfU7E6XAlpzOPd0iLrufYDFAzSFh1xPHADIgiZwNzeuGylg0DOHc1MY; rememberMe=true; CurrentLanguageATTW=zh-tw; username=admin; password=Y5DVcauWlE+60bF329/2dhGnuH0ubxw4VMlMv95SxWT6L1UfwFv4Y6UPw5qi0bY1NQduLqUwsZk/4DQkGTH6Lw==; Admin-Token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJsb2dpbl91c2VyX2tleSI6IjFlNTI3Zjc5LWY3ZGYtNGUxZi1hNTI5LWQ3YTRlZjVhNTg2ZiIsIlVzZXJJZCI6MSwiVXNlck5hbWUiOiJhZG1pbiIsIkRlcHRJZCI6MTAzLCJleHAiOjE3NjMwODI1MDgsImlhdCI6MTc2MjQ3NzcwOCwibmJmIjoxNzYyNDc3NzA4LCJpc3MiOiJydW95aS5uZXQuaXNzdWVyIiwiYXVkIjoicnVveWkubmV0LmF1ZGllbmNlIn0.WYhyaokBzDcF9ODON6P0k6M5TIg_MkBKJn-2XQ2C2X4
+      ┣ Host：                      localhost:44326
+      ┣ Referer：                   https://localhost:44326/api-doc/index.html?urls.primaryName=System
+      ┣ User-Agent：                Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/141.0.0.0 Safari/537.36
+      ┣ sec-ch-ua-platform：        "Windows"
+      ┣ request-from：              swagger
+      ┣ sec-ch-ua：                 "Google Chrome";v="141", "Not?A_Brand";v="8", "Chromium";v="141"
+      ┣ sec-ch-ua-mobile：          ?0
+      ┣ origin：                    https://localhost:44326
+      ┣ sec-fetch-site：            same-origin
+      ┣ sec-fetch-mode：            cors
+      ┣ sec-fetch-dest：            empty
+      ┣ priority：                  u=1, i
+      ┣ ━━━━━━━━━━━━━━━  参数列表 ━━━━━━━━━━━━━━━
+      ┣ Content-Type：              application/json-patch+json
+      ┣ 
+      ┣ factory (Factory)：         {"facId":0,"facName":"Amata 1","facAddress":"Khu Công Nghiệp Amata, tỉnh Quảng Ninh","facShort":"Am1","isDeleted":false,"createBy":"admin","createTime":"2025-11-07T01:09:08.184Z"}
+      ┣ ━━━━━━━━━━━━━━━  返回信息 ━━━━━━━━━━━━━━━
+      ┣ HTTP响应状态码：            200
+      ┣ 原始类型：                  AttcMN.Framework.AjaxResult
+      ┣ 最终类型：                  AttcMN.Framework.AjaxResult
+      ┣ 最终返回值：                {"msg":"","code":500}
+      ┣ ━━━━━━━━━━━━━━━  异常信息 ━━━━━━━━━━━━━━━
+      ┣ 类型：                      AttcMN.Framework.Exceptions.ServiceException
+      ┣ 消息：                      获取用户信息异常
+      ┣ 错误堆栈：                  at AttcMN.Common.Utils.SecurityUtils.GetLoginUser() in D:\Project\ATTCAppLication\AttcMN.Common\Utils\SecurityUtils.cs:line 52
+         at AttcMN.System.LogAttribute.HandleLogAsync(MethodInfo actionMethod, IDictionary`2 parameterValues, FilterContext context, Object next) in D:\Project\ATTCAppLication\AttcMN.System\Interceptors\LogAttribute.cs:line 83
+         at AttcMN.System.LogAttribute.OnActionExecutionAsync(ActionExecutingContext context, ActionExecutionDelegate next) in D:\Project\ATTCAppLication\AttcMN.System\Interceptors\LogAttribute.cs:line 70
+         at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+      ┗━━━━━━━━━━━  Logging Monitor ━━━━━━━━━━━      
+      ++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+      AttcMN.Framework.Exceptions.ServiceException: 获取用户信息异常
+         at AttcMN.Common.Utils.SecurityUtils.GetLoginUser() in D:\Project\ATTCAppLication\AttcMN.Common\Utils\SecurityUtils.cs:line 52
+         at AttcMN.System.LogAttribute.HandleLogAsync(MethodInfo actionMethod, IDictionary`2 parameterValues, FilterContext context, Object next) in D:\Project\ATTCAppLication\AttcMN.System\Interceptors\LogAttribute.cs:line 83
+         at AttcMN.System.LogAttribute.OnActionExecutionAsync(ActionExecutingContext context, ActionExecutionDelegate next) in D:\Project\ATTCAppLication\AttcMN.System\Interceptors\LogAttribute.cs:line 70
+         at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+      ++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+fail: 2025-11-07 08:09:57.8763950 +07:00 Friday L AttcMN.Framework.Filters.GlobalExceptionFilter[0] #35
+      GlobalException      
+      ++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+      AttcMN.Framework.Exceptions.ServiceException: 获取用户信息异常
+         at AttcMN.Common.Utils.SecurityUtils.GetLoginUser() in D:\Project\ATTCAppLication\AttcMN.Common\Utils\SecurityUtils.cs:line 52
+         at AttcMN.System.LogAttribute.HandleLogAsync(MethodInfo actionMethod, IDictionary`2 parameterValues, FilterContext context, Object next) in D:\Project\ATTCAppLication\AttcMN.System\Interceptors\LogAttribute.cs:line 83
+         at AttcMN.System.LogAttribute.OnActionExecutionAsync(ActionExecutingContext context, ActionExecutionDelegate next) in D:\Project\ATTCAppLication\AttcMN.System\Interceptors\LogAttribute.cs:line 70
+         at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+         at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+         at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+         at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeInnerFilterAsync()
+      --- End of stack trace from previous location ---
+         at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeNextExceptionFilterAsync>g__Awaited|26_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+      ++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+fail: 2025-11-07 08:18:28.5266212 +07:00 Friday L System.Logging.LoggingMonitor[0] #38
+      ┏━━━━━━━━━━━  Logging Monitor ━━━━━━━━━━━
+      ┣ AttcMN.Admin.SysLoginController.GetInfo
+      ┣ 
+      ┣ 控制器名称：                     SysLoginController
+      ┣ 操作名称：                       GetInfo
+      ┣ 显示名称：                       
+      ┣ 路由信息：                       [area]: ; [controller]: SysLogin; [action]: GetInfo
+      ┣ 请求方式：                       GET
+      ┣ 请求地址：                       http://localhost:44326/getInfo
+      ┣ 来源地址：                       http://localhost:50/login?redirect=/
+      ┣ 请求端源：                       client
+      ┣ 浏览器标识：                     Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/141.0.0.0 Safari/537.36
+      ┣ 客户端区域语言：                 en-US,en;q=0.9,vi;q=0.8
+      ┣ 客户端 IP 地址：                 127.0.0.1
+      ┣ 服务端 IP 地址：                 127.0.0.1
+      ┣ 客户端连接 ID：                  00-5252faf7297d02a42435d39ded3452d4-9cc60fb5cbe9c586-00
+      ┣ 服务线程 ID：                    #35
+      ┣ 执行耗时：                       192ms
+      ┣ ━━━━━━━━━━━━━━━  Cookies ━━━━━━━━━━━━━━━
+      ┣ 请求端：                         lang=en; Hm_lvt_3824e56a483ef95673d119166354712c=1761450141; .AspNetCore.Identity.Application=CfDJ8A_pruwfiuBFp_pFvYUTjgSCWWfo3Z47qZAjJE7FoJwOBU7JrpJzjuolrAeFzEwbNF5VkEIkB1K7Xw8YY4ADMgafZlElHia02YYyFnD-DqFWWHndOLt8TtLTDC_nf2LjPK2Z8uOezwyLZaxqTkKYswBf2vdQbBhP2xxqTk2yel9bdUSGdUsU5gDbVhvuu3HjxQefiZLg4UvttRgQzHMrvKpPNo7Zi2Cs3i-ZnSkjK8xID6zNmWmIpocuEQU1m05bo8bl0PbouQEKWEj8T_McPUiAB6Wsbx1CYIH_dyaxvfwSc8jVqNrfUwiOtL8HSeXuhgflYVo-E0Lw15XV8QBycaFNSdjokmWmtzx_o5_yUZBIbl64PKw64RA296cSOBL2FjxrIIALZkH7qUvHi4kJUM3LOJ9gVwaVBtWf_XTz2qJJ2HYT4JU7GNzu2bc8VeseFZoJ7S4Q04cdiz0M_ha96WcTbJ7g4btRGt1OPl0X4DcFAUh5lZmiB-Fkt1SwmyVzD23oy2CFzJ8_a_P_J00S2RRdWzWuQLil2ePO_jQeTtYAuykK-uECd3pZTukdqrxynJEMZp61pcElQQ22qJmNMhGjmHrZ10V4oqt4TgiYeVWC99-udGrZL9sbrjyvzppfag9xuPEav4b_gofla2vHe2pboyxEL0cTvAmIvP5sPa5UVgV_F_3Di_y5ehMswQjnwX0Q6inKFnKyN0cfqrpURWi_VPGZbICp37SjSCfo2LJMzYZ9H8rUKkBk_bBOfO5GLswRvsUgmmivB3dmrlIg9fxE_FIveH84nfU7E6XAlpzOPd0iLrufYDFAzSFh1xPHADIgiZwNzeuGylg0DOHc1MY; rememberMe=true; CurrentLanguageATTW=zh-tw; username=admin; password=GHSLvu53wVHqopwm1VSohOBwQnNsN/XBVkBYDl93aEWJ9SQsQ3OLngw+vZ7YuaRLl1Rwku9rahFvOHUKSI8bfA==; Admin-Token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJsb2dpbl91c2VyX2tleSI6IjRmZmZlZGE2LTk2ZWMtNGY3ZC1hOWMzLTg1MmQyZWUyZDhlMCIsIlVzZXJJZCI6MSwiVXNlck5hbWUiOiJhZG1pbiIsIkRlcHRJZCI6MTAzLCJleHAiOjE3NjMwODMxMDgsImlhdCI6MTc2MjQ3ODMwOCwibmJmIjoxNzYyNDc4MzA4LCJpc3MiOiJydW95aS5uZXQuaXNzdWVyIiwiYXVkIjoicnVveWkubmV0LmF1ZGllbmNlIn0.23kk5KTjg3OrDGJ_QC1srj-D7qT9DKZTBaWcbRAe_MU
+      ┣ 响应端：                         
+      ┣ ━━━━━━━━━━━━━━━  系统信息 ━━━━━━━━━━━━━━━
+      ┣ 系统名称：                       Microsoft Windows 10.0.26200
+      ┣ 系统架构：                       X64
+      ┣ 基础框架：                       AttcMN.Framework v1.0.0.0
+      ┣ .NET 架构：                      .NET 8.0.21
+      ┣ ━━━━━━━━━━━━━━━  启动信息 ━━━━━━━━━━━━━━━
+      ┣ 运行环境：                       Development
+      ┣ 启动程序集：                     AttcMN.Admin
+      ┣ 进程名称：                       iisexpress
+      ┣ 托管程序：                       iisexpress
+      ┣ ━━━━━━━━━━━━━━━  授权信息 ━━━━━━━━━━━━━━━
+      ┣ JWT Token：                      Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJsb2dpbl91c2VyX2tleSI6IjRmZmZlZGE2LTk2ZWMtNGY3ZC1hOWMzLTg1MmQyZWUyZDhlMCIsIlVzZXJJZCI6MSwiVXNlck5hbWUiOiJhZG1pbiIsIkRlcHRJZCI6MTAzLCJleHAiOjE3NjMwODMxMDgsImlhdCI6MTc2MjQ3ODMwOCwibmJmIjoxNzYyNDc4MzA4LCJpc3MiOiJydW95aS5uZXQuaXNzdWVyIiwiYXVkIjoicnVveWkubmV0LmF1ZGllbmNlIn0.23kk5KTjg3OrDGJ_QC1srj-D7qT9DKZTBaWcbRAe_MU
+      ┣ 
+      ┣ login_user_key (string)：        4fffeda6-96ec-4f7d-a9c3-852d2ee2d8e0
+      ┣ UserId (integer32)：             1
+      ┣ UserName (string)：              admin
+      ┣ DeptId (integer32)：             103
+      ┣ exp (integer64)：                1763083108 (2025-11-14 08:18:28:0000(+07:00) Friday L)
+      ┣ iat (integer64)：                1762478308 (2025-11-07 08:18:28:0000(+07:00) Friday L)
+      ┣ nbf (integer64)：                1762478308 (2025-11-07 08:18:28:0000(+07:00) Friday L)
+      ┣ iss (string)：                   ruoyi.net.issuer
+      ┣ aud (string)：                   ruoyi.net.audience
+      ┣ ━━━━━━━━━━━━━━━  请求头信息 ━━━━━━━━━━━━━━━
+      ┣ 
+      ┣ Accept：                         application/json, text/plain, */*
+      ┣ Accept-Encoding：                gzip, deflate, br, zstd
+      ┣ Accept-Language：                en-US,en;q=0.9,vi;q=0.8
+      ┣ Authorization：                  Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJsb2dpbl91c2VyX2tleSI6IjRmZmZlZGE2LTk2ZWMtNGY3ZC1hOWMzLTg1MmQyZWUyZDhlMCIsIlVzZXJJZCI6MSwiVXNlck5hbWUiOiJhZG1pbiIsIkRlcHRJZCI6MTAzLCJleHAiOjE3NjMwODMxMDgsImlhdCI6MTc2MjQ3ODMwOCwibmJmIjoxNzYyNDc4MzA4LCJpc3MiOiJydW95aS5uZXQuaXNzdWVyIiwiYXVkIjoicnVveWkubmV0LmF1ZGllbmNlIn0.23kk5KTjg3OrDGJ_QC1srj-D7qT9DKZTBaWcbRAe_MU
+      ┣ Connection：                     close
+      ┣ Cookie：                         lang=en; Hm_lvt_3824e56a483ef95673d119166354712c=1761450141; .AspNetCore.Identity.Application=CfDJ8A_pruwfiuBFp_pFvYUTjgSCWWfo3Z47qZAjJE7FoJwOBU7JrpJzjuolrAeFzEwbNF5VkEIkB1K7Xw8YY4ADMgafZlElHia02YYyFnD-DqFWWHndOLt8TtLTDC_nf2LjPK2Z8uOezwyLZaxqTkKYswBf2vdQbBhP2xxqTk2yel9bdUSGdUsU5gDbVhvuu3HjxQefiZLg4UvttRgQzHMrvKpPNo7Zi2Cs3i-ZnSkjK8xID6zNmWmIpocuEQU1m05bo8bl0PbouQEKWEj8T_McPUiAB6Wsbx1CYIH_dyaxvfwSc8jVqNrfUwiOtL8HSeXuhgflYVo-E0Lw15XV8QBycaFNSdjokmWmtzx_o5_yUZBIbl64PKw64RA296cSOBL2FjxrIIALZkH7qUvHi4kJUM3LOJ9gVwaVBtWf_XTz2qJJ2HYT4JU7GNzu2bc8VeseFZoJ7S4Q04cdiz0M_ha96WcTbJ7g4btRGt1OPl0X4DcFAUh5lZmiB-Fkt1SwmyVzD23oy2CFzJ8_a_P_J00S2RRdWzWuQLil2ePO_jQeTtYAuykK-uECd3pZTukdqrxynJEMZp61pcElQQ22qJmNMhGjmHrZ10V4oqt4TgiYeVWC99-udGrZL9sbrjyvzppfag9xuPEav4b_gofla2vHe2pboyxEL0cTvAmIvP5sPa5UVgV_F_3Di_y5ehMswQjnwX0Q6inKFnKyN0cfqrpURWi_VPGZbICp37SjSCfo2LJMzYZ9H8rUKkBk_bBOfO5GLswRvsUgmmivB3dmrlIg9fxE_FIveH84nfU7E6XAlpzOPd0iLrufYDFAzSFh1xPHADIgiZwNzeuGylg0DOHc1MY; rememberMe=true; CurrentLanguageATTW=zh-tw; username=admin; password=GHSLvu53wVHqopwm1VSohOBwQnNsN/XBVkBYDl93aEWJ9SQsQ3OLngw+vZ7YuaRLl1Rwku9rahFvOHUKSI8bfA==; Admin-Token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJsb2dpbl91c2VyX2tleSI6IjRmZmZlZGE2LTk2ZWMtNGY3ZC1hOWMzLTg1MmQyZWUyZDhlMCIsIlVzZXJJZCI6MSwiVXNlck5hbWUiOiJhZG1pbiIsIkRlcHRJZCI6MTAzLCJleHAiOjE3NjMwODMxMDgsImlhdCI6MTc2MjQ3ODMwOCwibmJmIjoxNzYyNDc4MzA4LCJpc3MiOiJydW95aS5uZXQuaXNzdWVyIiwiYXVkIjoicnVveWkubmV0LmF1ZGllbmNlIn0.23kk5KTjg3OrDGJ_QC1srj-D7qT9DKZTBaWcbRAe_MU
+      ┣ Host：                           localhost:44326
+      ┣ Referer：                        http://localhost:50/login?redirect=%2F
+      ┣ User-Agent：                     Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/141.0.0.0 Safari/537.36
+      ┣ x-forwarded-host：               localhost:50
+      ┣ x-forwarded-port：               50
+      ┣ X-Original-Proto：               https
+      ┣ sec-fetch-dest：                 empty
+      ┣ sec-fetch-mode：                 cors
+      ┣ sec-fetch-site：                 same-origin
+      ┣ sec-ch-ua-mobile：               ?0
+      ┣ sec-ch-ua：                      "Google Chrome";v="141", "Not?A_Brand";v="8", "Chromium";v="141"
+      ┣ sec-ch-ua-platform：             "Windows"
+      ┣ X-Original-For：                 127.0.0.1:56531
+      ┣ ━━━━━━━━━━━━━━━  返回信息 ━━━━━━━━━━━━━━━
+      ┣ HTTP响应状态码：                 200
+      ┣ 原始类型：                       System.Threading.Tasks.Task<AttcMN.Framework.AjaxResult>
+      ┣ 最终类型：                       
+      ┣ 最终返回值：                     null
+      ┣ ━━━━━━━━━━━━━━━  异常信息 ━━━━━━━━━━━━━━━
+      ┣ 类型：                           Microsoft.Data.SqlClient.SqlException
+      ┣ 消息：                           Invalid column name 'create_time'.
+      ┣ 错误堆栈：                       at Microsoft.Data.SqlClient.SqlCommand.<>c.<ExecuteDbDataReaderAsync>b__189_0(Task`1 result)
+         at System.Threading.Tasks.ContinuationResultTaskFromResultTask`2.InnerInvoke()
+         at System.Threading.ExecutionContext.RunInternal(ExecutionContext executionContext, ContextCallback callback, Object state)
+      --- End of stack trace from previous location ---
+         at System.Threading.ExecutionContext.RunInternal(ExecutionContext executionContext, ContextCallback callback, Object state)
+         at System.Threading.Tasks.Task.ExecuteWithThreadLocal(Task& currentTaskSlot, Thread threadPoolThread)
+      --- End of stack trace from previous location ---
+         at SqlSugar.AdoProvider.GetDataReaderAsync(String sql, SugarParameter[] parameters)
+         at SqlSugar.QueryableProvider`1.GetDataAsync[TResult](KeyValuePair`2 sqlObj)
+         at SqlSugar.QueryableProvider`1._ToListAsync[TResult]()
+         at AttcMN.System.Repositories.FactoryRepository.GetFactoryByFacIdsAsync(List`1 facids) in D:\Project\ATTCAppLication\AttcMN.System\Repositories\FactoryRepository.cs:line 45
+         at AttcMN.System.Services.FactoryService.GetFactoriesByUserIdAsync(SysUserDto dto) in D:\Project\ATTCAppLication\AttcMN.System\Services\FactoryService.cs:line 67
+         at AttcMN.Admin.SysLoginController.GetInfo() in D:\Project\ATTCAppLication\AttcMN.System\Controllers\SysLoginController.cs:line 85
+         at lambda_method67(Closure, Object)
+         at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.AwaitableObjectResultExecutor.Execute(ActionContext actionContext, IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+         at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Logged|12_1(ControllerActionInvoker invoker)
+         at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+      ┗━━━━━━━━━━━  Logging Monitor ━━━━━━━━━━━      
+      ++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+      Microsoft.Data.SqlClient.SqlException (0x80131904): Invalid column name 'create_time'.
+         at Microsoft.Data.SqlClient.SqlCommand.<>c.<ExecuteDbDataReaderAsync>b__189_0(Task`1 result)
+         at System.Threading.Tasks.ContinuationResultTaskFromResultTask`2.InnerInvoke()
+         at System.Threading.ExecutionContext.RunInternal(ExecutionContext executionContext, ContextCallback callback, Object state)
+      --- End of stack trace from previous location ---
+         at System.Threading.ExecutionContext.RunInternal(ExecutionContext executionContext, ContextCallback callback, Object state)
+         at System.Threading.Tasks.Task.ExecuteWithThreadLocal(Task& currentTaskSlot, Thread threadPoolThread)
+      --- End of stack trace from previous location ---
+         at SqlSugar.AdoProvider.GetDataReaderAsync(String sql, SugarParameter[] parameters)
+         at SqlSugar.QueryableProvider`1.GetDataAsync[TResult](KeyValuePair`2 sqlObj)
+         at SqlSugar.QueryableProvider`1._ToListAsync[TResult]()
+         at AttcMN.System.Repositories.FactoryRepository.GetFactoryByFacIdsAsync(List`1 facids) in D:\Project\ATTCAppLication\AttcMN.System\Repositories\FactoryRepository.cs:line 45
+         at AttcMN.System.Services.FactoryService.GetFactoriesByUserIdAsync(SysUserDto dto) in D:\Project\ATTCAppLication\AttcMN.System\Services\FactoryService.cs:line 67
+         at AttcMN.Admin.SysLoginController.GetInfo() in D:\Project\ATTCAppLication\AttcMN.System\Controllers\SysLoginController.cs:line 85
+         at lambda_method67(Closure, Object)
+         at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.AwaitableObjectResultExecutor.Execute(ActionContext actionContext, IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+         at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Logged|12_1(ControllerActionInvoker invoker)
+         at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+      ClientConnectionId:b5e6de45-7d59-4f44-af11-72f3c6eeb07f
+      Error Number:207,State:1,Class:16
+      ++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+fail: 2025-11-07 08:18:28.5409338 +07:00 Friday L AttcMN.Framework.Filters.GlobalExceptionFilter[0] #38
+      GlobalException      
+      ++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+      Microsoft.Data.SqlClient.SqlException (0x80131904): Invalid column name 'create_time'.
+         at Microsoft.Data.SqlClient.SqlCommand.<>c.<ExecuteDbDataReaderAsync>b__189_0(Task`1 result)
+         at System.Threading.Tasks.ContinuationResultTaskFromResultTask`2.InnerInvoke()
+         at System.Threading.ExecutionContext.RunInternal(ExecutionContext executionContext, ContextCallback callback, Object state)
+      --- End of stack trace from previous location ---
+         at System.Threading.ExecutionContext.RunInternal(ExecutionContext executionContext, ContextCallback callback, Object state)
+         at System.Threading.Tasks.Task.ExecuteWithThreadLocal(Task& currentTaskSlot, Thread threadPoolThread)
+      --- End of stack trace from previous location ---
+         at SqlSugar.AdoProvider.GetDataReaderAsync(String sql, SugarParameter[] parameters)
+         at SqlSugar.QueryableProvider`1.GetDataAsync[TResult](KeyValuePair`2 sqlObj)
+         at SqlSugar.QueryableProvider`1._ToListAsync[TResult]()
+         at AttcMN.System.Repositories.FactoryRepository.GetFactoryByFacIdsAsync(List`1 facids) in D:\Project\ATTCAppLication\AttcMN.System\Repositories\FactoryRepository.cs:line 45
+         at AttcMN.System.Services.FactoryService.GetFactoriesByUserIdAsync(SysUserDto dto) in D:\Project\ATTCAppLication\AttcMN.System\Services\FactoryService.cs:line 67
+         at AttcMN.Admin.SysLoginController.GetInfo() in D:\Project\ATTCAppLication\AttcMN.System\Controllers\SysLoginController.cs:line 85
+         at lambda_method67(Closure, Object)
+         at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.AwaitableObjectResultExecutor.Execute(ActionContext actionContext, IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+         at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Logged|12_1(ControllerActionInvoker invoker)
+         at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+         at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+         at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+         at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeInnerFilterAsync>g__Awaited|13_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+         at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeNextExceptionFilterAsync>g__Awaited|26_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+      ClientConnectionId:b5e6de45-7d59-4f44-af11-72f3c6eeb07f
+      Error Number:207,State:1,Class:16
+      ++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+fail: 2025-11-07 09:22:20.5554149 +07:00 Friday L System.Logging.LoggingMonitor[0] #44
+      ┏━━━━━━━━━━━  Logging Monitor ━━━━━━━━━━━
+      ┣ AttcMN.Admin.SysLoginController.GetInfo
+      ┣ 
+      ┣ 控制器名称：                     SysLoginController
+      ┣ 操作名称：                       GetInfo
+      ┣ 显示名称：                       
+      ┣ 路由信息：                       [area]: ; [controller]: SysLogin; [action]: GetInfo
+      ┣ 请求方式：                       GET
+      ┣ 请求地址：                       http://localhost:44326/getInfo
+      ┣ 来源地址：                       http://localhost:50/system/role
+      ┣ 请求端源：                       client
+      ┣ 浏览器标识：                     Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/141.0.0.0 Safari/537.36
+      ┣ 客户端区域语言：                 en-US,en;q=0.9,vi;q=0.8
+      ┣ 客户端 IP 地址：                 127.0.0.1
+      ┣ 服务端 IP 地址：                 127.0.0.1
+      ┣ 客户端连接 ID：                  00-c5c4aa0e1c44db69cbc2ab1e325cdd98-7d846cd607aab3c3-00
+      ┣ 服务线程 ID：                    #44
+      ┣ 执行耗时：                       100ms
+      ┣ ━━━━━━━━━━━━━━━  Cookies ━━━━━━━━━━━━━━━
+      ┣ 请求端：                         lang=en; Hm_lvt_3824e56a483ef95673d119166354712c=1761450141; .AspNetCore.Identity.Application=CfDJ8A_pruwfiuBFp_pFvYUTjgSCWWfo3Z47qZAjJE7FoJwOBU7JrpJzjuolrAeFzEwbNF5VkEIkB1K7Xw8YY4ADMgafZlElHia02YYyFnD-DqFWWHndOLt8TtLTDC_nf2LjPK2Z8uOezwyLZaxqTkKYswBf2vdQbBhP2xxqTk2yel9bdUSGdUsU5gDbVhvuu3HjxQefiZLg4UvttRgQzHMrvKpPNo7Zi2Cs3i-ZnSkjK8xID6zNmWmIpocuEQU1m05bo8bl0PbouQEKWEj8T_McPUiAB6Wsbx1CYIH_dyaxvfwSc8jVqNrfUwiOtL8HSeXuhgflYVo-E0Lw15XV8QBycaFNSdjokmWmtzx_o5_yUZBIbl64PKw64RA296cSOBL2FjxrIIALZkH7qUvHi4kJUM3LOJ9gVwaVBtWf_XTz2qJJ2HYT4JU7GNzu2bc8VeseFZoJ7S4Q04cdiz0M_ha96WcTbJ7g4btRGt1OPl0X4DcFAUh5lZmiB-Fkt1SwmyVzD23oy2CFzJ8_a_P_J00S2RRdWzWuQLil2ePO_jQeTtYAuykK-uECd3pZTukdqrxynJEMZp61pcElQQ22qJmNMhGjmHrZ10V4oqt4TgiYeVWC99-udGrZL9sbrjyvzppfag9xuPEav4b_gofla2vHe2pboyxEL0cTvAmIvP5sPa5UVgV_F_3Di_y5ehMswQjnwX0Q6inKFnKyN0cfqrpURWi_VPGZbICp37SjSCfo2LJMzYZ9H8rUKkBk_bBOfO5GLswRvsUgmmivB3dmrlIg9fxE_FIveH84nfU7E6XAlpzOPd0iLrufYDFAzSFh1xPHADIgiZwNzeuGylg0DOHc1MY; rememberMe=true; CurrentLanguageATTW=zh-tw; username=admin; password=OXGgVRo5LHyymA5knxexWQt1uIX+9rVh7Nk50douWuaScSkhdyvy9bVWBtdnf2epezMBv4FxDzSWYLusIqDXMw==; Admin-Token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJsb2dpbl91c2VyX2tleSI6IjRlOGQ4ODNhLTZiYTEtNGIwOS1iNzkxLTFkZWQ0NGE3OTVlMiIsIlVzZXJJZCI6MSwiVXNlck5hbWUiOiJhZG1pbiIsIkRlcHRJZCI6MTAzLCJleHAiOjE3NjMwODQyOTUsImlhdCI6MTc2MjQ3OTQ5NSwibmJmIjoxNzYyNDc5NDk1LCJpc3MiOiJydW95aS5uZXQuaXNzdWVyIiwiYXVkIjoicnVveWkubmV0LmF1ZGllbmNlIn0.2imi5jsDdRjo-cf-EOuh2rkFZxohKh2jwELYfIBQsmg
+      ┣ 响应端：                         
+      ┣ ━━━━━━━━━━━━━━━  系统信息 ━━━━━━━━━━━━━━━
+      ┣ 系统名称：                       Microsoft Windows 10.0.26200
+      ┣ 系统架构：                       X64
+      ┣ 基础框架：                       AttcMN.Framework v1.0.0.0
+      ┣ .NET 架构：                      .NET 8.0.21
+      ┣ ━━━━━━━━━━━━━━━  启动信息 ━━━━━━━━━━━━━━━
+      ┣ 运行环境：                       Development
+      ┣ 启动程序集：                     AttcMN.Admin
+      ┣ 进程名称：                       iisexpress
+      ┣ 托管程序：                       iisexpress
+      ┣ ━━━━━━━━━━━━━━━  授权信息 ━━━━━━━━━━━━━━━
+      ┣ JWT Token：                      Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJsb2dpbl91c2VyX2tleSI6IjRlOGQ4ODNhLTZiYTEtNGIwOS1iNzkxLTFkZWQ0NGE3OTVlMiIsIlVzZXJJZCI6MSwiVXNlck5hbWUiOiJhZG1pbiIsIkRlcHRJZCI6MTAzLCJleHAiOjE3NjMwODQyOTUsImlhdCI6MTc2MjQ3OTQ5NSwibmJmIjoxNzYyNDc5NDk1LCJpc3MiOiJydW95aS5uZXQuaXNzdWVyIiwiYXVkIjoicnVveWkubmV0LmF1ZGllbmNlIn0.2imi5jsDdRjo-cf-EOuh2rkFZxohKh2jwELYfIBQsmg
+      ┣ 
+      ┣ login_user_key (string)：        4e8d883a-6ba1-4b09-b791-1ded44a795e2
+      ┣ UserId (integer32)：             1
+      ┣ UserName (string)：              admin
+      ┣ DeptId (integer32)：             103
+      ┣ exp (integer64)：                1763084295 (2025-11-14 08:38:15:0000(+07:00) Friday L)
+      ┣ iat (integer64)：                1762479495 (2025-11-07 08:38:15:0000(+07:00) Friday L)
+      ┣ nbf (integer64)：                1762479495 (2025-11-07 08:38:15:0000(+07:00) Friday L)
+      ┣ iss (string)：                   ruoyi.net.issuer
+      ┣ aud (string)：                   ruoyi.net.audience
+      ┣ ━━━━━━━━━━━━━━━  请求头信息 ━━━━━━━━━━━━━━━
+      ┣ 
+      ┣ Accept：                         application/json, text/plain, */*
+      ┣ Accept-Encoding：                gzip, deflate, br, zstd
+      ┣ Accept-Language：                en-US,en;q=0.9,vi;q=0.8
+      ┣ Authorization：                  Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJsb2dpbl91c2VyX2tleSI6IjRlOGQ4ODNhLTZiYTEtNGIwOS1iNzkxLTFkZWQ0NGE3OTVlMiIsIlVzZXJJZCI6MSwiVXNlck5hbWUiOiJhZG1pbiIsIkRlcHRJZCI6MTAzLCJleHAiOjE3NjMwODQyOTUsImlhdCI6MTc2MjQ3OTQ5NSwibmJmIjoxNzYyNDc5NDk1LCJpc3MiOiJydW95aS5uZXQuaXNzdWVyIiwiYXVkIjoicnVveWkubmV0LmF1ZGllbmNlIn0.2imi5jsDdRjo-cf-EOuh2rkFZxohKh2jwELYfIBQsmg
+      ┣ Connection：                     close
+      ┣ Cookie：                         lang=en; Hm_lvt_3824e56a483ef95673d119166354712c=1761450141; .AspNetCore.Identity.Application=CfDJ8A_pruwfiuBFp_pFvYUTjgSCWWfo3Z47qZAjJE7FoJwOBU7JrpJzjuolrAeFzEwbNF5VkEIkB1K7Xw8YY4ADMgafZlElHia02YYyFnD-DqFWWHndOLt8TtLTDC_nf2LjPK2Z8uOezwyLZaxqTkKYswBf2vdQbBhP2xxqTk2yel9bdUSGdUsU5gDbVhvuu3HjxQefiZLg4UvttRgQzHMrvKpPNo7Zi2Cs3i-ZnSkjK8xID6zNmWmIpocuEQU1m05bo8bl0PbouQEKWEj8T_McPUiAB6Wsbx1CYIH_dyaxvfwSc8jVqNrfUwiOtL8HSeXuhgflYVo-E0Lw15XV8QBycaFNSdjokmWmtzx_o5_yUZBIbl64PKw64RA296cSOBL2FjxrIIALZkH7qUvHi4kJUM3LOJ9gVwaVBtWf_XTz2qJJ2HYT4JU7GNzu2bc8VeseFZoJ7S4Q04cdiz0M_ha96WcTbJ7g4btRGt1OPl0X4DcFAUh5lZmiB-Fkt1SwmyVzD23oy2CFzJ8_a_P_J00S2RRdWzWuQLil2ePO_jQeTtYAuykK-uECd3pZTukdqrxynJEMZp61pcElQQ22qJmNMhGjmHrZ10V4oqt4TgiYeVWC99-udGrZL9sbrjyvzppfag9xuPEav4b_gofla2vHe2pboyxEL0cTvAmIvP5sPa5UVgV_F_3Di_y5ehMswQjnwX0Q6inKFnKyN0cfqrpURWi_VPGZbICp37SjSCfo2LJMzYZ9H8rUKkBk_bBOfO5GLswRvsUgmmivB3dmrlIg9fxE_FIveH84nfU7E6XAlpzOPd0iLrufYDFAzSFh1xPHADIgiZwNzeuGylg0DOHc1MY; rememberMe=true; CurrentLanguageATTW=zh-tw; username=admin; password=OXGgVRo5LHyymA5knxexWQt1uIX+9rVh7Nk50douWuaScSkhdyvy9bVWBtdnf2epezMBv4FxDzSWYLusIqDXMw==; Admin-Token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJsb2dpbl91c2VyX2tleSI6IjRlOGQ4ODNhLTZiYTEtNGIwOS1iNzkxLTFkZWQ0NGE3OTVlMiIsIlVzZXJJZCI6MSwiVXNlck5hbWUiOiJhZG1pbiIsIkRlcHRJZCI6MTAzLCJleHAiOjE3NjMwODQyOTUsImlhdCI6MTc2MjQ3OTQ5NSwibmJmIjoxNzYyNDc5NDk1LCJpc3MiOiJydW95aS5uZXQuaXNzdWVyIiwiYXVkIjoicnVveWkubmV0LmF1ZGllbmNlIn0.2imi5jsDdRjo-cf-EOuh2rkFZxohKh2jwELYfIBQsmg
+      ┣ Host：                           localhost:44326
+      ┣ Referer：                        http://localhost:50/system/role
+      ┣ User-Agent：                     Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/141.0.0.0 Safari/537.36
+      ┣ x-forwarded-host：               localhost:50
+      ┣ x-forwarded-port：               50
+      ┣ X-Original-Proto：               https
+      ┣ sec-fetch-dest：                 empty
+      ┣ sec-fetch-mode：                 cors
+      ┣ sec-fetch-site：                 same-origin
+      ┣ sec-ch-ua-mobile：               ?0
+      ┣ sec-ch-ua：                      "Google Chrome";v="141", "Not?A_Brand";v="8", "Chromium";v="141"
+      ┣ sec-ch-ua-platform：             "Windows"
+      ┣ X-Original-For：                 127.0.0.1:55860
+      ┣ ━━━━━━━━━━━━━━━  返回信息 ━━━━━━━━━━━━━━━
+      ┣ HTTP响应状态码：                 200
+      ┣ 原始类型：                       System.Threading.Tasks.Task<AttcMN.Framework.AjaxResult>
+      ┣ 最终类型：                       
+      ┣ 最终返回值：                     null
+      ┣ ━━━━━━━━━━━━━━━  异常信息 ━━━━━━━━━━━━━━━
+      ┣ 类型：                           AttcMN.Framework.Exceptions.ServiceException
+      ┣ 消息：                           获取用户信息异常
+      ┣ 错误堆栈：                       at AttcMN.Common.Utils.SecurityUtils.GetLoginUser() in D:\Project\gitlocal\AttcnMN\AttcMN.Common\Utils\SecurityUtils.cs:line 52
+         at AttcMN.Admin.SysLoginController.GetInfo() in D:\Project\gitlocal\AttcnMN\AttcMN.System\Controllers\SysLoginController.cs:line 80
+         at lambda_method35(Closure, Object)
+         at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.AwaitableObjectResultExecutor.Execute(ActionContext actionContext, IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+         at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Logged|12_1(ControllerActionInvoker invoker)
+         at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+      ┗━━━━━━━━━━━  Logging Monitor ━━━━━━━━━━━      
+      ++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+      AttcMN.Framework.Exceptions.ServiceException: 获取用户信息异常
+         at AttcMN.Common.Utils.SecurityUtils.GetLoginUser() in D:\Project\gitlocal\AttcnMN\AttcMN.Common\Utils\SecurityUtils.cs:line 52
+         at AttcMN.Admin.SysLoginController.GetInfo() in D:\Project\gitlocal\AttcnMN\AttcMN.System\Controllers\SysLoginController.cs:line 80
+         at lambda_method35(Closure, Object)
+         at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.AwaitableObjectResultExecutor.Execute(ActionContext actionContext, IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+         at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Logged|12_1(ControllerActionInvoker invoker)
+         at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+      ++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+fail: 2025-11-07 09:22:20.5618184 +07:00 Friday L AttcMN.Framework.Filters.GlobalExceptionFilter[0] #44
+      GlobalException      
+      ++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+      AttcMN.Framework.Exceptions.ServiceException: 获取用户信息异常
+         at AttcMN.Common.Utils.SecurityUtils.GetLoginUser() in D:\Project\gitlocal\AttcnMN\AttcMN.Common\Utils\SecurityUtils.cs:line 52
+         at AttcMN.Admin.SysLoginController.GetInfo() in D:\Project\gitlocal\AttcnMN\AttcMN.System\Controllers\SysLoginController.cs:line 80
+         at lambda_method35(Closure, Object)
+         at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.AwaitableObjectResultExecutor.Execute(ActionContext actionContext, IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+         at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Logged|12_1(ControllerActionInvoker invoker)
+         at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+         at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+         at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+         at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeInnerFilterAsync()
+      --- End of stack trace from previous location ---
+         at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeNextExceptionFilterAsync>g__Awaited|26_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+      ++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+fail: 2025-11-07 09:27:10.6490271 +07:00 Friday L System.Logging.LoggingMonitor[0] #55
+      ┏━━━━━━━━━━━  Logging Monitor ━━━━━━━━━━━
+      ┣ AttcMN.System.Controllers.WorkerController.GetUserList
+      ┣ 
+      ┣ 控制器名称：                     WorkerController
+      ┣ 操作名称：                       GetUserList
+      ┣ 显示名称：                       
+      ┣ 路由信息：                       [area]: ; [controller]: Worker; [action]: GetUserList
+      ┣ 请求方式：                       GET
+      ┣ 请求地址：                       http://localhost:44326/construction/workers/list?pageNum=1&pageSize=10
+      ┣ 来源地址：                       http://localhost:50/construction/construction
+      ┣ 请求端源：                       client
+      ┣ 浏览器标识：                     Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/141.0.0.0 Safari/537.36
+      ┣ 客户端区域语言：                 en-US,en;q=0.9,vi;q=0.8
+      ┣ 客户端 IP 地址：                 127.0.0.1
+      ┣ 服务端 IP 地址：                 127.0.0.1
+      ┣ 客户端连接 ID：                  00-bb86b2344f65c5467b18cd34d852c43b-f9c5153e071126f0-00
+      ┣ 服务线程 ID：                    #56
+      ┣ 执行耗时：                       169ms
+      ┣ ━━━━━━━━━━━━━━━  Cookies ━━━━━━━━━━━━━━━
+      ┣ 请求端：                         lang=en; Hm_lvt_3824e56a483ef95673d119166354712c=1761450141; .AspNetCore.Identity.Application=CfDJ8A_pruwfiuBFp_pFvYUTjgSCWWfo3Z47qZAjJE7FoJwOBU7JrpJzjuolrAeFzEwbNF5VkEIkB1K7Xw8YY4ADMgafZlElHia02YYyFnD-DqFWWHndOLt8TtLTDC_nf2LjPK2Z8uOezwyLZaxqTkKYswBf2vdQbBhP2xxqTk2yel9bdUSGdUsU5gDbVhvuu3HjxQefiZLg4UvttRgQzHMrvKpPNo7Zi2Cs3i-ZnSkjK8xID6zNmWmIpocuEQU1m05bo8bl0PbouQEKWEj8T_McPUiAB6Wsbx1CYIH_dyaxvfwSc8jVqNrfUwiOtL8HSeXuhgflYVo-E0Lw15XV8QBycaFNSdjokmWmtzx_o5_yUZBIbl64PKw64RA296cSOBL2FjxrIIALZkH7qUvHi4kJUM3LOJ9gVwaVBtWf_XTz2qJJ2HYT4JU7GNzu2bc8VeseFZoJ7S4Q04cdiz0M_ha96WcTbJ7g4btRGt1OPl0X4DcFAUh5lZmiB-Fkt1SwmyVzD23oy2CFzJ8_a_P_J00S2RRdWzWuQLil2ePO_jQeTtYAuykK-uECd3pZTukdqrxynJEMZp61pcElQQ22qJmNMhGjmHrZ10V4oqt4TgiYeVWC99-udGrZL9sbrjyvzppfag9xuPEav4b_gofla2vHe2pboyxEL0cTvAmIvP5sPa5UVgV_F_3Di_y5ehMswQjnwX0Q6inKFnKyN0cfqrpURWi_VPGZbICp37SjSCfo2LJMzYZ9H8rUKkBk_bBOfO5GLswRvsUgmmivB3dmrlIg9fxE_FIveH84nfU7E6XAlpzOPd0iLrufYDFAzSFh1xPHADIgiZwNzeuGylg0DOHc1MY; rememberMe=true; CurrentLanguageATTW=zh-tw; username=admin; password=mCvShQT8VUDUduXXhf0nyXXv5YKrogC9WyiaFUyvsAAY+PSmgx4L0CyEJoAUbZR3Tz3ZHWXCnK/xjdPMGrNDHQ==; Admin-Token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJsb2dpbl91c2VyX2tleSI6IjA0MzAzMTkyLWE1MDQtNDBhMi1hNWZlLTJmMDYzODFjYzE1NiIsIlVzZXJJZCI6MSwiVXNlck5hbWUiOiJhZG1pbiIsIkRlcHRJZCI6MTAzLCJleHAiOjE3NjMwODY5NDgsImlhdCI6MTc2MjQ4MjE0OCwibmJmIjoxNzYyNDgyMTQ4LCJpc3MiOiJydW95aS5uZXQuaXNzdWVyIiwiYXVkIjoicnVveWkubmV0LmF1ZGllbmNlIn0.UvjBphnmBXrrCVBx9FZHi1IwVahCRWiEoN918s1LJ4M
+      ┣ 响应端：                         
+      ┣ ━━━━━━━━━━━━━━━  系统信息 ━━━━━━━━━━━━━━━
+      ┣ 系统名称：                       Microsoft Windows 10.0.26200
+      ┣ 系统架构：                       X64
+      ┣ 基础框架：                       AttcMN.Framework v1.0.0.0
+      ┣ .NET 架构：                      .NET 8.0.21
+      ┣ ━━━━━━━━━━━━━━━  启动信息 ━━━━━━━━━━━━━━━
+      ┣ 运行环境：                       Development
+      ┣ 启动程序集：                     AttcMN.Admin
+      ┣ 进程名称：                       iisexpress
+      ┣ 托管程序：                       iisexpress
+      ┣ ━━━━━━━━━━━━━━━  授权信息 ━━━━━━━━━━━━━━━
+      ┣ JWT Token：                      Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJsb2dpbl91c2VyX2tleSI6IjA0MzAzMTkyLWE1MDQtNDBhMi1hNWZlLTJmMDYzODFjYzE1NiIsIlVzZXJJZCI6MSwiVXNlck5hbWUiOiJhZG1pbiIsIkRlcHRJZCI6MTAzLCJleHAiOjE3NjMwODY5NDgsImlhdCI6MTc2MjQ4MjE0OCwibmJmIjoxNzYyNDgyMTQ4LCJpc3MiOiJydW95aS5uZXQuaXNzdWVyIiwiYXVkIjoicnVveWkubmV0LmF1ZGllbmNlIn0.UvjBphnmBXrrCVBx9FZHi1IwVahCRWiEoN918s1LJ4M
+      ┣ 
+      ┣ login_user_key (string)：        04303192-a504-40a2-a5fe-2f06381cc156
+      ┣ UserId (integer32)：             1
+      ┣ UserName (string)：              admin
+      ┣ DeptId (integer32)：             103
+      ┣ exp (integer64)：                1763086948 (2025-11-14 09:22:28:0000(+07:00) Friday L)
+      ┣ iat (integer64)：                1762482148 (2025-11-07 09:22:28:0000(+07:00) Friday L)
+      ┣ nbf (integer64)：                1762482148 (2025-11-07 09:22:28:0000(+07:00) Friday L)
+      ┣ iss (string)：                   ruoyi.net.issuer
+      ┣ aud (string)：                   ruoyi.net.audience
+      ┣ ━━━━━━━━━━━━━━━  请求头信息 ━━━━━━━━━━━━━━━
+      ┣ 
+      ┣ Accept：                         application/json, text/plain, */*
+      ┣ Accept-Encoding：                gzip, deflate, br, zstd
+      ┣ Accept-Language：                en-US,en;q=0.9,vi;q=0.8
+      ┣ Authorization：                  Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJsb2dpbl91c2VyX2tleSI6IjA0MzAzMTkyLWE1MDQtNDBhMi1hNWZlLTJmMDYzODFjYzE1NiIsIlVzZXJJZCI6MSwiVXNlck5hbWUiOiJhZG1pbiIsIkRlcHRJZCI6MTAzLCJleHAiOjE3NjMwODY5NDgsImlhdCI6MTc2MjQ4MjE0OCwibmJmIjoxNzYyNDgyMTQ4LCJpc3MiOiJydW95aS5uZXQuaXNzdWVyIiwiYXVkIjoicnVveWkubmV0LmF1ZGllbmNlIn0.UvjBphnmBXrrCVBx9FZHi1IwVahCRWiEoN918s1LJ4M
+      ┣ Connection：                     close
+      ┣ Cookie：                         lang=en; Hm_lvt_3824e56a483ef95673d119166354712c=1761450141; .AspNetCore.Identity.Application=CfDJ8A_pruwfiuBFp_pFvYUTjgSCWWfo3Z47qZAjJE7FoJwOBU7JrpJzjuolrAeFzEwbNF5VkEIkB1K7Xw8YY4ADMgafZlElHia02YYyFnD-DqFWWHndOLt8TtLTDC_nf2LjPK2Z8uOezwyLZaxqTkKYswBf2vdQbBhP2xxqTk2yel9bdUSGdUsU5gDbVhvuu3HjxQefiZLg4UvttRgQzHMrvKpPNo7Zi2Cs3i-ZnSkjK8xID6zNmWmIpocuEQU1m05bo8bl0PbouQEKWEj8T_McPUiAB6Wsbx1CYIH_dyaxvfwSc8jVqNrfUwiOtL8HSeXuhgflYVo-E0Lw15XV8QBycaFNSdjokmWmtzx_o5_yUZBIbl64PKw64RA296cSOBL2FjxrIIALZkH7qUvHi4kJUM3LOJ9gVwaVBtWf_XTz2qJJ2HYT4JU7GNzu2bc8VeseFZoJ7S4Q04cdiz0M_ha96WcTbJ7g4btRGt1OPl0X4DcFAUh5lZmiB-Fkt1SwmyVzD23oy2CFzJ8_a_P_J00S2RRdWzWuQLil2ePO_jQeTtYAuykK-uECd3pZTukdqrxynJEMZp61pcElQQ22qJmNMhGjmHrZ10V4oqt4TgiYeVWC99-udGrZL9sbrjyvzppfag9xuPEav4b_gofla2vHe2pboyxEL0cTvAmIvP5sPa5UVgV_F_3Di_y5ehMswQjnwX0Q6inKFnKyN0cfqrpURWi_VPGZbICp37SjSCfo2LJMzYZ9H8rUKkBk_bBOfO5GLswRvsUgmmivB3dmrlIg9fxE_FIveH84nfU7E6XAlpzOPd0iLrufYDFAzSFh1xPHADIgiZwNzeuGylg0DOHc1MY; rememberMe=true; CurrentLanguageATTW=zh-tw; username=admin; password=mCvShQT8VUDUduXXhf0nyXXv5YKrogC9WyiaFUyvsAAY+PSmgx4L0CyEJoAUbZR3Tz3ZHWXCnK/xjdPMGrNDHQ==; Admin-Token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJsb2dpbl91c2VyX2tleSI6IjA0MzAzMTkyLWE1MDQtNDBhMi1hNWZlLTJmMDYzODFjYzE1NiIsIlVzZXJJZCI6MSwiVXNlck5hbWUiOiJhZG1pbiIsIkRlcHRJZCI6MTAzLCJleHAiOjE3NjMwODY5NDgsImlhdCI6MTc2MjQ4MjE0OCwibmJmIjoxNzYyNDgyMTQ4LCJpc3MiOiJydW95aS5uZXQuaXNzdWVyIiwiYXVkIjoicnVveWkubmV0LmF1ZGllbmNlIn0.UvjBphnmBXrrCVBx9FZHi1IwVahCRWiEoN918s1LJ4M
+      ┣ Host：                           localhost:44326
+      ┣ Referer：                        http://localhost:50/construction/construction
+      ┣ User-Agent：                     Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/141.0.0.0 Safari/537.36
+      ┣ x-forwarded-host：               localhost:50
+      ┣ x-forwarded-port：               50
+      ┣ X-Original-Proto：               https
+      ┣ sec-fetch-dest：                 empty
+      ┣ sec-fetch-mode：                 cors
+      ┣ sec-fetch-site：                 same-origin
+      ┣ sec-ch-ua-mobile：               ?0
+      ┣ sec-ch-ua：                      "Google Chrome";v="141", "Not?A_Brand";v="8", "Chromium";v="141"
+      ┣ sec-ch-ua-platform：             "Windows"
+      ┣ X-Original-For：                 127.0.0.1:58859
+      ┣ ━━━━━━━━━━━━━━━  参数列表 ━━━━━━━━━━━━━━━
+      ┣ Content-Type：                   
+      ┣ 
+      ┣ dto (WorkerDto)：                {"workerId":0,"empNo":null,"empName":null,"deptId":null,"facId":null,"idno":null,"insureFile":null,"workFile":null,"isDeleted":null,"remark":null,"deviceFile":null,"safety2File":null,"safety2Enddate":null,"safety3File":null,"safety3Enddate":null,"safety4File":null,"safety4Redate":null,"elecFile":null,"heathyFile":null,"protecFile":null,"workerImage":null,"createBy":null,"createTime":null,"updateBy":null,"updateTime":null,"params":{"beginTime":null,"endTime":null,"dataScopeSql":null}}
+      ┣ ━━━━━━━━━━━━━━━  返回信息 ━━━━━━━━━━━━━━━
+      ┣ HTTP响应状态码：                 200
+      ┣ 原始类型：                       System.Threading.Tasks.Task<SqlSugar.SqlSugarPagedList<AttcMN.Data.Entities.Worker>>
+      ┣ 最终类型：                       
+      ┣ 最终返回值：                     null
+      ┣ ━━━━━━━━━━━━━━━  异常信息 ━━━━━━━━━━━━━━━
+      ┣ 类型：                           Microsoft.Data.SqlClient.SqlException
+      ┣ 消息：                           Invalid column name 'remark'.
+      ┣ 错误堆栈：                       at Microsoft.Data.SqlClient.SqlCommand.<>c.<ExecuteDbDataReaderAsync>b__189_0(Task`1 result)
+         at System.Threading.Tasks.ContinuationResultTaskFromResultTask`2.InnerInvoke()
+         at System.Threading.ExecutionContext.RunInternal(ExecutionContext executionContext, ContextCallback callback, Object state)
+      --- End of stack trace from previous location ---
+         at System.Threading.ExecutionContext.RunInternal(ExecutionContext executionContext, ContextCallback callback, Object state)
+         at System.Threading.Tasks.Task.ExecuteWithThreadLocal(Task& currentTaskSlot, Thread threadPoolThread)
+      --- End of stack trace from previous location ---
+         at SqlSugar.AdoProvider.GetDataReaderAsync(String sql, SugarParameter[] parameters)
+         at SqlSugar.QueryableProvider`1.GetDataAsync[TResult](KeyValuePair`2 sqlObj)
+         at SqlSugar.QueryableProvider`1._ToListAsync[TResult]()
+         at SqlSugar.QueryableProvider`1.ToPageListAsync(Int32 pageIndex, Int32 pageSize, RefAsync`1 totalNumber)
+         at SqlSugar.PagedQueryableExtensions.ToPagedListAsync[TEntity](ISugarQueryable`1 entity, Int32 pageIndex, Int32 pageSize) in D:\Project\gitlocal\AttcnMN\AttcMN.Framework\SqlSugar\Extensions\PagedQueryableExtensions.cs:line 43
+         at AttcMN.Common.Data.BaseRepository`2.GetPagedListAsync(ISugarQueryable`1 queryable) in D:\Project\gitlocal\AttcnMN\AttcMN.Common\Data\BaseRepository.cs:line 252
+         at AttcMN.Common.Data.BaseRepository`2.GetPagedListAsync(TDto dto) in D:\Project\gitlocal\AttcnMN\AttcMN.Common\Data\BaseRepository.cs:line 233
+         at AttcMN.System.Services.WorkerService.GetPagedUserListAsync(WorkerDto dto) in D:\Project\gitlocal\AttcnMN\AttcMN.System\Services\WorkerService.cs:line 79
+         at AttcMN.System.Controllers.WorkerController.GetUserList(WorkerDto dto) in D:\Project\gitlocal\AttcnMN\AttcMN.System\Controllers\WorkerController.cs:line 28
+         at lambda_method438(Closure, Object)
+         at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.AwaitableObjectResultExecutor.Execute(ActionContext actionContext, IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+         at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Logged|12_1(ControllerActionInvoker invoker)
+         at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+      ┗━━━━━━━━━━━  Logging Monitor ━━━━━━━━━━━      
+      ++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+      Microsoft.Data.SqlClient.SqlException (0x80131904): Invalid column name 'remark'.
+         at Microsoft.Data.SqlClient.SqlCommand.<>c.<ExecuteDbDataReaderAsync>b__189_0(Task`1 result)
+         at System.Threading.Tasks.ContinuationResultTaskFromResultTask`2.InnerInvoke()
+         at System.Threading.ExecutionContext.RunInternal(ExecutionContext executionContext, ContextCallback callback, Object state)
+      --- End of stack trace from previous location ---
+         at System.Threading.ExecutionContext.RunInternal(ExecutionContext executionContext, ContextCallback callback, Object state)
+         at System.Threading.Tasks.Task.ExecuteWithThreadLocal(Task& currentTaskSlot, Thread threadPoolThread)
+      --- End of stack trace from previous location ---
+         at SqlSugar.AdoProvider.GetDataReaderAsync(String sql, SugarParameter[] parameters)
+         at SqlSugar.QueryableProvider`1.GetDataAsync[TResult](KeyValuePair`2 sqlObj)
+         at SqlSugar.QueryableProvider`1._ToListAsync[TResult]()
+         at SqlSugar.QueryableProvider`1.ToPageListAsync(Int32 pageIndex, Int32 pageSize, RefAsync`1 totalNumber)
+         at SqlSugar.PagedQueryableExtensions.ToPagedListAsync[TEntity](ISugarQueryable`1 entity, Int32 pageIndex, Int32 pageSize) in D:\Project\gitlocal\AttcnMN\AttcMN.Framework\SqlSugar\Extensions\PagedQueryableExtensions.cs:line 43
+         at AttcMN.Common.Data.BaseRepository`2.GetPagedListAsync(ISugarQueryable`1 queryable) in D:\Project\gitlocal\AttcnMN\AttcMN.Common\Data\BaseRepository.cs:line 252
+         at AttcMN.Common.Data.BaseRepository`2.GetPagedListAsync(TDto dto) in D:\Project\gitlocal\AttcnMN\AttcMN.Common\Data\BaseRepository.cs:line 233
+         at AttcMN.System.Services.WorkerService.GetPagedUserListAsync(WorkerDto dto) in D:\Project\gitlocal\AttcnMN\AttcMN.System\Services\WorkerService.cs:line 79
+         at AttcMN.System.Controllers.WorkerController.GetUserList(WorkerDto dto) in D:\Project\gitlocal\AttcnMN\AttcMN.System\Controllers\WorkerController.cs:line 28
+         at lambda_method438(Closure, Object)
+         at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.AwaitableObjectResultExecutor.Execute(ActionContext actionContext, IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+         at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Logged|12_1(ControllerActionInvoker invoker)
+         at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+      ClientConnectionId:e5ada8d7-55cd-4b2d-a02d-30ea8f9c1442
+      Error Number:207,State:1,Class:16
+      ++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+fail: 2025-11-07 09:27:10.6598322 +07:00 Friday L AttcMN.Framework.Filters.GlobalExceptionFilter[0] #55
+      GlobalException      
+      ++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+      Microsoft.Data.SqlClient.SqlException (0x80131904): Invalid column name 'remark'.
+         at Microsoft.Data.SqlClient.SqlCommand.<>c.<ExecuteDbDataReaderAsync>b__189_0(Task`1 result)
+         at System.Threading.Tasks.ContinuationResultTaskFromResultTask`2.InnerInvoke()
+         at System.Threading.ExecutionContext.RunInternal(ExecutionContext executionContext, ContextCallback callback, Object state)
+      --- End of stack trace from previous location ---
+         at System.Threading.ExecutionContext.RunInternal(ExecutionContext executionContext, ContextCallback callback, Object state)
+         at System.Threading.Tasks.Task.ExecuteWithThreadLocal(Task& currentTaskSlot, Thread threadPoolThread)
+      --- End of stack trace from previous location ---
+         at SqlSugar.AdoProvider.GetDataReaderAsync(String sql, SugarParameter[] parameters)
+         at SqlSugar.QueryableProvider`1.GetDataAsync[TResult](KeyValuePair`2 sqlObj)
+         at SqlSugar.QueryableProvider`1._ToListAsync[TResult]()
+         at SqlSugar.QueryableProvider`1.ToPageListAsync(Int32 pageIndex, Int32 pageSize, RefAsync`1 totalNumber)
+         at SqlSugar.PagedQueryableExtensions.ToPagedListAsync[TEntity](ISugarQueryable`1 entity, Int32 pageIndex, Int32 pageSize) in D:\Project\gitlocal\AttcnMN\AttcMN.Framework\SqlSugar\Extensions\PagedQueryableExtensions.cs:line 43
+         at AttcMN.Common.Data.BaseRepository`2.GetPagedListAsync(ISugarQueryable`1 queryable) in D:\Project\gitlocal\AttcnMN\AttcMN.Common\Data\BaseRepository.cs:line 252
+         at AttcMN.Common.Data.BaseRepository`2.GetPagedListAsync(TDto dto) in D:\Project\gitlocal\AttcnMN\AttcMN.Common\Data\BaseRepository.cs:line 233
+         at AttcMN.System.Services.WorkerService.GetPagedUserListAsync(WorkerDto dto) in D:\Project\gitlocal\AttcnMN\AttcMN.System\Services\WorkerService.cs:line 79
+         at AttcMN.System.Controllers.WorkerController.GetUserList(WorkerDto dto) in D:\Project\gitlocal\AttcnMN\AttcMN.System\Controllers\WorkerController.cs:line 28
+         at lambda_method438(Closure, Object)
+         at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.AwaitableObjectResultExecutor.Execute(ActionContext actionContext, IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+         at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Logged|12_1(ControllerActionInvoker invoker)
+         at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+         at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+         at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+         at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeInnerFilterAsync>g__Awaited|13_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+         at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeNextExceptionFilterAsync>g__Awaited|26_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+      ClientConnectionId:e5ada8d7-55cd-4b2d-a02d-30ea8f9c1442
+      Error Number:207,State:1,Class:16
+      ++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+fail: 2025-11-07 10:03:57.3584756 +07:00 Friday L System.Logging.StringLogging[0] #27
+      RedisCache Get error      
+      ++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+      StackExchange.Redis.RedisConnectionException: The message timed out in the backlog attempting to send because no connection became available (5000ms) - Last Connection Exception: It was not possible to connect to the redis server(s). ConnectTimeout, command=HMGET, timeout: 5000, inst: 0, qu: 4, qs: 0, aw: False, bw: SpinningDown, rs: NotStarted, ws: Idle, in: 0, last-in: 0, cur-in: 0, sync-ops: 4, async-ops: 0, serverEndpoint: 10.224.69.61:6379, conn-sec: n/a, aoc: 0, mc: 1/1/0, mgr: 10 of 10 available, clientName: GW-CSD-V0507223(SE.Redis-v2.7.33.41805), IOCP: (Busy=0,Free=1000,Min=1,Max=1000), WORKER: (Busy=4,Free=32763,Min=16,Max=32767), POOL: (Threads=9,QueuedItems=0,CompletedItems=580,Timers=12), v: 2.7.33.41805 (Please take a look at this article for some common client-side issues that can cause timeouts: https://stackexchange.github.io/StackExchange.Redis/Timeouts)
+       ---> StackExchange.Redis.RedisConnectionException: It was not possible to connect to the redis server(s). ConnectTimeout
+         --- End of inner exception stack trace ---
+         at StackExchange.Redis.ConnectionMultiplexer.ExecuteSyncImpl[T](Message message, ResultProcessor`1 processor, ServerEndPoint server, T defaultValue) in /_/src/StackExchange.Redis/ConnectionMultiplexer.cs:line 2105
+         at StackExchange.Redis.RedisBase.ExecuteSync[T](Message message, ResultProcessor`1 processor, ServerEndPoint server, T defaultValue) in /_/src/StackExchange.Redis/RedisBase.cs:line 62
+         at StackExchange.Redis.RedisDatabase.HashGet(RedisKey key, RedisValue[] hashFields, CommandFlags flags) in /_/src/StackExchange.Redis/RedisDatabase.cs:line 407
+         at Microsoft.Extensions.Caching.StackExchangeRedis.RedisCache.GetAndRefresh(String key, Boolean getData)
+         at Microsoft.Extensions.Caching.StackExchangeRedis.RedisCache.Get(String key)
+         at Microsoft.Extensions.Caching.Distributed.DistributedCacheExtensions.GetString(IDistributedCache cache, String key)
+         at AttcMN.Framework.Cache.Redis.RedisCache.Get[T](String key) in D:\Project\gitlocal\AttcnMN\AttcMN.Framework\Cache\Redis\RedisCache.cs:line 204
+      ++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+fail: 2025-11-07 10:03:57.3584794 +07:00 Friday L System.Logging.StringLogging[0] #39
+      RedisCache Get error      
+      ++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+      StackExchange.Redis.RedisConnectionException: The message timed out in the backlog attempting to send because no connection became available (5000ms) - Last Connection Exception: It was not possible to connect to the redis server(s). ConnectTimeout, command=HMGET, timeout: 5000, inst: 0, qu: 4, qs: 0, aw: False, bw: SpinningDown, rs: NotStarted, ws: Idle, in: 0, last-in: 0, cur-in: 0, sync-ops: 4, async-ops: 0, serverEndpoint: 10.224.69.61:6379, conn-sec: n/a, aoc: 0, mc: 1/1/0, mgr: 10 of 10 available, clientName: GW-CSD-V0507223(SE.Redis-v2.7.33.41805), IOCP: (Busy=0,Free=1000,Min=1,Max=1000), WORKER: (Busy=4,Free=32763,Min=16,Max=32767), POOL: (Threads=9,QueuedItems=0,CompletedItems=580,Timers=12), v: 2.7.33.41805 (Please take a look at this article for some common client-side issues that can cause timeouts: https://stackexchange.github.io/StackExchange.Redis/Timeouts)
+       ---> StackExchange.Redis.RedisConnectionException: It was not possible to connect to the redis server(s). ConnectTimeout
+         --- End of inner exception stack trace ---
+         at StackExchange.Redis.ConnectionMultiplexer.ExecuteSyncImpl[T](Message message, ResultProcessor`1 processor, ServerEndPoint server, T defaultValue) in /_/src/StackExchange.Redis/ConnectionMultiplexer.cs:line 2105
+         at StackExchange.Redis.RedisBase.ExecuteSync[T](Message message, ResultProcessor`1 processor, ServerEndPoint server, T defaultValue) in /_/src/StackExchange.Redis/RedisBase.cs:line 62
+         at StackExchange.Redis.RedisDatabase.HashGet(RedisKey key, RedisValue[] hashFields, CommandFlags flags) in /_/src/StackExchange.Redis/RedisDatabase.cs:line 407
+         at Microsoft.Extensions.Caching.StackExchangeRedis.RedisCache.GetAndRefresh(String key, Boolean getData)
+         at Microsoft.Extensions.Caching.StackExchangeRedis.RedisCache.Get(String key)
+         at Microsoft.Extensions.Caching.Distributed.DistributedCacheExtensions.GetString(IDistributedCache cache, String key)
+         at AttcMN.Framework.Cache.Redis.RedisCache.Get[T](String key) in D:\Project\gitlocal\AttcnMN\AttcMN.Framework\Cache\Redis\RedisCache.cs:line 204
+      ++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+fail: 2025-11-07 10:03:57.3585334 +07:00 Friday L System.Logging.StringLogging[0] #28
+      RedisCache Get error      
+      ++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+      StackExchange.Redis.RedisConnectionException: The message timed out in the backlog attempting to send because no connection became available (5000ms) - Last Connection Exception: It was not possible to connect to the redis server(s). ConnectTimeout, command=HMGET, timeout: 5000, inst: 0, qu: 4, qs: 0, aw: False, bw: SpinningDown, rs: NotStarted, ws: Idle, in: 0, last-in: 0, cur-in: 0, sync-ops: 4, async-ops: 0, serverEndpoint: 10.224.69.61:6379, conn-sec: n/a, aoc: 0, mc: 1/1/0, mgr: 10 of 10 available, clientName: GW-CSD-V0507223(SE.Redis-v2.7.33.41805), IOCP: (Busy=0,Free=1000,Min=1,Max=1000), WORKER: (Busy=4,Free=32763,Min=16,Max=32767), POOL: (Threads=9,QueuedItems=0,CompletedItems=580,Timers=12), v: 2.7.33.41805 (Please take a look at this article for some common client-side issues that can cause timeouts: https://stackexchange.github.io/StackExchange.Redis/Timeouts)
+       ---> StackExchange.Redis.RedisConnectionException: It was not possible to connect to the redis server(s). ConnectTimeout
+         --- End of inner exception stack trace ---
+         at StackExchange.Redis.ConnectionMultiplexer.ExecuteSyncImpl[T](Message message, ResultProcessor`1 processor, ServerEndPoint server, T defaultValue) in /_/src/StackExchange.Redis/ConnectionMultiplexer.cs:line 2105
+         at StackExchange.Redis.RedisBase.ExecuteSync[T](Message message, ResultProcessor`1 processor, ServerEndPoint server, T defaultValue) in /_/src/StackExchange.Redis/RedisBase.cs:line 62
+         at StackExchange.Redis.RedisDatabase.HashGet(RedisKey key, RedisValue[] hashFields, CommandFlags flags) in /_/src/StackExchange.Redis/RedisDatabase.cs:line 407
+         at Microsoft.Extensions.Caching.StackExchangeRedis.RedisCache.GetAndRefresh(String key, Boolean getData)
+         at Microsoft.Extensions.Caching.StackExchangeRedis.RedisCache.Get(String key)
+         at Microsoft.Extensions.Caching.Distributed.DistributedCacheExtensions.GetString(IDistributedCache cache, String key)
+         at AttcMN.Framework.Cache.Redis.RedisCache.Get[T](String key) in D:\Project\gitlocal\AttcnMN\AttcMN.Framework\Cache\Redis\RedisCache.cs:line 204
+      ++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+fail: 2025-11-07 10:03:57.3585419 +07:00 Friday L System.Logging.StringLogging[0] #7
+      RedisCache Get error      
+      ++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+      StackExchange.Redis.RedisConnectionException: The message timed out in the backlog attempting to send because no connection became available (5000ms) - Last Connection Exception: It was not possible to connect to the redis server(s). ConnectTimeout, command=HMGET, timeout: 5000, inst: 0, qu: 4, qs: 0, aw: False, bw: SpinningDown, rs: NotStarted, ws: Idle, in: 0, last-in: 0, cur-in: 0, sync-ops: 4, async-ops: 0, serverEndpoint: 10.224.69.61:6379, conn-sec: n/a, aoc: 0, mc: 1/1/0, mgr: 10 of 10 available, clientName: GW-CSD-V0507223(SE.Redis-v2.7.33.41805), IOCP: (Busy=0,Free=1000,Min=1,Max=1000), WORKER: (Busy=4,Free=32763,Min=16,Max=32767), POOL: (Threads=9,QueuedItems=0,CompletedItems=580,Timers=12), v: 2.7.33.41805 (Please take a look at this article for some common client-side issues that can cause timeouts: https://stackexchange.github.io/StackExchange.Redis/Timeouts)
+       ---> StackExchange.Redis.RedisConnectionException: It was not possible to connect to the redis server(s). ConnectTimeout
+         --- End of inner exception stack trace ---
+         at StackExchange.Redis.ConnectionMultiplexer.ExecuteSyncImpl[T](Message message, ResultProcessor`1 processor, ServerEndPoint server, T defaultValue) in /_/src/StackExchange.Redis/ConnectionMultiplexer.cs:line 2105
+         at StackExchange.Redis.RedisBase.ExecuteSync[T](Message message, ResultProcessor`1 processor, ServerEndPoint server, T defaultValue) in /_/src/StackExchange.Redis/RedisBase.cs:line 62
+         at StackExchange.Redis.RedisDatabase.HashGet(RedisKey key, RedisValue[] hashFields, CommandFlags flags) in /_/src/StackExchange.Redis/RedisDatabase.cs:line 407
+         at Microsoft.Extensions.Caching.StackExchangeRedis.RedisCache.GetAndRefresh(String key, Boolean getData)
+         at Microsoft.Extensions.Caching.StackExchangeRedis.RedisCache.Get(String key)
+         at Microsoft.Extensions.Caching.Distributed.DistributedCacheExtensions.GetString(IDistributedCache cache, String key)
+         at AttcMN.Framework.Cache.Redis.RedisCache.Get[T](String key) in D:\Project\gitlocal\AttcnMN\AttcMN.Framework\Cache\Redis\RedisCache.cs:line 204
+      ++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+fail: 2025-11-07 10:03:57.5701624 +07:00 Friday L System.Logging.LoggingMonitor[0] #7
+      ┏━━━━━━━━━━━  Logging Monitor ━━━━━━━━━━━
+      ┣ AttcMN.Admin.SysLoginController.GetInfo
+      ┣ 
+      ┣ 控制器名称：                     SysLoginController
+      ┣ 操作名称：                       GetInfo
+      ┣ 显示名称：                       
+      ┣ 路由信息：                       [area]: ; [controller]: SysLogin; [action]: GetInfo
+      ┣ 请求方式：                       GET
+      ┣ 请求地址：                       http://localhost:44326/getInfo
+      ┣ 来源地址：                       http://localhost:50/
+      ┣ 请求端源：                       client
+      ┣ 浏览器标识：                     Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/141.0.0.0 Safari/537.36
+      ┣ 客户端区域语言：                 en-US,en;q=0.9,vi;q=0.8
+      ┣ 客户端 IP 地址：                 127.0.0.1
+      ┣ 服务端 IP 地址：                 127.0.0.1
+      ┣ 客户端连接 ID：                  00-4ccda67c73a5eae92697b2a3da1e2790-2a68b9eb6331f1bf-00
+      ┣ 服务线程 ID：                    #7
+      ┣ 执行耗时：                       8895ms
+      ┣ ━━━━━━━━━━━━━━━  Cookies ━━━━━━━━━━━━━━━
+      ┣ 请求端：                         lang=en; Hm_lvt_3824e56a483ef95673d119166354712c=1761450141; .AspNetCore.Identity.Application=CfDJ8A_pruwfiuBFp_pFvYUTjgSCWWfo3Z47qZAjJE7FoJwOBU7JrpJzjuolrAeFzEwbNF5VkEIkB1K7Xw8YY4ADMgafZlElHia02YYyFnD-DqFWWHndOLt8TtLTDC_nf2LjPK2Z8uOezwyLZaxqTkKYswBf2vdQbBhP2xxqTk2yel9bdUSGdUsU5gDbVhvuu3HjxQefiZLg4UvttRgQzHMrvKpPNo7Zi2Cs3i-ZnSkjK8xID6zNmWmIpocuEQU1m05bo8bl0PbouQEKWEj8T_McPUiAB6Wsbx1CYIH_dyaxvfwSc8jVqNrfUwiOtL8HSeXuhgflYVo-E0Lw15XV8QBycaFNSdjokmWmtzx_o5_yUZBIbl64PKw64RA296cSOBL2FjxrIIALZkH7qUvHi4kJUM3LOJ9gVwaVBtWf_XTz2qJJ2HYT4JU7GNzu2bc8VeseFZoJ7S4Q04cdiz0M_ha96WcTbJ7g4btRGt1OPl0X4DcFAUh5lZmiB-Fkt1SwmyVzD23oy2CFzJ8_a_P_J00S2RRdWzWuQLil2ePO_jQeTtYAuykK-uECd3pZTukdqrxynJEMZp61pcElQQ22qJmNMhGjmHrZ10V4oqt4TgiYeVWC99-udGrZL9sbrjyvzppfag9xuPEav4b_gofla2vHe2pboyxEL0cTvAmIvP5sPa5UVgV_F_3Di_y5ehMswQjnwX0Q6inKFnKyN0cfqrpURWi_VPGZbICp37SjSCfo2LJMzYZ9H8rUKkBk_bBOfO5GLswRvsUgmmivB3dmrlIg9fxE_FIveH84nfU7E6XAlpzOPd0iLrufYDFAzSFh1xPHADIgiZwNzeuGylg0DOHc1MY; rememberMe=true; CurrentLanguageATTW=zh-tw; username=admin; password=mCvShQT8VUDUduXXhf0nyXXv5YKrogC9WyiaFUyvsAAY+PSmgx4L0CyEJoAUbZR3Tz3ZHWXCnK/xjdPMGrNDHQ==; Admin-Token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJsb2dpbl91c2VyX2tleSI6IjA0MzAzMTkyLWE1MDQtNDBhMi1hNWZlLTJmMDYzODFjYzE1NiIsIlVzZXJJZCI6MSwiVXNlck5hbWUiOiJhZG1pbiIsIkRlcHRJZCI6MTAzLCJleHAiOjE3NjMwODY5NDgsImlhdCI6MTc2MjQ4MjE0OCwibmJmIjoxNzYyNDgyMTQ4LCJpc3MiOiJydW95aS5uZXQuaXNzdWVyIiwiYXVkIjoicnVveWkubmV0LmF1ZGllbmNlIn0.UvjBphnmBXrrCVBx9FZHi1IwVahCRWiEoN918s1LJ4M
+      ┣ 响应端：                         
+      ┣ ━━━━━━━━━━━━━━━  系统信息 ━━━━━━━━━━━━━━━
+      ┣ 系统名称：                       Microsoft Windows 10.0.26200
+      ┣ 系统架构：                       X64
+      ┣ 基础框架：                       AttcMN.Framework v1.0.0.0
+      ┣ .NET 架构：                      .NET 8.0.21
+      ┣ ━━━━━━━━━━━━━━━  启动信息 ━━━━━━━━━━━━━━━
+      ┣ 运行环境：                       Development
+      ┣ 启动程序集：                     AttcMN.Admin
+      ┣ 进程名称：                       iisexpress
+      ┣ 托管程序：                       iisexpress
+      ┣ ━━━━━━━━━━━━━━━  授权信息 ━━━━━━━━━━━━━━━
+      ┣ JWT Token：                      Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJsb2dpbl91c2VyX2tleSI6IjA0MzAzMTkyLWE1MDQtNDBhMi1hNWZlLTJmMDYzODFjYzE1NiIsIlVzZXJJZCI6MSwiVXNlck5hbWUiOiJhZG1pbiIsIkRlcHRJZCI6MTAzLCJleHAiOjE3NjMwODY5NDgsImlhdCI6MTc2MjQ4MjE0OCwibmJmIjoxNzYyNDgyMTQ4LCJpc3MiOiJydW95aS5uZXQuaXNzdWVyIiwiYXVkIjoicnVveWkubmV0LmF1ZGllbmNlIn0.UvjBphnmBXrrCVBx9FZHi1IwVahCRWiEoN918s1LJ4M
+      ┣ 
+      ┣ login_user_key (string)：        04303192-a504-40a2-a5fe-2f06381cc156
+      ┣ UserId (integer32)：             1
+      ┣ UserName (string)：              admin
+      ┣ DeptId (integer32)：             103
+      ┣ exp (integer64)：                1763086948 (2025-11-14 09:22:28:0000(+07:00) Friday L)
+      ┣ iat (integer64)：                1762482148 (2025-11-07 09:22:28:0000(+07:00) Friday L)
+      ┣ nbf (integer64)：                1762482148 (2025-11-07 09:22:28:0000(+07:00) Friday L)
+      ┣ iss (string)：                   ruoyi.net.issuer
+      ┣ aud (string)：                   ruoyi.net.audience
+      ┣ ━━━━━━━━━━━━━━━  请求头信息 ━━━━━━━━━━━━━━━
+      ┣ 
+      ┣ Accept：                         application/json, text/plain, */*
+      ┣ Accept-Encoding：                gzip, deflate, br, zstd
+      ┣ Accept-Language：                en-US,en;q=0.9,vi;q=0.8
+      ┣ Authorization：                  Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJsb2dpbl91c2VyX2tleSI6IjA0MzAzMTkyLWE1MDQtNDBhMi1hNWZlLTJmMDYzODFjYzE1NiIsIlVzZXJJZCI6MSwiVXNlck5hbWUiOiJhZG1pbiIsIkRlcHRJZCI6MTAzLCJleHAiOjE3NjMwODY5NDgsImlhdCI6MTc2MjQ4MjE0OCwibmJmIjoxNzYyNDgyMTQ4LCJpc3MiOiJydW95aS5uZXQuaXNzdWVyIiwiYXVkIjoicnVveWkubmV0LmF1ZGllbmNlIn0.UvjBphnmBXrrCVBx9FZHi1IwVahCRWiEoN918s1LJ4M
+      ┣ Connection：                     close
+      ┣ Cookie：                         lang=en; Hm_lvt_3824e56a483ef95673d119166354712c=1761450141; .AspNetCore.Identity.Application=CfDJ8A_pruwfiuBFp_pFvYUTjgSCWWfo3Z47qZAjJE7FoJwOBU7JrpJzjuolrAeFzEwbNF5VkEIkB1K7Xw8YY4ADMgafZlElHia02YYyFnD-DqFWWHndOLt8TtLTDC_nf2LjPK2Z8uOezwyLZaxqTkKYswBf2vdQbBhP2xxqTk2yel9bdUSGdUsU5gDbVhvuu3HjxQefiZLg4UvttRgQzHMrvKpPNo7Zi2Cs3i-ZnSkjK8xID6zNmWmIpocuEQU1m05bo8bl0PbouQEKWEj8T_McPUiAB6Wsbx1CYIH_dyaxvfwSc8jVqNrfUwiOtL8HSeXuhgflYVo-E0Lw15XV8QBycaFNSdjokmWmtzx_o5_yUZBIbl64PKw64RA296cSOBL2FjxrIIALZkH7qUvHi4kJUM3LOJ9gVwaVBtWf_XTz2qJJ2HYT4JU7GNzu2bc8VeseFZoJ7S4Q04cdiz0M_ha96WcTbJ7g4btRGt1OPl0X4DcFAUh5lZmiB-Fkt1SwmyVzD23oy2CFzJ8_a_P_J00S2RRdWzWuQLil2ePO_jQeTtYAuykK-uECd3pZTukdqrxynJEMZp61pcElQQ22qJmNMhGjmHrZ10V4oqt4TgiYeVWC99-udGrZL9sbrjyvzppfag9xuPEav4b_gofla2vHe2pboyxEL0cTvAmIvP5sPa5UVgV_F_3Di_y5ehMswQjnwX0Q6inKFnKyN0cfqrpURWi_VPGZbICp37SjSCfo2LJMzYZ9H8rUKkBk_bBOfO5GLswRvsUgmmivB3dmrlIg9fxE_FIveH84nfU7E6XAlpzOPd0iLrufYDFAzSFh1xPHADIgiZwNzeuGylg0DOHc1MY; rememberMe=true; CurrentLanguageATTW=zh-tw; username=admin; password=mCvShQT8VUDUduXXhf0nyXXv5YKrogC9WyiaFUyvsAAY+PSmgx4L0CyEJoAUbZR3Tz3ZHWXCnK/xjdPMGrNDHQ==; Admin-Token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJsb2dpbl91c2VyX2tleSI6IjA0MzAzMTkyLWE1MDQtNDBhMi1hNWZlLTJmMDYzODFjYzE1NiIsIlVzZXJJZCI6MSwiVXNlck5hbWUiOiJhZG1pbiIsIkRlcHRJZCI6MTAzLCJleHAiOjE3NjMwODY5NDgsImlhdCI6MTc2MjQ4MjE0OCwibmJmIjoxNzYyNDgyMTQ4LCJpc3MiOiJydW95aS5uZXQuaXNzdWVyIiwiYXVkIjoicnVveWkubmV0LmF1ZGllbmNlIn0.UvjBphnmBXrrCVBx9FZHi1IwVahCRWiEoN918s1LJ4M
+      ┣ Host：                           localhost:44326
+      ┣ Referer：                        http://localhost:50/
+      ┣ User-Agent：                     Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/141.0.0.0 Safari/537.36
+      ┣ x-forwarded-host：               localhost:50
+      ┣ x-forwarded-port：               50
+      ┣ X-Original-Proto：               https
+      ┣ sec-fetch-dest：                 empty
+      ┣ sec-fetch-mode：                 cors
+      ┣ sec-fetch-site：                 same-origin
+      ┣ sec-ch-ua-mobile：               ?0
+      ┣ sec-ch-ua：                      "Google Chrome";v="141", "Not?A_Brand";v="8", "Chromium";v="141"
+      ┣ sec-ch-ua-platform：             "Windows"
+      ┣ X-Original-For：                 127.0.0.1:54431
+      ┣ ━━━━━━━━━━━━━━━  返回信息 ━━━━━━━━━━━━━━━
+      ┣ HTTP响应状态码：                 200
+      ┣ 原始类型：                       System.Threading.Tasks.Task<AttcMN.Framework.AjaxResult>
+      ┣ 最终类型：                       
+      ┣ 最终返回值：                     null
+      ┣ ━━━━━━━━━━━━━━━  异常信息 ━━━━━━━━━━━━━━━
+      ┣ 类型：                           AttcMN.Framework.Exceptions.ServiceException
+      ┣ 消息：                           获取用户信息异常
+      ┣ 错误堆栈：                       at AttcMN.Common.Utils.SecurityUtils.GetLoginUser() in D:\Project\gitlocal\AttcnMN\AttcMN.Common\Utils\SecurityUtils.cs:line 52
+         at AttcMN.Admin.SysLoginController.GetInfo() in D:\Project\gitlocal\AttcnMN\AttcMN.System\Controllers\SysLoginController.cs:line 80
+         at lambda_method22(Closure, Object)
+         at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.AwaitableObjectResultExecutor.Execute(ActionContext actionContext, IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+         at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Logged|12_1(ControllerActionInvoker invoker)
+         at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+      ┗━━━━━━━━━━━  Logging Monitor ━━━━━━━━━━━      
+      ++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+      AttcMN.Framework.Exceptions.ServiceException: 获取用户信息异常
+         at AttcMN.Common.Utils.SecurityUtils.GetLoginUser() in D:\Project\gitlocal\AttcnMN\AttcMN.Common\Utils\SecurityUtils.cs:line 52
+         at AttcMN.Admin.SysLoginController.GetInfo() in D:\Project\gitlocal\AttcnMN\AttcMN.System\Controllers\SysLoginController.cs:line 80
+         at lambda_method22(Closure, Object)
+         at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.AwaitableObjectResultExecutor.Execute(ActionContext actionContext, IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+         at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Logged|12_1(ControllerActionInvoker invoker)
+         at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+      ++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+fail: 2025-11-07 10:03:57.5739741 +07:00 Friday L System.Logging.LoggingMonitor[0] #27
+      ┏━━━━━━━━━━━  Logging Monitor ━━━━━━━━━━━
+      ┣ AttcMN.Admin.SysLoginController.GetInfo
+      ┣ 
+      ┣ 控制器名称：                     SysLoginController
+      ┣ 操作名称：                       GetInfo
+      ┣ 显示名称：                       
+      ┣ 路由信息：                       [area]: ; [controller]: SysLogin; [action]: GetInfo
+      ┣ 请求方式：                       GET
+      ┣ 请求地址：                       http://localhost:44326/getInfo
+      ┣ 来源地址：                       http://localhost:50/
+      ┣ 请求端源：                       client
+      ┣ 浏览器标识：                     Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/141.0.0.0 Safari/537.36
+      ┣ 客户端区域语言：                 en-US,en;q=0.9,vi;q=0.8
+      ┣ 客户端 IP 地址：                 127.0.0.1
+      ┣ 服务端 IP 地址：                 127.0.0.1
+      ┣ 客户端连接 ID：                  00-bd3e5e9dd97d2d4a136357ba118ce805-85d5b2afee8cbe2c-00
+      ┣ 服务线程 ID：                    #27
+      ┣ 执行耗时：                       20429ms
+      ┣ ━━━━━━━━━━━━━━━  Cookies ━━━━━━━━━━━━━━━
+      ┣ 请求端：                         lang=en; Hm_lvt_3824e56a483ef95673d119166354712c=1761450141; .AspNetCore.Identity.Application=CfDJ8A_pruwfiuBFp_pFvYUTjgSCWWfo3Z47qZAjJE7FoJwOBU7JrpJzjuolrAeFzEwbNF5VkEIkB1K7Xw8YY4ADMgafZlElHia02YYyFnD-DqFWWHndOLt8TtLTDC_nf2LjPK2Z8uOezwyLZaxqTkKYswBf2vdQbBhP2xxqTk2yel9bdUSGdUsU5gDbVhvuu3HjxQefiZLg4UvttRgQzHMrvKpPNo7Zi2Cs3i-ZnSkjK8xID6zNmWmIpocuEQU1m05bo8bl0PbouQEKWEj8T_McPUiAB6Wsbx1CYIH_dyaxvfwSc8jVqNrfUwiOtL8HSeXuhgflYVo-E0Lw15XV8QBycaFNSdjokmWmtzx_o5_yUZBIbl64PKw64RA296cSOBL2FjxrIIALZkH7qUvHi4kJUM3LOJ9gVwaVBtWf_XTz2qJJ2HYT4JU7GNzu2bc8VeseFZoJ7S4Q04cdiz0M_ha96WcTbJ7g4btRGt1OPl0X4DcFAUh5lZmiB-Fkt1SwmyVzD23oy2CFzJ8_a_P_J00S2RRdWzWuQLil2ePO_jQeTtYAuykK-uECd3pZTukdqrxynJEMZp61pcElQQ22qJmNMhGjmHrZ10V4oqt4TgiYeVWC99-udGrZL9sbrjyvzppfag9xuPEav4b_gofla2vHe2pboyxEL0cTvAmIvP5sPa5UVgV_F_3Di_y5ehMswQjnwX0Q6inKFnKyN0cfqrpURWi_VPGZbICp37SjSCfo2LJMzYZ9H8rUKkBk_bBOfO5GLswRvsUgmmivB3dmrlIg9fxE_FIveH84nfU7E6XAlpzOPd0iLrufYDFAzSFh1xPHADIgiZwNzeuGylg0DOHc1MY; rememberMe=true; CurrentLanguageATTW=zh-tw; username=admin; password=mCvShQT8VUDUduXXhf0nyXXv5YKrogC9WyiaFUyvsAAY+PSmgx4L0CyEJoAUbZR3Tz3ZHWXCnK/xjdPMGrNDHQ==; Admin-Token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJsb2dpbl91c2VyX2tleSI6IjA0MzAzMTkyLWE1MDQtNDBhMi1hNWZlLTJmMDYzODFjYzE1NiIsIlVzZXJJZCI6MSwiVXNlck5hbWUiOiJhZG1pbiIsIkRlcHRJZCI6MTAzLCJleHAiOjE3NjMwODY5NDgsImlhdCI6MTc2MjQ4MjE0OCwibmJmIjoxNzYyNDgyMTQ4LCJpc3MiOiJydW95aS5uZXQuaXNzdWVyIiwiYXVkIjoicnVveWkubmV0LmF1ZGllbmNlIn0.UvjBphnmBXrrCVBx9FZHi1IwVahCRWiEoN918s1LJ4M
+      ┣ 响应端：                         
+      ┣ ━━━━━━━━━━━━━━━  系统信息 ━━━━━━━━━━━━━━━
+      ┣ 系统名称：                       Microsoft Windows 10.0.26200
+      ┣ 系统架构：                       X64
+      ┣ 基础框架：                       AttcMN.Framework v1.0.0.0
+      ┣ .NET 架构：                      .NET 8.0.21
+      ┣ ━━━━━━━━━━━━━━━  启动信息 ━━━━━━━━━━━━━━━
+      ┣ 运行环境：                       Development
+      ┣ 启动程序集：                     AttcMN.Admin
+      ┣ 进程名称：                       iisexpress
+      ┣ 托管程序：                       iisexpress
+      ┣ ━━━━━━━━━━━━━━━  授权信息 ━━━━━━━━━━━━━━━
+      ┣ JWT Token：                      Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJsb2dpbl91c2VyX2tleSI6IjA0MzAzMTkyLWE1MDQtNDBhMi1hNWZlLTJmMDYzODFjYzE1NiIsIlVzZXJJZCI6MSwiVXNlck5hbWUiOiJhZG1pbiIsIkRlcHRJZCI6MTAzLCJleHAiOjE3NjMwODY5NDgsImlhdCI6MTc2MjQ4MjE0OCwibmJmIjoxNzYyNDgyMTQ4LCJpc3MiOiJydW95aS5uZXQuaXNzdWVyIiwiYXVkIjoicnVveWkubmV0LmF1ZGllbmNlIn0.UvjBphnmBXrrCVBx9FZHi1IwVahCRWiEoN918s1LJ4M
+      ┣ 
+      ┣ login_user_key (string)：        04303192-a504-40a2-a5fe-2f06381cc156
+      ┣ UserId (integer32)：             1
+      ┣ UserName (string)：              admin
+      ┣ DeptId (integer32)：             103
+      ┣ exp (integer64)：                1763086948 (2025-11-14 09:22:28:0000(+07:00) Friday L)
+      ┣ iat (integer64)：                1762482148 (2025-11-07 09:22:28:0000(+07:00) Friday L)
+      ┣ nbf (integer64)：                1762482148 (2025-11-07 09:22:28:0000(+07:00) Friday L)
+      ┣ iss (string)：                   ruoyi.net.issuer
+      ┣ aud (string)：                   ruoyi.net.audience
+      ┣ ━━━━━━━━━━━━━━━  请求头信息 ━━━━━━━━━━━━━━━
+      ┣ 
+      ┣ Accept：                         application/json, text/plain, */*
+      ┣ Accept-Encoding：                gzip, deflate, br, zstd
+      ┣ Accept-Language：                en-US,en;q=0.9,vi;q=0.8
+      ┣ Authorization：                  Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJsb2dpbl91c2VyX2tleSI6IjA0MzAzMTkyLWE1MDQtNDBhMi1hNWZlLTJmMDYzODFjYzE1NiIsIlVzZXJJZCI6MSwiVXNlck5hbWUiOiJhZG1pbiIsIkRlcHRJZCI6MTAzLCJleHAiOjE3NjMwODY5NDgsImlhdCI6MTc2MjQ4MjE0OCwibmJmIjoxNzYyNDgyMTQ4LCJpc3MiOiJydW95aS5uZXQuaXNzdWVyIiwiYXVkIjoicnVveWkubmV0LmF1ZGllbmNlIn0.UvjBphnmBXrrCVBx9FZHi1IwVahCRWiEoN918s1LJ4M
+      ┣ Connection：                     close
+      ┣ Cookie：                         lang=en; Hm_lvt_3824e56a483ef95673d119166354712c=1761450141; .AspNetCore.Identity.Application=CfDJ8A_pruwfiuBFp_pFvYUTjgSCWWfo3Z47qZAjJE7FoJwOBU7JrpJzjuolrAeFzEwbNF5VkEIkB1K7Xw8YY4ADMgafZlElHia02YYyFnD-DqFWWHndOLt8TtLTDC_nf2LjPK2Z8uOezwyLZaxqTkKYswBf2vdQbBhP2xxqTk2yel9bdUSGdUsU5gDbVhvuu3HjxQefiZLg4UvttRgQzHMrvKpPNo7Zi2Cs3i-ZnSkjK8xID6zNmWmIpocuEQU1m05bo8bl0PbouQEKWEj8T_McPUiAB6Wsbx1CYIH_dyaxvfwSc8jVqNrfUwiOtL8HSeXuhgflYVo-E0Lw15XV8QBycaFNSdjokmWmtzx_o5_yUZBIbl64PKw64RA296cSOBL2FjxrIIALZkH7qUvHi4kJUM3LOJ9gVwaVBtWf_XTz2qJJ2HYT4JU7GNzu2bc8VeseFZoJ7S4Q04cdiz0M_ha96WcTbJ7g4btRGt1OPl0X4DcFAUh5lZmiB-Fkt1SwmyVzD23oy2CFzJ8_a_P_J00S2RRdWzWuQLil2ePO_jQeTtYAuykK-uECd3pZTukdqrxynJEMZp61pcElQQ22qJmNMhGjmHrZ10V4oqt4TgiYeVWC99-udGrZL9sbrjyvzppfag9xuPEav4b_gofla2vHe2pboyxEL0cTvAmIvP5sPa5UVgV_F_3Di_y5ehMswQjnwX0Q6inKFnKyN0cfqrpURWi_VPGZbICp37SjSCfo2LJMzYZ9H8rUKkBk_bBOfO5GLswRvsUgmmivB3dmrlIg9fxE_FIveH84nfU7E6XAlpzOPd0iLrufYDFAzSFh1xPHADIgiZwNzeuGylg0DOHc1MY; rememberMe=true; CurrentLanguageATTW=zh-tw; username=admin; password=mCvShQT8VUDUduXXhf0nyXXv5YKrogC9WyiaFUyvsAAY+PSmgx4L0CyEJoAUbZR3Tz3ZHWXCnK/xjdPMGrNDHQ==; Admin-Token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJsb2dpbl91c2VyX2tleSI6IjA0MzAzMTkyLWE1MDQtNDBhMi1hNWZlLTJmMDYzODFjYzE1NiIsIlVzZXJJZCI6MSwiVXNlck5hbWUiOiJhZG1pbiIsIkRlcHRJZCI6MTAzLCJleHAiOjE3NjMwODY5NDgsImlhdCI6MTc2MjQ4MjE0OCwibmJmIjoxNzYyNDgyMTQ4LCJpc3MiOiJydW95aS5uZXQuaXNzdWVyIiwiYXVkIjoicnVveWkubmV0LmF1ZGllbmNlIn0.UvjBphnmBXrrCVBx9FZHi1IwVahCRWiEoN918s1LJ4M
+      ┣ Host：                           localhost:44326
+      ┣ Referer：                        http://localhost:50/
+      ┣ User-Agent：                     Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/141.0.0.0 Safari/537.36
+      ┣ x-forwarded-host：               localhost:50
+      ┣ x-forwarded-port：               50
+      ┣ X-Original-Proto：               https
+      ┣ sec-fetch-dest：                 empty
+      ┣ sec-fetch-mode：                 cors
+      ┣ sec-fetch-site：                 same-origin
+      ┣ sec-ch-ua-mobile：               ?0
+      ┣ sec-ch-ua：                      "Google Chrome";v="141", "Not?A_Brand";v="8", "Chromium";v="141"
+      ┣ sec-ch-ua-platform：             "Windows"
+      ┣ X-Original-For：                 127.0.0.1:57446
+      ┣ ━━━━━━━━━━━━━━━  返回信息 ━━━━━━━━━━━━━━━
+      ┣ HTTP响应状态码：                 200
+      ┣ 原始类型：                       System.Threading.Tasks.Task<AttcMN.Framework.AjaxResult>
+      ┣ 最终类型：                       
+      ┣ 最终返回值：                     null
+      ┣ ━━━━━━━━━━━━━━━  异常信息 ━━━━━━━━━━━━━━━
+      ┣ 类型：                           AttcMN.Framework.Exceptions.ServiceException
+      ┣ 消息：                           获取用户信息异常
+      ┣ 错误堆栈：                       at AttcMN.Common.Utils.SecurityUtils.GetLoginUser() in D:\Project\gitlocal\AttcnMN\AttcMN.Common\Utils\SecurityUtils.cs:line 52
+         at AttcMN.Admin.SysLoginController.GetInfo() in D:\Project\gitlocal\AttcnMN\AttcMN.System\Controllers\SysLoginController.cs:line 80
+         at lambda_method22(Closure, Object)
+         at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.AwaitableObjectResultExecutor.Execute(ActionContext actionContext, IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+         at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Logged|12_1(ControllerActionInvoker invoker)
+         at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+      ┗━━━━━━━━━━━  Logging Monitor ━━━━━━━━━━━      
+      ++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+      AttcMN.Framework.Exceptions.ServiceException: 获取用户信息异常
+         at AttcMN.Common.Utils.SecurityUtils.GetLoginUser() in D:\Project\gitlocal\AttcnMN\AttcMN.Common\Utils\SecurityUtils.cs:line 52
+         at AttcMN.Admin.SysLoginController.GetInfo() in D:\Project\gitlocal\AttcnMN\AttcMN.System\Controllers\SysLoginController.cs:line 80
+         at lambda_method22(Closure, Object)
+         at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.AwaitableObjectResultExecutor.Execute(ActionContext actionContext, IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+         at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Logged|12_1(ControllerActionInvoker invoker)
+         at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+      ++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+fail: 2025-11-07 10:03:57.5784285 +07:00 Friday L System.Logging.LoggingMonitor[0] #28
+      ┏━━━━━━━━━━━  Logging Monitor ━━━━━━━━━━━
+      ┣ AttcMN.Admin.SysLoginController.GetInfo
+      ┣ 
+      ┣ 控制器名称：                     SysLoginController
+      ┣ 操作名称：                       GetInfo
+      ┣ 显示名称：                       
+      ┣ 路由信息：                       [area]: ; [controller]: SysLogin; [action]: GetInfo
+      ┣ 请求方式：                       GET
+      ┣ 请求地址：                       http://localhost:44326/getInfo
+      ┣ 来源地址：                       http://localhost:50/construction/construction
+      ┣ 请求端源：                       client
+      ┣ 浏览器标识：                     Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/141.0.0.0 Safari/537.36
+      ┣ 客户端区域语言：                 en-US,en;q=0.9,vi;q=0.8
+      ┣ 客户端 IP 地址：                 127.0.0.1
+      ┣ 服务端 IP 地址：                 127.0.0.1
+      ┣ 客户端连接 ID：                  00-60f859d82270becea05ac92d5c26c608-8372c6b93bc312e9-00
+      ┣ 服务线程 ID：                    #28
+      ┣ 执行耗时：                       20433ms
+      ┣ ━━━━━━━━━━━━━━━  Cookies ━━━━━━━━━━━━━━━
+      ┣ 请求端：                         lang=en; Hm_lvt_3824e56a483ef95673d119166354712c=1761450141; .AspNetCore.Identity.Application=CfDJ8A_pruwfiuBFp_pFvYUTjgSCWWfo3Z47qZAjJE7FoJwOBU7JrpJzjuolrAeFzEwbNF5VkEIkB1K7Xw8YY4ADMgafZlElHia02YYyFnD-DqFWWHndOLt8TtLTDC_nf2LjPK2Z8uOezwyLZaxqTkKYswBf2vdQbBhP2xxqTk2yel9bdUSGdUsU5gDbVhvuu3HjxQefiZLg4UvttRgQzHMrvKpPNo7Zi2Cs3i-ZnSkjK8xID6zNmWmIpocuEQU1m05bo8bl0PbouQEKWEj8T_McPUiAB6Wsbx1CYIH_dyaxvfwSc8jVqNrfUwiOtL8HSeXuhgflYVo-E0Lw15XV8QBycaFNSdjokmWmtzx_o5_yUZBIbl64PKw64RA296cSOBL2FjxrIIALZkH7qUvHi4kJUM3LOJ9gVwaVBtWf_XTz2qJJ2HYT4JU7GNzu2bc8VeseFZoJ7S4Q04cdiz0M_ha96WcTbJ7g4btRGt1OPl0X4DcFAUh5lZmiB-Fkt1SwmyVzD23oy2CFzJ8_a_P_J00S2RRdWzWuQLil2ePO_jQeTtYAuykK-uECd3pZTukdqrxynJEMZp61pcElQQ22qJmNMhGjmHrZ10V4oqt4TgiYeVWC99-udGrZL9sbrjyvzppfag9xuPEav4b_gofla2vHe2pboyxEL0cTvAmIvP5sPa5UVgV_F_3Di_y5ehMswQjnwX0Q6inKFnKyN0cfqrpURWi_VPGZbICp37SjSCfo2LJMzYZ9H8rUKkBk_bBOfO5GLswRvsUgmmivB3dmrlIg9fxE_FIveH84nfU7E6XAlpzOPd0iLrufYDFAzSFh1xPHADIgiZwNzeuGylg0DOHc1MY; rememberMe=true; CurrentLanguageATTW=zh-tw; username=admin; password=mCvShQT8VUDUduXXhf0nyXXv5YKrogC9WyiaFUyvsAAY+PSmgx4L0CyEJoAUbZR3Tz3ZHWXCnK/xjdPMGrNDHQ==; Admin-Token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJsb2dpbl91c2VyX2tleSI6IjA0MzAzMTkyLWE1MDQtNDBhMi1hNWZlLTJmMDYzODFjYzE1NiIsIlVzZXJJZCI6MSwiVXNlck5hbWUiOiJhZG1pbiIsIkRlcHRJZCI6MTAzLCJleHAiOjE3NjMwODY5NDgsImlhdCI6MTc2MjQ4MjE0OCwibmJmIjoxNzYyNDgyMTQ4LCJpc3MiOiJydW95aS5uZXQuaXNzdWVyIiwiYXVkIjoicnVveWkubmV0LmF1ZGllbmNlIn0.UvjBphnmBXrrCVBx9FZHi1IwVahCRWiEoN918s1LJ4M
+      ┣ 响应端：                         
+      ┣ ━━━━━━━━━━━━━━━  系统信息 ━━━━━━━━━━━━━━━
+      ┣ 系统名称：                       Microsoft Windows 10.0.26200
+      ┣ 系统架构：                       X64
+      ┣ 基础框架：                       AttcMN.Framework v1.0.0.0
+      ┣ .NET 架构：                      .NET 8.0.21
+      ┣ ━━━━━━━━━━━━━━━  启动信息 ━━━━━━━━━━━━━━━
+      ┣ 运行环境：                       Development
+      ┣ 启动程序集：                     AttcMN.Admin
+      ┣ 进程名称：                       iisexpress
+      ┣ 托管程序：                       iisexpress
+      ┣ ━━━━━━━━━━━━━━━  授权信息 ━━━━━━━━━━━━━━━
+      ┣ JWT Token：                      Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJsb2dpbl91c2VyX2tleSI6IjA0MzAzMTkyLWE1MDQtNDBhMi1hNWZlLTJmMDYzODFjYzE1NiIsIlVzZXJJZCI6MSwiVXNlck5hbWUiOiJhZG1pbiIsIkRlcHRJZCI6MTAzLCJleHAiOjE3NjMwODY5NDgsImlhdCI6MTc2MjQ4MjE0OCwibmJmIjoxNzYyNDgyMTQ4LCJpc3MiOiJydW95aS5uZXQuaXNzdWVyIiwiYXVkIjoicnVveWkubmV0LmF1ZGllbmNlIn0.UvjBphnmBXrrCVBx9FZHi1IwVahCRWiEoN918s1LJ4M
+      ┣ 
+      ┣ login_user_key (string)：        04303192-a504-40a2-a5fe-2f06381cc156
+      ┣ UserId (integer32)：             1
+      ┣ UserName (string)：              admin
+      ┣ DeptId (integer32)：             103
+      ┣ exp (integer64)：                1763086948 (2025-11-14 09:22:28:0000(+07:00) Friday L)
+      ┣ iat (integer64)：                1762482148 (2025-11-07 09:22:28:0000(+07:00) Friday L)
+      ┣ nbf (integer64)：                1762482148 (2025-11-07 09:22:28:0000(+07:00) Friday L)
+      ┣ iss (string)：                   ruoyi.net.issuer
+      ┣ aud (string)：                   ruoyi.net.audience
+      ┣ ━━━━━━━━━━━━━━━  请求头信息 ━━━━━━━━━━━━━━━
+      ┣ 
+      ┣ Accept：                         application/json, text/plain, */*
+      ┣ Accept-Encoding：                gzip, deflate, br, zstd
+      ┣ Accept-Language：                en-US,en;q=0.9,vi;q=0.8
+      ┣ Authorization：                  Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJsb2dpbl91c2VyX2tleSI6IjA0MzAzMTkyLWE1MDQtNDBhMi1hNWZlLTJmMDYzODFjYzE1NiIsIlVzZXJJZCI6MSwiVXNlck5hbWUiOiJhZG1pbiIsIkRlcHRJZCI6MTAzLCJleHAiOjE3NjMwODY5NDgsImlhdCI6MTc2MjQ4MjE0OCwibmJmIjoxNzYyNDgyMTQ4LCJpc3MiOiJydW95aS5uZXQuaXNzdWVyIiwiYXVkIjoicnVveWkubmV0LmF1ZGllbmNlIn0.UvjBphnmBXrrCVBx9FZHi1IwVahCRWiEoN918s1LJ4M
+      ┣ Connection：                     close
+      ┣ Cookie：                         lang=en; Hm_lvt_3824e56a483ef95673d119166354712c=1761450141; .AspNetCore.Identity.Application=CfDJ8A_pruwfiuBFp_pFvYUTjgSCWWfo3Z47qZAjJE7FoJwOBU7JrpJzjuolrAeFzEwbNF5VkEIkB1K7Xw8YY4ADMgafZlElHia02YYyFnD-DqFWWHndOLt8TtLTDC_nf2LjPK2Z8uOezwyLZaxqTkKYswBf2vdQbBhP2xxqTk2yel9bdUSGdUsU5gDbVhvuu3HjxQefiZLg4UvttRgQzHMrvKpPNo7Zi2Cs3i-ZnSkjK8xID6zNmWmIpocuEQU1m05bo8bl0PbouQEKWEj8T_McPUiAB6Wsbx1CYIH_dyaxvfwSc8jVqNrfUwiOtL8HSeXuhgflYVo-E0Lw15XV8QBycaFNSdjokmWmtzx_o5_yUZBIbl64PKw64RA296cSOBL2FjxrIIALZkH7qUvHi4kJUM3LOJ9gVwaVBtWf_XTz2qJJ2HYT4JU7GNzu2bc8VeseFZoJ7S4Q04cdiz0M_ha96WcTbJ7g4btRGt1OPl0X4DcFAUh5lZmiB-Fkt1SwmyVzD23oy2CFzJ8_a_P_J00S2RRdWzWuQLil2ePO_jQeTtYAuykK-uECd3pZTukdqrxynJEMZp61pcElQQ22qJmNMhGjmHrZ10V4oqt4TgiYeVWC99-udGrZL9sbrjyvzppfag9xuPEav4b_gofla2vHe2pboyxEL0cTvAmIvP5sPa5UVgV_F_3Di_y5ehMswQjnwX0Q6inKFnKyN0cfqrpURWi_VPGZbICp37SjSCfo2LJMzYZ9H8rUKkBk_bBOfO5GLswRvsUgmmivB3dmrlIg9fxE_FIveH84nfU7E6XAlpzOPd0iLrufYDFAzSFh1xPHADIgiZwNzeuGylg0DOHc1MY; rememberMe=true; CurrentLanguageATTW=zh-tw; username=admin; password=mCvShQT8VUDUduXXhf0nyXXv5YKrogC9WyiaFUyvsAAY+PSmgx4L0CyEJoAUbZR3Tz3ZHWXCnK/xjdPMGrNDHQ==; Admin-Token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJsb2dpbl91c2VyX2tleSI6IjA0MzAzMTkyLWE1MDQtNDBhMi1hNWZlLTJmMDYzODFjYzE1NiIsIlVzZXJJZCI6MSwiVXNlck5hbWUiOiJhZG1pbiIsIkRlcHRJZCI6MTAzLCJleHAiOjE3NjMwODY5NDgsImlhdCI6MTc2MjQ4MjE0OCwibmJmIjoxNzYyNDgyMTQ4LCJpc3MiOiJydW95aS5uZXQuaXNzdWVyIiwiYXVkIjoicnVveWkubmV0LmF1ZGllbmNlIn0.UvjBphnmBXrrCVBx9FZHi1IwVahCRWiEoN918s1LJ4M
+      ┣ Host：                           localhost:44326
+      ┣ Referer：                        http://localhost:50/construction/construction
+      ┣ User-Agent：                     Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/141.0.0.0 Safari/537.36
+      ┣ x-forwarded-host：               localhost:50
+      ┣ x-forwarded-port：               50
+      ┣ X-Original-Proto：               https
+      ┣ sec-fetch-dest：                 empty
+      ┣ sec-fetch-mode：                 cors
+      ┣ sec-fetch-site：                 same-origin
+      ┣ sec-ch-ua-mobile：               ?0
+      ┣ sec-ch-ua：                      "Google Chrome";v="141", "Not?A_Brand";v="8", "Chromium";v="141"
+      ┣ sec-ch-ua-platform：             "Windows"
+      ┣ X-Original-For：                 127.0.0.1:63377
+      ┣ ━━━━━━━━━━━━━━━  返回信息 ━━━━━━━━━━━━━━━
+      ┣ HTTP响应状态码：                 200
+      ┣ 原始类型：                       System.Threading.Tasks.Task<AttcMN.Framework.AjaxResult>
+      ┣ 最终类型：                       
+      ┣ 最终返回值：                     null
+      ┣ ━━━━━━━━━━━━━━━  异常信息 ━━━━━━━━━━━━━━━
+      ┣ 类型：                           AttcMN.Framework.Exceptions.ServiceException
+      ┣ 消息：                           获取用户信息异常
+      ┣ 错误堆栈：                       at AttcMN.Common.Utils.SecurityUtils.GetLoginUser() in D:\Project\gitlocal\AttcnMN\AttcMN.Common\Utils\SecurityUtils.cs:line 52
+         at AttcMN.Admin.SysLoginController.GetInfo() in D:\Project\gitlocal\AttcnMN\AttcMN.System\Controllers\SysLoginController.cs:line 80
+         at lambda_method23(Closure, Object)
+         at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.AwaitableObjectResultExecutor.Execute(ActionContext actionContext, IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+         at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Logged|12_1(ControllerActionInvoker invoker)
+         at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+      ┗━━━━━━━━━━━  Logging Monitor ━━━━━━━━━━━      
+      ++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+      AttcMN.Framework.Exceptions.ServiceException: 获取用户信息异常
+         at AttcMN.Common.Utils.SecurityUtils.GetLoginUser() in D:\Project\gitlocal\AttcnMN\AttcMN.Common\Utils\SecurityUtils.cs:line 52
+         at AttcMN.Admin.SysLoginController.GetInfo() in D:\Project\gitlocal\AttcnMN\AttcMN.System\Controllers\SysLoginController.cs:line 80
+         at lambda_method23(Closure, Object)
+         at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.AwaitableObjectResultExecutor.Execute(ActionContext actionContext, IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+         at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Logged|12_1(ControllerActionInvoker invoker)
+         at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+      ++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+fail: 2025-11-07 10:03:57.5833247 +07:00 Friday L System.Logging.LoggingMonitor[0] #39
+      ┏━━━━━━━━━━━  Logging Monitor ━━━━━━━━━━━
+      ┣ AttcMN.Admin.SysLoginController.GetInfo
+      ┣ 
+      ┣ 控制器名称：                     SysLoginController
+      ┣ 操作名称：                       GetInfo
+      ┣ 显示名称：                       
+      ┣ 路由信息：                       [area]: ; [controller]: SysLogin; [action]: GetInfo
+      ┣ 请求方式：                       GET
+      ┣ 请求地址：                       http://localhost:44326/getInfo
+      ┣ 来源地址：                       http://localhost:50/
+      ┣ 请求端源：                       client
+      ┣ 浏览器标识：                     Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/141.0.0.0 Safari/537.36
+      ┣ 客户端区域语言：                 en-US,en;q=0.9,vi;q=0.8
+      ┣ 客户端 IP 地址：                 127.0.0.1
+      ┣ 服务端 IP 地址：                 127.0.0.1
+      ┣ 客户端连接 ID：                  00-6368603ea9779051d75fa6ded558d61e-892120bae3ac0d47-00
+      ┣ 服务线程 ID：                    #39
+      ┣ 执行耗时：                       5838ms
+      ┣ ━━━━━━━━━━━━━━━  Cookies ━━━━━━━━━━━━━━━
+      ┣ 请求端：                         lang=en; Hm_lvt_3824e56a483ef95673d119166354712c=1761450141; .AspNetCore.Identity.Application=CfDJ8A_pruwfiuBFp_pFvYUTjgSCWWfo3Z47qZAjJE7FoJwOBU7JrpJzjuolrAeFzEwbNF5VkEIkB1K7Xw8YY4ADMgafZlElHia02YYyFnD-DqFWWHndOLt8TtLTDC_nf2LjPK2Z8uOezwyLZaxqTkKYswBf2vdQbBhP2xxqTk2yel9bdUSGdUsU5gDbVhvuu3HjxQefiZLg4UvttRgQzHMrvKpPNo7Zi2Cs3i-ZnSkjK8xID6zNmWmIpocuEQU1m05bo8bl0PbouQEKWEj8T_McPUiAB6Wsbx1CYIH_dyaxvfwSc8jVqNrfUwiOtL8HSeXuhgflYVo-E0Lw15XV8QBycaFNSdjokmWmtzx_o5_yUZBIbl64PKw64RA296cSOBL2FjxrIIALZkH7qUvHi4kJUM3LOJ9gVwaVBtWf_XTz2qJJ2HYT4JU7GNzu2bc8VeseFZoJ7S4Q04cdiz0M_ha96WcTbJ7g4btRGt1OPl0X4DcFAUh5lZmiB-Fkt1SwmyVzD23oy2CFzJ8_a_P_J00S2RRdWzWuQLil2ePO_jQeTtYAuykK-uECd3pZTukdqrxynJEMZp61pcElQQ22qJmNMhGjmHrZ10V4oqt4TgiYeVWC99-udGrZL9sbrjyvzppfag9xuPEav4b_gofla2vHe2pboyxEL0cTvAmIvP5sPa5UVgV_F_3Di_y5ehMswQjnwX0Q6inKFnKyN0cfqrpURWi_VPGZbICp37SjSCfo2LJMzYZ9H8rUKkBk_bBOfO5GLswRvsUgmmivB3dmrlIg9fxE_FIveH84nfU7E6XAlpzOPd0iLrufYDFAzSFh1xPHADIgiZwNzeuGylg0DOHc1MY; rememberMe=true; CurrentLanguageATTW=zh-tw; username=admin; password=mCvShQT8VUDUduXXhf0nyXXv5YKrogC9WyiaFUyvsAAY+PSmgx4L0CyEJoAUbZR3Tz3ZHWXCnK/xjdPMGrNDHQ==; Admin-Token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJsb2dpbl91c2VyX2tleSI6IjA0MzAzMTkyLWE1MDQtNDBhMi1hNWZlLTJmMDYzODFjYzE1NiIsIlVzZXJJZCI6MSwiVXNlck5hbWUiOiJhZG1pbiIsIkRlcHRJZCI6MTAzLCJleHAiOjE3NjMwODY5NDgsImlhdCI6MTc2MjQ4MjE0OCwibmJmIjoxNzYyNDgyMTQ4LCJpc3MiOiJydW95aS5uZXQuaXNzdWVyIiwiYXVkIjoicnVveWkubmV0LmF1ZGllbmNlIn0.UvjBphnmBXrrCVBx9FZHi1IwVahCRWiEoN918s1LJ4M
+      ┣ 响应端：                         
+      ┣ ━━━━━━━━━━━━━━━  系统信息 ━━━━━━━━━━━━━━━
+      ┣ 系统名称：                       Microsoft Windows 10.0.26200
+      ┣ 系统架构：                       X64
+      ┣ 基础框架：                       AttcMN.Framework v1.0.0.0
+      ┣ .NET 架构：                      .NET 8.0.21
+      ┣ ━━━━━━━━━━━━━━━  启动信息 ━━━━━━━━━━━━━━━
+      ┣ 运行环境：                       Development
+      ┣ 启动程序集：                     AttcMN.Admin
+      ┣ 进程名称：                       iisexpress
+      ┣ 托管程序：                       iisexpress
+      ┣ ━━━━━━━━━━━━━━━  授权信息 ━━━━━━━━━━━━━━━
+      ┣ JWT Token：                      Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJsb2dpbl91c2VyX2tleSI6IjA0MzAzMTkyLWE1MDQtNDBhMi1hNWZlLTJmMDYzODFjYzE1NiIsIlVzZXJJZCI6MSwiVXNlck5hbWUiOiJhZG1pbiIsIkRlcHRJZCI6MTAzLCJleHAiOjE3NjMwODY5NDgsImlhdCI6MTc2MjQ4MjE0OCwibmJmIjoxNzYyNDgyMTQ4LCJpc3MiOiJydW95aS5uZXQuaXNzdWVyIiwiYXVkIjoicnVveWkubmV0LmF1ZGllbmNlIn0.UvjBphnmBXrrCVBx9FZHi1IwVahCRWiEoN918s1LJ4M
+      ┣ 
+      ┣ login_user_key (string)：        04303192-a504-40a2-a5fe-2f06381cc156
+      ┣ UserId (integer32)：             1
+      ┣ UserName (string)：              admin
+      ┣ DeptId (integer32)：             103
+      ┣ exp (integer64)：                1763086948 (2025-11-14 09:22:28:0000(+07:00) Friday L)
+      ┣ iat (integer64)：                1762482148 (2025-11-07 09:22:28:0000(+07:00) Friday L)
+      ┣ nbf (integer64)：                1762482148 (2025-11-07 09:22:28:0000(+07:00) Friday L)
+      ┣ iss (string)：                   ruoyi.net.issuer
+      ┣ aud (string)：                   ruoyi.net.audience
+      ┣ ━━━━━━━━━━━━━━━  请求头信息 ━━━━━━━━━━━━━━━
+      ┣ 
+      ┣ Accept：                         application/json, text/plain, */*
+      ┣ Accept-Encoding：                gzip, deflate, br, zstd
+      ┣ Accept-Language：                en-US,en;q=0.9,vi;q=0.8
+      ┣ Authorization：                  Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJsb2dpbl91c2VyX2tleSI6IjA0MzAzMTkyLWE1MDQtNDBhMi1hNWZlLTJmMDYzODFjYzE1NiIsIlVzZXJJZCI6MSwiVXNlck5hbWUiOiJhZG1pbiIsIkRlcHRJZCI6MTAzLCJleHAiOjE3NjMwODY5NDgsImlhdCI6MTc2MjQ4MjE0OCwibmJmIjoxNzYyNDgyMTQ4LCJpc3MiOiJydW95aS5uZXQuaXNzdWVyIiwiYXVkIjoicnVveWkubmV0LmF1ZGllbmNlIn0.UvjBphnmBXrrCVBx9FZHi1IwVahCRWiEoN918s1LJ4M
+      ┣ Cache-Control：                  no-cache
+      ┣ Connection：                     close
+      ┣ Cookie：                         lang=en; Hm_lvt_3824e56a483ef95673d119166354712c=1761450141; .AspNetCore.Identity.Application=CfDJ8A_pruwfiuBFp_pFvYUTjgSCWWfo3Z47qZAjJE7FoJwOBU7JrpJzjuolrAeFzEwbNF5VkEIkB1K7Xw8YY4ADMgafZlElHia02YYyFnD-DqFWWHndOLt8TtLTDC_nf2LjPK2Z8uOezwyLZaxqTkKYswBf2vdQbBhP2xxqTk2yel9bdUSGdUsU5gDbVhvuu3HjxQefiZLg4UvttRgQzHMrvKpPNo7Zi2Cs3i-ZnSkjK8xID6zNmWmIpocuEQU1m05bo8bl0PbouQEKWEj8T_McPUiAB6Wsbx1CYIH_dyaxvfwSc8jVqNrfUwiOtL8HSeXuhgflYVo-E0Lw15XV8QBycaFNSdjokmWmtzx_o5_yUZBIbl64PKw64RA296cSOBL2FjxrIIALZkH7qUvHi4kJUM3LOJ9gVwaVBtWf_XTz2qJJ2HYT4JU7GNzu2bc8VeseFZoJ7S4Q04cdiz0M_ha96WcTbJ7g4btRGt1OPl0X4DcFAUh5lZmiB-Fkt1SwmyVzD23oy2CFzJ8_a_P_J00S2RRdWzWuQLil2ePO_jQeTtYAuykK-uECd3pZTukdqrxynJEMZp61pcElQQ22qJmNMhGjmHrZ10V4oqt4TgiYeVWC99-udGrZL9sbrjyvzppfag9xuPEav4b_gofla2vHe2pboyxEL0cTvAmIvP5sPa5UVgV_F_3Di_y5ehMswQjnwX0Q6inKFnKyN0cfqrpURWi_VPGZbICp37SjSCfo2LJMzYZ9H8rUKkBk_bBOfO5GLswRvsUgmmivB3dmrlIg9fxE_FIveH84nfU7E6XAlpzOPd0iLrufYDFAzSFh1xPHADIgiZwNzeuGylg0DOHc1MY; rememberMe=true; CurrentLanguageATTW=zh-tw; username=admin; password=mCvShQT8VUDUduXXhf0nyXXv5YKrogC9WyiaFUyvsAAY+PSmgx4L0CyEJoAUbZR3Tz3ZHWXCnK/xjdPMGrNDHQ==; Admin-Token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJsb2dpbl91c2VyX2tleSI6IjA0MzAzMTkyLWE1MDQtNDBhMi1hNWZlLTJmMDYzODFjYzE1NiIsIlVzZXJJZCI6MSwiVXNlck5hbWUiOiJhZG1pbiIsIkRlcHRJZCI6MTAzLCJleHAiOjE3NjMwODY5NDgsImlhdCI6MTc2MjQ4MjE0OCwibmJmIjoxNzYyNDgyMTQ4LCJpc3MiOiJydW95aS5uZXQuaXNzdWVyIiwiYXVkIjoicnVveWkubmV0LmF1ZGllbmNlIn0.UvjBphnmBXrrCVBx9FZHi1IwVahCRWiEoN918s1LJ4M
+      ┣ Host：                           localhost:44326
+      ┣ Pragma：                         no-cache
+      ┣ Referer：                        http://localhost:50/
+      ┣ User-Agent：                     Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/141.0.0.0 Safari/537.36
+      ┣ x-forwarded-host：               localhost:50
+      ┣ x-forwarded-port：               50
+      ┣ X-Original-Proto：               https
+      ┣ sec-fetch-dest：                 empty
+      ┣ sec-fetch-mode：                 cors
+      ┣ sec-fetch-site：                 same-origin
+      ┣ sec-ch-ua-mobile：               ?0
+      ┣ sec-ch-ua：                      "Google Chrome";v="141", "Not?A_Brand";v="8", "Chromium";v="141"
+      ┣ sec-ch-ua-platform：             "Windows"
+      ┣ X-Original-For：                 127.0.0.1:50476
+      ┣ ━━━━━━━━━━━━━━━  返回信息 ━━━━━━━━━━━━━━━
+      ┣ HTTP响应状态码：                 200
+      ┣ 原始类型：                       System.Threading.Tasks.Task<AttcMN.Framework.AjaxResult>
+      ┣ 最终类型：                       
+      ┣ 最终返回值：                     null
+      ┣ ━━━━━━━━━━━━━━━  异常信息 ━━━━━━━━━━━━━━━
+      ┣ 类型：                           AttcMN.Framework.Exceptions.ServiceException
+      ┣ 消息：                           获取用户信息异常
+      ┣ 错误堆栈：                       at AttcMN.Common.Utils.SecurityUtils.GetLoginUser() in D:\Project\gitlocal\AttcnMN\AttcMN.Common\Utils\SecurityUtils.cs:line 52
+         at AttcMN.Admin.SysLoginController.GetInfo() in D:\Project\gitlocal\AttcnMN\AttcMN.System\Controllers\SysLoginController.cs:line 80
+         at lambda_method22(Closure, Object)
+         at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.AwaitableObjectResultExecutor.Execute(ActionContext actionContext, IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+         at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Logged|12_1(ControllerActionInvoker invoker)
+         at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+      ┗━━━━━━━━━━━  Logging Monitor ━━━━━━━━━━━      
+      ++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+      AttcMN.Framework.Exceptions.ServiceException: 获取用户信息异常
+         at AttcMN.Common.Utils.SecurityUtils.GetLoginUser() in D:\Project\gitlocal\AttcnMN\AttcMN.Common\Utils\SecurityUtils.cs:line 52
+         at AttcMN.Admin.SysLoginController.GetInfo() in D:\Project\gitlocal\AttcnMN\AttcMN.System\Controllers\SysLoginController.cs:line 80
+         at lambda_method22(Closure, Object)
+         at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.AwaitableObjectResultExecutor.Execute(ActionContext actionContext, IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+         at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Logged|12_1(ControllerActionInvoker invoker)
+         at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+      ++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+fail: 2025-11-07 10:03:57.5866486 +07:00 Friday L AttcMN.Framework.Filters.GlobalExceptionFilter[0] #28
+      GlobalException      
+      ++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+      AttcMN.Framework.Exceptions.ServiceException: 获取用户信息异常
+         at AttcMN.Common.Utils.SecurityUtils.GetLoginUser() in D:\Project\gitlocal\AttcnMN\AttcMN.Common\Utils\SecurityUtils.cs:line 52
+         at AttcMN.Admin.SysLoginController.GetInfo() in D:\Project\gitlocal\AttcnMN\AttcMN.System\Controllers\SysLoginController.cs:line 80
+         at lambda_method23(Closure, Object)
+         at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.AwaitableObjectResultExecutor.Execute(ActionContext actionContext, IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+         at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Logged|12_1(ControllerActionInvoker invoker)
+         at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+         at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+         at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+         at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeInnerFilterAsync()
+      --- End of stack trace from previous location ---
+         at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeNextExceptionFilterAsync>g__Awaited|26_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+      ++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+fail: 2025-11-07 10:03:57.5903705 +07:00 Friday L AttcMN.Framework.Filters.GlobalExceptionFilter[0] #27
+      GlobalException      
+      ++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+      AttcMN.Framework.Exceptions.ServiceException: 获取用户信息异常
+         at AttcMN.Common.Utils.SecurityUtils.GetLoginUser() in D:\Project\gitlocal\AttcnMN\AttcMN.Common\Utils\SecurityUtils.cs:line 52
+         at AttcMN.Admin.SysLoginController.GetInfo() in D:\Project\gitlocal\AttcnMN\AttcMN.System\Controllers\SysLoginController.cs:line 80
+         at lambda_method22(Closure, Object)
+         at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.AwaitableObjectResultExecutor.Execute(ActionContext actionContext, IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+         at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Logged|12_1(ControllerActionInvoker invoker)
+         at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+         at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+         at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+         at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeInnerFilterAsync()
+      --- End of stack trace from previous location ---
+         at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeNextExceptionFilterAsync>g__Awaited|26_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+      ++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+fail: 2025-11-07 10:03:57.5910277 +07:00 Friday L AttcMN.Framework.Filters.GlobalExceptionFilter[0] #7
+      GlobalException      
+      ++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+      AttcMN.Framework.Exceptions.ServiceException: 获取用户信息异常
+         at AttcMN.Common.Utils.SecurityUtils.GetLoginUser() in D:\Project\gitlocal\AttcnMN\AttcMN.Common\Utils\SecurityUtils.cs:line 52
+         at AttcMN.Admin.SysLoginController.GetInfo() in D:\Project\gitlocal\AttcnMN\AttcMN.System\Controllers\SysLoginController.cs:line 80
+         at lambda_method22(Closure, Object)
+         at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.AwaitableObjectResultExecutor.Execute(ActionContext actionContext, IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+         at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Logged|12_1(ControllerActionInvoker invoker)
+         at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+         at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+         at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+         at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeInnerFilterAsync()
+      --- End of stack trace from previous location ---
+         at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeNextExceptionFilterAsync>g__Awaited|26_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+      ++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+fail: 2025-11-07 10:03:57.5915036 +07:00 Friday L AttcMN.Framework.Filters.GlobalExceptionFilter[0] #39
+      GlobalException      
+      ++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+      AttcMN.Framework.Exceptions.ServiceException: 获取用户信息异常
+         at AttcMN.Common.Utils.SecurityUtils.GetLoginUser() in D:\Project\gitlocal\AttcnMN\AttcMN.Common\Utils\SecurityUtils.cs:line 52
+         at AttcMN.Admin.SysLoginController.GetInfo() in D:\Project\gitlocal\AttcnMN\AttcMN.System\Controllers\SysLoginController.cs:line 80
+         at lambda_method22(Closure, Object)
+         at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.AwaitableObjectResultExecutor.Execute(ActionContext actionContext, IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+         at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Logged|12_1(ControllerActionInvoker invoker)
+         at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+         at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+         at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+         at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeInnerFilterAsync()
+      --- End of stack trace from previous location ---
+         at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeNextExceptionFilterAsync>g__Awaited|26_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+      ++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+fail: 2025-11-07 10:04:02.7732554 +07:00 Friday L System.Logging.StringLogging[0] #37
+      RedisCache Get error      
+      ++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+      StackExchange.Redis.RedisConnectionException: The message timed out in the backlog attempting to send because no connection became available (5000ms) - Last Connection Exception: It was not possible to connect to the redis server(s). ConnectTimeout, command=HMGET, timeout: 5000, inst: 0, qu: 1, qs: 0, aw: False, bw: SpinningDown, rs: NotStarted, ws: Initializing, in: 0, last-in: 0, cur-in: 0, sync-ops: 5, async-ops: 0, serverEndpoint: 10.224.69.61:6379, conn-sec: n/a, aoc: 0, mc: 1/1/0, mgr: 10 of 10 available, clientName: GW-CSD-V0507223(SE.Redis-v2.7.33.41805), IOCP: (Busy=0,Free=1000,Min=1,Max=1000), WORKER: (Busy=1,Free=32766,Min=16,Max=32767), POOL: (Threads=9,QueuedItems=0,CompletedItems=686,Timers=12), v: 2.7.33.41805 (Please take a look at this article for some common client-side issues that can cause timeouts: https://stackexchange.github.io/StackExchange.Redis/Timeouts)
+       ---> StackExchange.Redis.RedisConnectionException: It was not possible to connect to the redis server(s). ConnectTimeout
+         --- End of inner exception stack trace ---
+         at StackExchange.Redis.ConnectionMultiplexer.ExecuteSyncImpl[T](Message message, ResultProcessor`1 processor, ServerEndPoint server, T defaultValue) in /_/src/StackExchange.Redis/ConnectionMultiplexer.cs:line 2105
+         at StackExchange.Redis.RedisBase.ExecuteSync[T](Message message, ResultProcessor`1 processor, ServerEndPoint server, T defaultValue) in /_/src/StackExchange.Redis/RedisBase.cs:line 62
+         at StackExchange.Redis.RedisDatabase.HashGet(RedisKey key, RedisValue[] hashFields, CommandFlags flags) in /_/src/StackExchange.Redis/RedisDatabase.cs:line 407
+         at Microsoft.Extensions.Caching.StackExchangeRedis.RedisCache.GetAndRefresh(String key, Boolean getData)
+         at Microsoft.Extensions.Caching.StackExchangeRedis.RedisCache.Get(String key)
+         at Microsoft.Extensions.Caching.Distributed.DistributedCacheExtensions.GetString(IDistributedCache cache, String key)
+         at AttcMN.Framework.Cache.Redis.RedisCache.Get[T](String key) in D:\Project\gitlocal\AttcnMN\AttcMN.Framework\Cache\Redis\RedisCache.cs:line 204
+      ++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+fail: 2025-11-07 11:51:44.2483464 +07:00 Friday L System.Logging.LoggingMonitor[0] #3
+      ┏━━━━━━━━━━━  Logging Monitor ━━━━━━━━━━━
+      ┣ AttcMN.Admin.SysLoginController.GetInfo
+      ┣ 
+      ┣ 控制器名称：                     SysLoginController
+      ┣ 操作名称：                       GetInfo
+      ┣ 显示名称：                       
+      ┣ 路由信息：                       [area]: ; [controller]: SysLogin; [action]: GetInfo
+      ┣ 请求方式：                       GET
+      ┣ 请求地址：                       http://localhost:44326/getInfo
+      ┣ 来源地址：                       http://localhost:51/index
+      ┣ 请求端源：                       client
+      ┣ 浏览器标识：                     Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/141.0.0.0 Safari/537.36
+      ┣ 客户端区域语言：                 en-US,en;q=0.9,vi;q=0.8
+      ┣ 客户端 IP 地址：                 127.0.0.1
+      ┣ 服务端 IP 地址：                 127.0.0.1
+      ┣ 客户端连接 ID：                  00-cb03623f9e038464e49933d17e5f9b41-f2506d2c3359fe8f-00
+      ┣ 服务线程 ID：                    #3
+      ┣ 执行耗时：                       137ms
+      ┣ ━━━━━━━━━━━━━━━  Cookies ━━━━━━━━━━━━━━━
+      ┣ 请求端：                         lang=en; Hm_lvt_3824e56a483ef95673d119166354712c=1761450141; .AspNetCore.Identity.Application=CfDJ8A_pruwfiuBFp_pFvYUTjgSCWWfo3Z47qZAjJE7FoJwOBU7JrpJzjuolrAeFzEwbNF5VkEIkB1K7Xw8YY4ADMgafZlElHia02YYyFnD-DqFWWHndOLt8TtLTDC_nf2LjPK2Z8uOezwyLZaxqTkKYswBf2vdQbBhP2xxqTk2yel9bdUSGdUsU5gDbVhvuu3HjxQefiZLg4UvttRgQzHMrvKpPNo7Zi2Cs3i-ZnSkjK8xID6zNmWmIpocuEQU1m05bo8bl0PbouQEKWEj8T_McPUiAB6Wsbx1CYIH_dyaxvfwSc8jVqNrfUwiOtL8HSeXuhgflYVo-E0Lw15XV8QBycaFNSdjokmWmtzx_o5_yUZBIbl64PKw64RA296cSOBL2FjxrIIALZkH7qUvHi4kJUM3LOJ9gVwaVBtWf_XTz2qJJ2HYT4JU7GNzu2bc8VeseFZoJ7S4Q04cdiz0M_ha96WcTbJ7g4btRGt1OPl0X4DcFAUh5lZmiB-Fkt1SwmyVzD23oy2CFzJ8_a_P_J00S2RRdWzWuQLil2ePO_jQeTtYAuykK-uECd3pZTukdqrxynJEMZp61pcElQQ22qJmNMhGjmHrZ10V4oqt4TgiYeVWC99-udGrZL9sbrjyvzppfag9xuPEav4b_gofla2vHe2pboyxEL0cTvAmIvP5sPa5UVgV_F_3Di_y5ehMswQjnwX0Q6inKFnKyN0cfqrpURWi_VPGZbICp37SjSCfo2LJMzYZ9H8rUKkBk_bBOfO5GLswRvsUgmmivB3dmrlIg9fxE_FIveH84nfU7E6XAlpzOPd0iLrufYDFAzSFh1xPHADIgiZwNzeuGylg0DOHc1MY; rememberMe=true; CurrentLanguageATTW=zh-tw; username=admin; password=mIGIj5OjRbMnXgzKGWX3epF8GLrVgKmm4nc7HcwSWIOMa9/N53XVloQOhSLF7UTGivXym8rhEJycKntS1NlVLw==; Admin-Token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJsb2dpbl91c2VyX2tleSI6Ijk3ZDdjOWZhLTNlZTAtNDJlMi05Zjk5LWQ0ZjA4ODYzNDY3ZiIsIlVzZXJJZCI6MSwiVXNlck5hbWUiOiJhZG1pbiIsIkRlcHRJZCI6MTAzLCJleHAiOjE3NjMwOTAyMTEsImlhdCI6MTc2MjQ4NTQxMSwibmJmIjoxNzYyNDg1NDExLCJpc3MiOiJydW95aS5uZXQuaXNzdWVyIiwiYXVkIjoicnVveWkubmV0LmF1ZGllbmNlIn0.zgZResLzkhfArR7hy9U1D3nq5mdlKWeNaZwL6xuphdE; language=vn; sidebarStatus=1
+      ┣ 响应端：                         
+      ┣ ━━━━━━━━━━━━━━━  系统信息 ━━━━━━━━━━━━━━━
+      ┣ 系统名称：                       Microsoft Windows 10.0.26200
+      ┣ 系统架构：                       X64
+      ┣ 基础框架：                       AttcMN.Framework v1.0.0.0
+      ┣ .NET 架构：                      .NET 8.0.21
+      ┣ ━━━━━━━━━━━━━━━  启动信息 ━━━━━━━━━━━━━━━
+      ┣ 运行环境：                       Development
+      ┣ 启动程序集：                     AttcMN.Admin
+      ┣ 进程名称：                       iisexpress
+      ┣ 托管程序：                       iisexpress
+      ┣ ━━━━━━━━━━━━━━━  授权信息 ━━━━━━━━━━━━━━━
+      ┣ JWT Token：                      Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJsb2dpbl91c2VyX2tleSI6Ijk3ZDdjOWZhLTNlZTAtNDJlMi05Zjk5LWQ0ZjA4ODYzNDY3ZiIsIlVzZXJJZCI6MSwiVXNlck5hbWUiOiJhZG1pbiIsIkRlcHRJZCI6MTAzLCJleHAiOjE3NjMwOTAyMTEsImlhdCI6MTc2MjQ4NTQxMSwibmJmIjoxNzYyNDg1NDExLCJpc3MiOiJydW95aS5uZXQuaXNzdWVyIiwiYXVkIjoicnVveWkubmV0LmF1ZGllbmNlIn0.zgZResLzkhfArR7hy9U1D3nq5mdlKWeNaZwL6xuphdE
+      ┣ 
+      ┣ login_user_key (string)：        97d7c9fa-3ee0-42e2-9f99-d4f08863467f
+      ┣ UserId (integer32)：             1
+      ┣ UserName (string)：              admin
+      ┣ DeptId (integer32)：             103
+      ┣ exp (integer64)：                1763090211 (2025-11-14 10:16:51:0000(+07:00) Friday L)
+      ┣ iat (integer64)：                1762485411 (2025-11-07 10:16:51:0000(+07:00) Friday L)
+      ┣ nbf (integer64)：                1762485411 (2025-11-07 10:16:51:0000(+07:00) Friday L)
+      ┣ iss (string)：                   ruoyi.net.issuer
+      ┣ aud (string)：                   ruoyi.net.audience
+      ┣ ━━━━━━━━━━━━━━━  请求头信息 ━━━━━━━━━━━━━━━
+      ┣ 
+      ┣ Accept：                         application/json, text/plain, */*
+      ┣ Accept-Encoding：                gzip, deflate, br, zstd
+      ┣ Accept-Language：                en-US,en;q=0.9,vi;q=0.8
+      ┣ Authorization：                  Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJsb2dpbl91c2VyX2tleSI6Ijk3ZDdjOWZhLTNlZTAtNDJlMi05Zjk5LWQ0ZjA4ODYzNDY3ZiIsIlVzZXJJZCI6MSwiVXNlck5hbWUiOiJhZG1pbiIsIkRlcHRJZCI6MTAzLCJleHAiOjE3NjMwOTAyMTEsImlhdCI6MTc2MjQ4NTQxMSwibmJmIjoxNzYyNDg1NDExLCJpc3MiOiJydW95aS5uZXQuaXNzdWVyIiwiYXVkIjoicnVveWkubmV0LmF1ZGllbmNlIn0.zgZResLzkhfArR7hy9U1D3nq5mdlKWeNaZwL6xuphdE
+      ┣ Connection：                     close
+      ┣ Cookie：                         lang=en; Hm_lvt_3824e56a483ef95673d119166354712c=1761450141; .AspNetCore.Identity.Application=CfDJ8A_pruwfiuBFp_pFvYUTjgSCWWfo3Z47qZAjJE7FoJwOBU7JrpJzjuolrAeFzEwbNF5VkEIkB1K7Xw8YY4ADMgafZlElHia02YYyFnD-DqFWWHndOLt8TtLTDC_nf2LjPK2Z8uOezwyLZaxqTkKYswBf2vdQbBhP2xxqTk2yel9bdUSGdUsU5gDbVhvuu3HjxQefiZLg4UvttRgQzHMrvKpPNo7Zi2Cs3i-ZnSkjK8xID6zNmWmIpocuEQU1m05bo8bl0PbouQEKWEj8T_McPUiAB6Wsbx1CYIH_dyaxvfwSc8jVqNrfUwiOtL8HSeXuhgflYVo-E0Lw15XV8QBycaFNSdjokmWmtzx_o5_yUZBIbl64PKw64RA296cSOBL2FjxrIIALZkH7qUvHi4kJUM3LOJ9gVwaVBtWf_XTz2qJJ2HYT4JU7GNzu2bc8VeseFZoJ7S4Q04cdiz0M_ha96WcTbJ7g4btRGt1OPl0X4DcFAUh5lZmiB-Fkt1SwmyVzD23oy2CFzJ8_a_P_J00S2RRdWzWuQLil2ePO_jQeTtYAuykK-uECd3pZTukdqrxynJEMZp61pcElQQ22qJmNMhGjmHrZ10V4oqt4TgiYeVWC99-udGrZL9sbrjyvzppfag9xuPEav4b_gofla2vHe2pboyxEL0cTvAmIvP5sPa5UVgV_F_3Di_y5ehMswQjnwX0Q6inKFnKyN0cfqrpURWi_VPGZbICp37SjSCfo2LJMzYZ9H8rUKkBk_bBOfO5GLswRvsUgmmivB3dmrlIg9fxE_FIveH84nfU7E6XAlpzOPd0iLrufYDFAzSFh1xPHADIgiZwNzeuGylg0DOHc1MY; rememberMe=true; CurrentLanguageATTW=zh-tw; username=admin; password=mIGIj5OjRbMnXgzKGWX3epF8GLrVgKmm4nc7HcwSWIOMa9/N53XVloQOhSLF7UTGivXym8rhEJycKntS1NlVLw==; Admin-Token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJsb2dpbl91c2VyX2tleSI6Ijk3ZDdjOWZhLTNlZTAtNDJlMi05Zjk5LWQ0ZjA4ODYzNDY3ZiIsIlVzZXJJZCI6MSwiVXNlck5hbWUiOiJhZG1pbiIsIkRlcHRJZCI6MTAzLCJleHAiOjE3NjMwOTAyMTEsImlhdCI6MTc2MjQ4NTQxMSwibmJmIjoxNzYyNDg1NDExLCJpc3MiOiJydW95aS5uZXQuaXNzdWVyIiwiYXVkIjoicnVveWkubmV0LmF1ZGllbmNlIn0.zgZResLzkhfArR7hy9U1D3nq5mdlKWeNaZwL6xuphdE; language=vn; sidebarStatus=1
+      ┣ Host：                           localhost:44326
+      ┣ Referer：                        http://localhost:51/index
+      ┣ User-Agent：                     Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/141.0.0.0 Safari/537.36
+      ┣ x-forwarded-host：               localhost:51
+      ┣ x-forwarded-port：               51
+      ┣ X-Original-Proto：               https
+      ┣ sec-fetch-dest：                 empty
+      ┣ sec-fetch-mode：                 cors
+      ┣ sec-fetch-site：                 same-origin
+      ┣ sec-ch-ua-mobile：               ?0
+      ┣ sec-ch-ua：                      "Google Chrome";v="141", "Not?A_Brand";v="8", "Chromium";v="141"
+      ┣ sec-ch-ua-platform：             "Windows"
+      ┣ X-Original-For：                 127.0.0.1:59372
+      ┣ ━━━━━━━━━━━━━━━  返回信息 ━━━━━━━━━━━━━━━
+      ┣ HTTP响应状态码：                 200
+      ┣ 原始类型：                       System.Threading.Tasks.Task<AttcMN.Framework.AjaxResult>
+      ┣ 最终类型：                       
+      ┣ 最终返回值：                     null
+      ┣ ━━━━━━━━━━━━━━━  异常信息 ━━━━━━━━━━━━━━━
+      ┣ 类型：                           AttcMN.Framework.Exceptions.ServiceException
+      ┣ 消息：                           获取用户信息异常
+      ┣ 错误堆栈：                       at AttcMN.Common.Utils.SecurityUtils.GetLoginUser() in D:\Project\gitlocal\AttcnMN\AttcMN.Common\Utils\SecurityUtils.cs:line 52
+         at AttcMN.Admin.SysLoginController.GetInfo() in D:\Project\gitlocal\AttcnMN\AttcMN.System\Controllers\SysLoginController.cs:line 80
+         at lambda_method35(Closure, Object)
+         at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.AwaitableObjectResultExecutor.Execute(ActionContext actionContext, IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+         at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Logged|12_1(ControllerActionInvoker invoker)
+         at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+      ┗━━━━━━━━━━━  Logging Monitor ━━━━━━━━━━━      
+      ++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+      AttcMN.Framework.Exceptions.ServiceException: 获取用户信息异常
+         at AttcMN.Common.Utils.SecurityUtils.GetLoginUser() in D:\Project\gitlocal\AttcnMN\AttcMN.Common\Utils\SecurityUtils.cs:line 52
+         at AttcMN.Admin.SysLoginController.GetInfo() in D:\Project\gitlocal\AttcnMN\AttcMN.System\Controllers\SysLoginController.cs:line 80
+         at lambda_method35(Closure, Object)
+         at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.AwaitableObjectResultExecutor.Execute(ActionContext actionContext, IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+         at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Logged|12_1(ControllerActionInvoker invoker)
+         at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+      ++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+fail: 2025-11-07 11:51:44.2531434 +07:00 Friday L AttcMN.Framework.Filters.GlobalExceptionFilter[0] #3
+      GlobalException      
+      ++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+      AttcMN.Framework.Exceptions.ServiceException: 获取用户信息异常
+         at AttcMN.Common.Utils.SecurityUtils.GetLoginUser() in D:\Project\gitlocal\AttcnMN\AttcMN.Common\Utils\SecurityUtils.cs:line 52
+         at AttcMN.Admin.SysLoginController.GetInfo() in D:\Project\gitlocal\AttcnMN\AttcMN.System\Controllers\SysLoginController.cs:line 80
+         at lambda_method35(Closure, Object)
+         at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.AwaitableObjectResultExecutor.Execute(ActionContext actionContext, IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+         at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Logged|12_1(ControllerActionInvoker invoker)
+         at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+         at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+         at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+         at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeInnerFilterAsync()
+      --- End of stack trace from previous location ---
+         at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeNextExceptionFilterAsync>g__Awaited|26_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+      ++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+fail: 2025-11-07 13:10:20.7295478 +07:00 Friday L System.Logging.LoggingMonitor[0] #78
+      ┏━━━━━━━━━━━  Logging Monitor ━━━━━━━━━━━
+      ┣ AttcMN.Admin.SysLoginController.GetInfo
+      ┣ 
+      ┣ 控制器名称：                     SysLoginController
+      ┣ 操作名称：                       GetInfo
+      ┣ 显示名称：                       
+      ┣ 路由信息：                       [area]: ; [controller]: SysLogin; [action]: GetInfo
+      ┣ 请求方式：                       GET
+      ┣ 请求地址：                       http://localhost:44326/getInfo
+      ┣ 来源地址：                       http://localhost:50/
+      ┣ 请求端源：                       client
+      ┣ 浏览器标识：                     Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/141.0.0.0 Safari/537.36
+      ┣ 客户端区域语言：                 en-US,en;q=0.9,vi;q=0.8
+      ┣ 客户端 IP 地址：                 127.0.0.1
+      ┣ 服务端 IP 地址：                 127.0.0.1
+      ┣ 客户端连接 ID：                  00-e24960c001b380b3a24e776753ddc0f9-057ec73ca8fca47f-00
+      ┣ 服务线程 ID：                    #78
+      ┣ 执行耗时：                       35ms
+      ┣ ━━━━━━━━━━━━━━━  Cookies ━━━━━━━━━━━━━━━
+      ┣ 请求端：                         lang=en; Hm_lvt_3824e56a483ef95673d119166354712c=1761450141; .AspNetCore.Identity.Application=CfDJ8A_pruwfiuBFp_pFvYUTjgSCWWfo3Z47qZAjJE7FoJwOBU7JrpJzjuolrAeFzEwbNF5VkEIkB1K7Xw8YY4ADMgafZlElHia02YYyFnD-DqFWWHndOLt8TtLTDC_nf2LjPK2Z8uOezwyLZaxqTkKYswBf2vdQbBhP2xxqTk2yel9bdUSGdUsU5gDbVhvuu3HjxQefiZLg4UvttRgQzHMrvKpPNo7Zi2Cs3i-ZnSkjK8xID6zNmWmIpocuEQU1m05bo8bl0PbouQEKWEj8T_McPUiAB6Wsbx1CYIH_dyaxvfwSc8jVqNrfUwiOtL8HSeXuhgflYVo-E0Lw15XV8QBycaFNSdjokmWmtzx_o5_yUZBIbl64PKw64RA296cSOBL2FjxrIIALZkH7qUvHi4kJUM3LOJ9gVwaVBtWf_XTz2qJJ2HYT4JU7GNzu2bc8VeseFZoJ7S4Q04cdiz0M_ha96WcTbJ7g4btRGt1OPl0X4DcFAUh5lZmiB-Fkt1SwmyVzD23oy2CFzJ8_a_P_J00S2RRdWzWuQLil2ePO_jQeTtYAuykK-uECd3pZTukdqrxynJEMZp61pcElQQ22qJmNMhGjmHrZ10V4oqt4TgiYeVWC99-udGrZL9sbrjyvzppfag9xuPEav4b_gofla2vHe2pboyxEL0cTvAmIvP5sPa5UVgV_F_3Di_y5ehMswQjnwX0Q6inKFnKyN0cfqrpURWi_VPGZbICp37SjSCfo2LJMzYZ9H8rUKkBk_bBOfO5GLswRvsUgmmivB3dmrlIg9fxE_FIveH84nfU7E6XAlpzOPd0iLrufYDFAzSFh1xPHADIgiZwNzeuGylg0DOHc1MY; rememberMe=true; CurrentLanguageATTW=zh-tw; username=admin; language=vn; sidebarStatus=1; password=Yp2jRP69Pa8OuY4+yZtRVSO2kr+x9XbtH0+RaHsescwwv8N9w8ObD+1VthVxHR4nViOdYOHyNAmX5NDi2lCrYQ==; Admin-Token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJsb2dpbl91c2VyX2tleSI6IjM2MTNmZWViLTM5M2UtNDg3My05MTAwLTdjNDVlNjIyNGM3MSIsIlVzZXJJZCI6MSwiVXNlck5hbWUiOiJhZG1pbiIsIkRlcHRJZCI6MTAzLCJleHAiOjE3NjMwOTY3MTUsImlhdCI6MTc2MjQ5MTkxNSwibmJmIjoxNzYyNDkxOTE1LCJpc3MiOiJydW95aS5uZXQuaXNzdWVyIiwiYXVkIjoicnVveWkubmV0LmF1ZGllbmNlIn0.h_aQ1MRiQa3g49ijsrYjoxxK4eHSKK9Yh0H64zKapEU
+      ┣ 响应端：                         
+      ┣ ━━━━━━━━━━━━━━━  系统信息 ━━━━━━━━━━━━━━━
+      ┣ 系统名称：                       Microsoft Windows 10.0.26200
+      ┣ 系统架构：                       X64
+      ┣ 基础框架：                       AttcMN.Framework v1.0.0.0
+      ┣ .NET 架构：                      .NET 8.0.21
+      ┣ ━━━━━━━━━━━━━━━  启动信息 ━━━━━━━━━━━━━━━
+      ┣ 运行环境：                       Development
+      ┣ 启动程序集：                     AttcMN.Admin
+      ┣ 进程名称：                       iisexpress
+      ┣ 托管程序：                       iisexpress
+      ┣ ━━━━━━━━━━━━━━━  授权信息 ━━━━━━━━━━━━━━━
+      ┣ JWT Token：                      Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJsb2dpbl91c2VyX2tleSI6IjM2MTNmZWViLTM5M2UtNDg3My05MTAwLTdjNDVlNjIyNGM3MSIsIlVzZXJJZCI6MSwiVXNlck5hbWUiOiJhZG1pbiIsIkRlcHRJZCI6MTAzLCJleHAiOjE3NjMwOTY3MTUsImlhdCI6MTc2MjQ5MTkxNSwibmJmIjoxNzYyNDkxOTE1LCJpc3MiOiJydW95aS5uZXQuaXNzdWVyIiwiYXVkIjoicnVveWkubmV0LmF1ZGllbmNlIn0.h_aQ1MRiQa3g49ijsrYjoxxK4eHSKK9Yh0H64zKapEU
+      ┣ 
+      ┣ login_user_key (string)：        3613feeb-393e-4873-9100-7c45e6224c71
+      ┣ UserId (integer32)：             1
+      ┣ UserName (string)：              admin
+      ┣ DeptId (integer32)：             103
+      ┣ exp (integer64)：                1763096715 (2025-11-14 12:05:15:0000(+07:00) Friday L)
+      ┣ iat (integer64)：                1762491915 (2025-11-07 12:05:15:0000(+07:00) Friday L)
+      ┣ nbf (integer64)：                1762491915 (2025-11-07 12:05:15:0000(+07:00) Friday L)
+      ┣ iss (string)：                   ruoyi.net.issuer
+      ┣ aud (string)：                   ruoyi.net.audience
+      ┣ ━━━━━━━━━━━━━━━  请求头信息 ━━━━━━━━━━━━━━━
+      ┣ 
+      ┣ Accept：                         application/json, text/plain, */*
+      ┣ Accept-Encoding：                gzip, deflate, br, zstd
+      ┣ Accept-Language：                en-US,en;q=0.9,vi;q=0.8
+      ┣ Authorization：                  Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJsb2dpbl91c2VyX2tleSI6IjM2MTNmZWViLTM5M2UtNDg3My05MTAwLTdjNDVlNjIyNGM3MSIsIlVzZXJJZCI6MSwiVXNlck5hbWUiOiJhZG1pbiIsIkRlcHRJZCI6MTAzLCJleHAiOjE3NjMwOTY3MTUsImlhdCI6MTc2MjQ5MTkxNSwibmJmIjoxNzYyNDkxOTE1LCJpc3MiOiJydW95aS5uZXQuaXNzdWVyIiwiYXVkIjoicnVveWkubmV0LmF1ZGllbmNlIn0.h_aQ1MRiQa3g49ijsrYjoxxK4eHSKK9Yh0H64zKapEU
+      ┣ Connection：                     close
+      ┣ Cookie：                         lang=en; Hm_lvt_3824e56a483ef95673d119166354712c=1761450141; .AspNetCore.Identity.Application=CfDJ8A_pruwfiuBFp_pFvYUTjgSCWWfo3Z47qZAjJE7FoJwOBU7JrpJzjuolrAeFzEwbNF5VkEIkB1K7Xw8YY4ADMgafZlElHia02YYyFnD-DqFWWHndOLt8TtLTDC_nf2LjPK2Z8uOezwyLZaxqTkKYswBf2vdQbBhP2xxqTk2yel9bdUSGdUsU5gDbVhvuu3HjxQefiZLg4UvttRgQzHMrvKpPNo7Zi2Cs3i-ZnSkjK8xID6zNmWmIpocuEQU1m05bo8bl0PbouQEKWEj8T_McPUiAB6Wsbx1CYIH_dyaxvfwSc8jVqNrfUwiOtL8HSeXuhgflYVo-E0Lw15XV8QBycaFNSdjokmWmtzx_o5_yUZBIbl64PKw64RA296cSOBL2FjxrIIALZkH7qUvHi4kJUM3LOJ9gVwaVBtWf_XTz2qJJ2HYT4JU7GNzu2bc8VeseFZoJ7S4Q04cdiz0M_ha96WcTbJ7g4btRGt1OPl0X4DcFAUh5lZmiB-Fkt1SwmyVzD23oy2CFzJ8_a_P_J00S2RRdWzWuQLil2ePO_jQeTtYAuykK-uECd3pZTukdqrxynJEMZp61pcElQQ22qJmNMhGjmHrZ10V4oqt4TgiYeVWC99-udGrZL9sbrjyvzppfag9xuPEav4b_gofla2vHe2pboyxEL0cTvAmIvP5sPa5UVgV_F_3Di_y5ehMswQjnwX0Q6inKFnKyN0cfqrpURWi_VPGZbICp37SjSCfo2LJMzYZ9H8rUKkBk_bBOfO5GLswRvsUgmmivB3dmrlIg9fxE_FIveH84nfU7E6XAlpzOPd0iLrufYDFAzSFh1xPHADIgiZwNzeuGylg0DOHc1MY; rememberMe=true; CurrentLanguageATTW=zh-tw; username=admin; language=vn; sidebarStatus=1; password=Yp2jRP69Pa8OuY4+yZtRVSO2kr+x9XbtH0+RaHsescwwv8N9w8ObD+1VthVxHR4nViOdYOHyNAmX5NDi2lCrYQ==; Admin-Token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJsb2dpbl91c2VyX2tleSI6IjM2MTNmZWViLTM5M2UtNDg3My05MTAwLTdjNDVlNjIyNGM3MSIsIlVzZXJJZCI6MSwiVXNlck5hbWUiOiJhZG1pbiIsIkRlcHRJZCI6MTAzLCJleHAiOjE3NjMwOTY3MTUsImlhdCI6MTc2MjQ5MTkxNSwibmJmIjoxNzYyNDkxOTE1LCJpc3MiOiJydW95aS5uZXQuaXNzdWVyIiwiYXVkIjoicnVveWkubmV0LmF1ZGllbmNlIn0.h_aQ1MRiQa3g49ijsrYjoxxK4eHSKK9Yh0H64zKapEU
+      ┣ Host：                           localhost:44326
+      ┣ Referer：                        http://localhost:50/
+      ┣ User-Agent：                     Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/141.0.0.0 Safari/537.36
+      ┣ x-forwarded-host：               localhost:50
+      ┣ x-forwarded-port：               50
+      ┣ X-Original-Proto：               https
+      ┣ sec-fetch-dest：                 empty
+      ┣ sec-fetch-mode：                 cors
+      ┣ sec-fetch-site：                 same-origin
+      ┣ sec-ch-ua-mobile：               ?0
+      ┣ sec-purpose：                    prefetch;prerender
+      ┣ sec-ch-ua：                      "Google Chrome";v="141", "Not?A_Brand";v="8", "Chromium";v="141"
+      ┣ sec-ch-ua-platform：             "Windows"
+      ┣ X-Original-For：                 127.0.0.1:53563
+      ┣ ━━━━━━━━━━━━━━━  返回信息 ━━━━━━━━━━━━━━━
+      ┣ HTTP响应状态码：                 200
+      ┣ 原始类型：                       System.Threading.Tasks.Task<AttcMN.Framework.AjaxResult>
+      ┣ 最终类型：                       
+      ┣ 最终返回值：                     null
+      ┣ ━━━━━━━━━━━━━━━  异常信息 ━━━━━━━━━━━━━━━
+      ┣ 类型：                           AttcMN.Framework.Exceptions.ServiceException
+      ┣ 消息：                           获取用户信息异常
+      ┣ 错误堆栈：                       at AttcMN.Common.Utils.SecurityUtils.GetLoginUser() in D:\Project\gitlocal\AttcnMN\AttcMN.Common\Utils\SecurityUtils.cs:line 52
+         at AttcMN.Admin.SysLoginController.GetInfo() in D:\Project\gitlocal\AttcnMN\AttcMN.System\Controllers\SysLoginController.cs:line 80
+         at lambda_method35(Closure, Object)
+         at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.AwaitableObjectResultExecutor.Execute(ActionContext actionContext, IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+         at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Logged|12_1(ControllerActionInvoker invoker)
+         at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+      ┗━━━━━━━━━━━  Logging Monitor ━━━━━━━━━━━      
+      ++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+      AttcMN.Framework.Exceptions.ServiceException: 获取用户信息异常
+         at AttcMN.Common.Utils.SecurityUtils.GetLoginUser() in D:\Project\gitlocal\AttcnMN\AttcMN.Common\Utils\SecurityUtils.cs:line 52
+         at AttcMN.Admin.SysLoginController.GetInfo() in D:\Project\gitlocal\AttcnMN\AttcMN.System\Controllers\SysLoginController.cs:line 80
+         at lambda_method35(Closure, Object)
+         at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.AwaitableObjectResultExecutor.Execute(ActionContext actionContext, IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+         at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Logged|12_1(ControllerActionInvoker invoker)
+         at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+      ++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+fail: 2025-11-07 13:10:20.7328780 +07:00 Friday L AttcMN.Framework.Filters.GlobalExceptionFilter[0] #78
+      GlobalException      
+      ++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+      AttcMN.Framework.Exceptions.ServiceException: 获取用户信息异常
+         at AttcMN.Common.Utils.SecurityUtils.GetLoginUser() in D:\Project\gitlocal\AttcnMN\AttcMN.Common\Utils\SecurityUtils.cs:line 52
+         at AttcMN.Admin.SysLoginController.GetInfo() in D:\Project\gitlocal\AttcnMN\AttcMN.System\Controllers\SysLoginController.cs:line 80
+         at lambda_method35(Closure, Object)
+         at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.AwaitableObjectResultExecutor.Execute(ActionContext actionContext, IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+         at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Logged|12_1(ControllerActionInvoker invoker)
+         at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+         at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+         at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+         at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeInnerFilterAsync()
+      --- End of stack trace from previous location ---
+         at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeNextExceptionFilterAsync>g__Awaited|26_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+      ++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+fail: 2025-11-07 14:30:32.2234349 +07:00 Friday L System.Logging.LoggingMonitor[0] #62
+      ┏━━━━━━━━━━━  Logging Monitor ━━━━━━━━━━━
+      ┣ AttcMN.Admin.SysLoginController.Login
+      ┣ 
+      ┣ 控制器名称：                   SysLoginController
+      ┣ 操作名称：                     Login
+      ┣ 显示名称：                     
+      ┣ 路由信息：                     [area]: ; [controller]: SysLogin; [action]: Login
+      ┣ 请求方式：                     POST
+      ┣ 请求地址：                     http://localhost:44326/login
+      ┣ 来源地址：                     http://localhost:51/login?redirect=/index
+      ┣ 请求端源：                     client
+      ┣ 浏览器标识：                   Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/141.0.0.0 Safari/537.36
+      ┣ 客户端区域语言：               en-US,en;q=0.9,vi;q=0.8
+      ┣ 客户端 IP 地址：               127.0.0.1
+      ┣ 服务端 IP 地址：               127.0.0.1
+      ┣ 客户端连接 ID：                00-6cf8b1801425d0ae5100ee99eb0e32ac-1d277801aef06cb9-00
+      ┣ 服务线程 ID：                  #62
+      ┣ 执行耗时：                     192ms
+      ┣ ━━━━━━━━━━━━━━━  Cookies ━━━━━━━━━━━━━━━
+      ┣ 请求端：                       lang=en; Hm_lvt_3824e56a483ef95673d119166354712c=1761450141; .AspNetCore.Identity.Application=CfDJ8A_pruwfiuBFp_pFvYUTjgSCWWfo3Z47qZAjJE7FoJwOBU7JrpJzjuolrAeFzEwbNF5VkEIkB1K7Xw8YY4ADMgafZlElHia02YYyFnD-DqFWWHndOLt8TtLTDC_nf2LjPK2Z8uOezwyLZaxqTkKYswBf2vdQbBhP2xxqTk2yel9bdUSGdUsU5gDbVhvuu3HjxQefiZLg4UvttRgQzHMrvKpPNo7Zi2Cs3i-ZnSkjK8xID6zNmWmIpocuEQU1m05bo8bl0PbouQEKWEj8T_McPUiAB6Wsbx1CYIH_dyaxvfwSc8jVqNrfUwiOtL8HSeXuhgflYVo-E0Lw15XV8QBycaFNSdjokmWmtzx_o5_yUZBIbl64PKw64RA296cSOBL2FjxrIIALZkH7qUvHi4kJUM3LOJ9gVwaVBtWf_XTz2qJJ2HYT4JU7GNzu2bc8VeseFZoJ7S4Q04cdiz0M_ha96WcTbJ7g4btRGt1OPl0X4DcFAUh5lZmiB-Fkt1SwmyVzD23oy2CFzJ8_a_P_J00S2RRdWzWuQLil2ePO_jQeTtYAuykK-uECd3pZTukdqrxynJEMZp61pcElQQ22qJmNMhGjmHrZ10V4oqt4TgiYeVWC99-udGrZL9sbrjyvzppfag9xuPEav4b_gofla2vHe2pboyxEL0cTvAmIvP5sPa5UVgV_F_3Di_y5ehMswQjnwX0Q6inKFnKyN0cfqrpURWi_VPGZbICp37SjSCfo2LJMzYZ9H8rUKkBk_bBOfO5GLswRvsUgmmivB3dmrlIg9fxE_FIveH84nfU7E6XAlpzOPd0iLrufYDFAzSFh1xPHADIgiZwNzeuGylg0DOHc1MY; rememberMe=true; CurrentLanguageATTW=zh-tw; username=admin; sidebarStatus=1; language=zh; password=BiM4DlIUK9YexoGQyUO8Lh0ChAAk5HgsI7A1BU19kPGI5DPJxwsljd8vKul710MfzdazeS4z/CU3KNs+r1kOnQ==
+      ┣ 响应端：                       
+      ┣ ━━━━━━━━━━━━━━━  系统信息 ━━━━━━━━━━━━━━━
+      ┣ 系统名称：                     Microsoft Windows 10.0.26200
+      ┣ 系统架构：                     X64
+      ┣ 基础框架：                     AttcMN.Framework v1.0.0.0
+      ┣ .NET 架构：                    .NET 8.0.21
+      ┣ ━━━━━━━━━━━━━━━  启动信息 ━━━━━━━━━━━━━━━
+      ┣ 运行环境：                     Development
+      ┣ 启动程序集：                   AttcMN.Admin
+      ┣ 进程名称：                     iisexpress
+      ┣ 托管程序：                     iisexpress
+      ┣ ━━━━━━━━━━━━━━━  请求头信息 ━━━━━━━━━━━━━━━
+      ┣ 
+      ┣ Accept：                       application/json, text/plain, */*
+      ┣ Accept-Encoding：              gzip, deflate, br, zstd
+      ┣ Accept-Language：              en-US,en;q=0.9,vi;q=0.8
+      ┣ Connection：                   close
+      ┣ Content-Length：               99
+      ┣ Content-Type：                 application/json;charset=UTF-8
+      ┣ Cookie：                       lang=en; Hm_lvt_3824e56a483ef95673d119166354712c=1761450141; .AspNetCore.Identity.Application=CfDJ8A_pruwfiuBFp_pFvYUTjgSCWWfo3Z47qZAjJE7FoJwOBU7JrpJzjuolrAeFzEwbNF5VkEIkB1K7Xw8YY4ADMgafZlElHia02YYyFnD-DqFWWHndOLt8TtLTDC_nf2LjPK2Z8uOezwyLZaxqTkKYswBf2vdQbBhP2xxqTk2yel9bdUSGdUsU5gDbVhvuu3HjxQefiZLg4UvttRgQzHMrvKpPNo7Zi2Cs3i-ZnSkjK8xID6zNmWmIpocuEQU1m05bo8bl0PbouQEKWEj8T_McPUiAB6Wsbx1CYIH_dyaxvfwSc8jVqNrfUwiOtL8HSeXuhgflYVo-E0Lw15XV8QBycaFNSdjokmWmtzx_o5_yUZBIbl64PKw64RA296cSOBL2FjxrIIALZkH7qUvHi4kJUM3LOJ9gVwaVBtWf_XTz2qJJ2HYT4JU7GNzu2bc8VeseFZoJ7S4Q04cdiz0M_ha96WcTbJ7g4btRGt1OPl0X4DcFAUh5lZmiB-Fkt1SwmyVzD23oy2CFzJ8_a_P_J00S2RRdWzWuQLil2ePO_jQeTtYAuykK-uECd3pZTukdqrxynJEMZp61pcElQQ22qJmNMhGjmHrZ10V4oqt4TgiYeVWC99-udGrZL9sbrjyvzppfag9xuPEav4b_gofla2vHe2pboyxEL0cTvAmIvP5sPa5UVgV_F_3Di_y5ehMswQjnwX0Q6inKFnKyN0cfqrpURWi_VPGZbICp37SjSCfo2LJMzYZ9H8rUKkBk_bBOfO5GLswRvsUgmmivB3dmrlIg9fxE_FIveH84nfU7E6XAlpzOPd0iLrufYDFAzSFh1xPHADIgiZwNzeuGylg0DOHc1MY; rememberMe=true; CurrentLanguageATTW=zh-tw; username=admin; sidebarStatus=1; language=zh; password=BiM4DlIUK9YexoGQyUO8Lh0ChAAk5HgsI7A1BU19kPGI5DPJxwsljd8vKul710MfzdazeS4z/CU3KNs+r1kOnQ==
+      ┣ Host：                         localhost:44326
+      ┣ Referer：                      http://localhost:51/login?redirect=%2Findex
+      ┣ User-Agent：                   Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/141.0.0.0 Safari/537.36
+      ┣ x-forwarded-host：             localhost:51
+      ┣ x-forwarded-port：             51
+      ┣ X-Original-Proto：             https
+      ┣ sec-fetch-dest：               empty
+      ┣ sec-fetch-mode：               cors
+      ┣ sec-fetch-site：               same-origin
+      ┣ origin：                       http://localhost:51
+      ┣ sec-ch-ua-mobile：             ?0
+      ┣ istoken：                      false
+      ┣ sec-ch-ua：                    "Google Chrome";v="141", "Not?A_Brand";v="8", "Chromium";v="141"
+      ┣ sec-ch-ua-platform：           "Windows"
+      ┣ X-Original-For：               127.0.0.1:50489
+      ┣ ━━━━━━━━━━━━━━━  参数列表 ━━━━━━━━━━━━━━━
+      ┣ Content-Type：                 application/json;charset=UTF-8
+      ┣ 
+      ┣ loginBody (LoginBody)：        {"username":"admin","password":"admin123","code":"2","uuid":"379674db-c624-4077-922c-4522f471f1bd"}
+      ┣ ━━━━━━━━━━━━━━━  返回信息 ━━━━━━━━━━━━━━━
+      ┣ HTTP响应状态码：               200
+      ┣ 原始类型：                     System.Threading.Tasks.Task<AttcMN.Framework.AjaxResult>
+      ┣ 最终类型：                     
+      ┣ 最终返回值：                   null
+      ┣ ━━━━━━━━━━━━━━━  异常信息 ━━━━━━━━━━━━━━━
+      ┣ 类型：                         AttcMN.Framework.Exceptions.ServiceException
+      ┣ 消息：                         验证码错误或已失效
+      ┣ 错误堆栈：                     at AttcMN.System.Services.SysLoginService.ValidateCaptcha(String username, String code, String uuid) in D:\Project\gitlocal\AttcnMN\AttcMN.System\Services\SysLoginService.cs:line 108
+         at AttcMN.System.Services.SysLoginService.LoginAsync(String username, String password, String code, String uuid) in D:\Project\gitlocal\AttcnMN\AttcMN.System\Services\SysLoginService.cs:line 50
+         at AttcMN.Admin.SysLoginController.Login(LoginBody loginBody) in D:\Project\gitlocal\AttcnMN\AttcMN.System\Controllers\SysLoginController.cs:line 48
+         at lambda_method644(Closure, Object)
+         at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.AwaitableObjectResultExecutor.Execute(ActionContext actionContext, IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+         at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Logged|12_1(ControllerActionInvoker invoker)
+         at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+      ┗━━━━━━━━━━━  Logging Monitor ━━━━━━━━━━━      
+      ++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+      AttcMN.Framework.Exceptions.ServiceException: 验证码错误或已失效
+         at AttcMN.System.Services.SysLoginService.ValidateCaptcha(String username, String code, String uuid) in D:\Project\gitlocal\AttcnMN\AttcMN.System\Services\SysLoginService.cs:line 108
+         at AttcMN.System.Services.SysLoginService.LoginAsync(String username, String password, String code, String uuid) in D:\Project\gitlocal\AttcnMN\AttcMN.System\Services\SysLoginService.cs:line 50
+         at AttcMN.Admin.SysLoginController.Login(LoginBody loginBody) in D:\Project\gitlocal\AttcnMN\AttcMN.System\Controllers\SysLoginController.cs:line 48
+         at lambda_method644(Closure, Object)
+         at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.AwaitableObjectResultExecutor.Execute(ActionContext actionContext, IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+         at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Logged|12_1(ControllerActionInvoker invoker)
+         at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+      ++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+fail: 2025-11-07 14:30:32.2370383 +07:00 Friday L AttcMN.Framework.Filters.GlobalExceptionFilter[0] #62
+      GlobalException      
+      ++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+      AttcMN.Framework.Exceptions.ServiceException: 验证码错误或已失效
+         at AttcMN.System.Services.SysLoginService.ValidateCaptcha(String username, String code, String uuid) in D:\Project\gitlocal\AttcnMN\AttcMN.System\Services\SysLoginService.cs:line 108
+         at AttcMN.System.Services.SysLoginService.LoginAsync(String username, String password, String code, String uuid) in D:\Project\gitlocal\AttcnMN\AttcMN.System\Services\SysLoginService.cs:line 50
+         at AttcMN.Admin.SysLoginController.Login(LoginBody loginBody) in D:\Project\gitlocal\AttcnMN\AttcMN.System\Controllers\SysLoginController.cs:line 48
+         at lambda_method644(Closure, Object)
+         at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.AwaitableObjectResultExecutor.Execute(ActionContext actionContext, IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+         at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Logged|12_1(ControllerActionInvoker invoker)
+         at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+         at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+         at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+         at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeInnerFilterAsync()
+      --- End of stack trace from previous location ---
+         at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeNextExceptionFilterAsync>g__Awaited|26_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+      ++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+fail: 2025-11-07 15:11:21.5050331 +07:00 Friday L System.Logging.LoggingMonitor[0] #94
+      ┏━━━━━━━━━━━  Logging Monitor ━━━━━━━━━━━
+      ┣ AttcMN.Admin.SysLoginController.GetInfo
+      ┣ 
+      ┣ 控制器名称：                     SysLoginController
+      ┣ 操作名称：                       GetInfo
+      ┣ 显示名称：                       
+      ┣ 路由信息：                       [area]: ; [controller]: SysLogin; [action]: GetInfo
+      ┣ 请求方式：                       GET
+      ┣ 请求地址：                       http://localhost:44326/getInfo
+      ┣ 来源地址：                       http://localhost:51/index
+      ┣ 请求端源：                       client
+      ┣ 浏览器标识：                     Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/141.0.0.0 Safari/537.36
+      ┣ 客户端区域语言：                 en-US,en;q=0.9,vi;q=0.8
+      ┣ 客户端 IP 地址：                 127.0.0.1
+      ┣ 服务端 IP 地址：                 127.0.0.1
+      ┣ 客户端连接 ID：                  00-03c66fe6b66ab879ce91c1308dca5050-53675e9e367bf33e-00
+      ┣ 服务线程 ID：                    #94
+      ┣ 执行耗时：                       54ms
+      ┣ ━━━━━━━━━━━━━━━  Cookies ━━━━━━━━━━━━━━━
+      ┣ 请求端：                         lang=en; Hm_lvt_3824e56a483ef95673d119166354712c=1761450141; .AspNetCore.Identity.Application=CfDJ8A_pruwfiuBFp_pFvYUTjgSCWWfo3Z47qZAjJE7FoJwOBU7JrpJzjuolrAeFzEwbNF5VkEIkB1K7Xw8YY4ADMgafZlElHia02YYyFnD-DqFWWHndOLt8TtLTDC_nf2LjPK2Z8uOezwyLZaxqTkKYswBf2vdQbBhP2xxqTk2yel9bdUSGdUsU5gDbVhvuu3HjxQefiZLg4UvttRgQzHMrvKpPNo7Zi2Cs3i-ZnSkjK8xID6zNmWmIpocuEQU1m05bo8bl0PbouQEKWEj8T_McPUiAB6Wsbx1CYIH_dyaxvfwSc8jVqNrfUwiOtL8HSeXuhgflYVo-E0Lw15XV8QBycaFNSdjokmWmtzx_o5_yUZBIbl64PKw64RA296cSOBL2FjxrIIALZkH7qUvHi4kJUM3LOJ9gVwaVBtWf_XTz2qJJ2HYT4JU7GNzu2bc8VeseFZoJ7S4Q04cdiz0M_ha96WcTbJ7g4btRGt1OPl0X4DcFAUh5lZmiB-Fkt1SwmyVzD23oy2CFzJ8_a_P_J00S2RRdWzWuQLil2ePO_jQeTtYAuykK-uECd3pZTukdqrxynJEMZp61pcElQQ22qJmNMhGjmHrZ10V4oqt4TgiYeVWC99-udGrZL9sbrjyvzppfag9xuPEav4b_gofla2vHe2pboyxEL0cTvAmIvP5sPa5UVgV_F_3Di_y5ehMswQjnwX0Q6inKFnKyN0cfqrpURWi_VPGZbICp37SjSCfo2LJMzYZ9H8rUKkBk_bBOfO5GLswRvsUgmmivB3dmrlIg9fxE_FIveH84nfU7E6XAlpzOPd0iLrufYDFAzSFh1xPHADIgiZwNzeuGylg0DOHc1MY; rememberMe=true; CurrentLanguageATTW=zh-tw; username=admin; sidebarStatus=1; password=qIH6csdiwhn1nZL+xvtfy7OWqj1jeeLSIX14zT0Cz35CoqQmxQuU3+pUpD5A11/vPycosUB9xmLNhMuxSK6GwA==; Admin-Token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJsb2dpbl91c2VyX2tleSI6ImEyNDczZTE3LTdjOWQtNGQ3YS1iOWY3LTI0MTlkZTgzZjc3NCIsIlVzZXJJZCI6MSwiVXNlck5hbWUiOiJhZG1pbiIsIkRlcHRJZCI6MTAzLCJleHAiOjE3NjMxMDU0MzUsImlhdCI6MTc2MjUwMDYzNSwibmJmIjoxNzYyNTAwNjM1LCJpc3MiOiJydW95aS5uZXQuaXNzdWVyIiwiYXVkIjoicnVveWkubmV0LmF1ZGllbmNlIn0.F8XX2AUefWrf1PeXazK9p4DtJZTQvKR6bV88JHtKaSk; language=zh
+      ┣ 响应端：                         
+      ┣ ━━━━━━━━━━━━━━━  系统信息 ━━━━━━━━━━━━━━━
+      ┣ 系统名称：                       Microsoft Windows 10.0.26200
+      ┣ 系统架构：                       X64
+      ┣ 基础框架：                       AttcMN.Framework v1.0.0.0
+      ┣ .NET 架构：                      .NET 8.0.21
+      ┣ ━━━━━━━━━━━━━━━  启动信息 ━━━━━━━━━━━━━━━
+      ┣ 运行环境：                       Development
+      ┣ 启动程序集：                     AttcMN.Admin
+      ┣ 进程名称：                       iisexpress
+      ┣ 托管程序：                       iisexpress
+      ┣ ━━━━━━━━━━━━━━━  授权信息 ━━━━━━━━━━━━━━━
+      ┣ JWT Token：                      Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJsb2dpbl91c2VyX2tleSI6ImEyNDczZTE3LTdjOWQtNGQ3YS1iOWY3LTI0MTlkZTgzZjc3NCIsIlVzZXJJZCI6MSwiVXNlck5hbWUiOiJhZG1pbiIsIkRlcHRJZCI6MTAzLCJleHAiOjE3NjMxMDU0MzUsImlhdCI6MTc2MjUwMDYzNSwibmJmIjoxNzYyNTAwNjM1LCJpc3MiOiJydW95aS5uZXQuaXNzdWVyIiwiYXVkIjoicnVveWkubmV0LmF1ZGllbmNlIn0.F8XX2AUefWrf1PeXazK9p4DtJZTQvKR6bV88JHtKaSk
+      ┣ 
+      ┣ login_user_key (string)：        a2473e17-7c9d-4d7a-b9f7-2419de83f774
+      ┣ UserId (integer32)：             1
+      ┣ UserName (string)：              admin
+      ┣ DeptId (integer32)：             103
+      ┣ exp (integer64)：                1763105435 (2025-11-14 14:30:35:0000(+07:00) Friday L)
+      ┣ iat (integer64)：                1762500635 (2025-11-07 14:30:35:0000(+07:00) Friday L)
+      ┣ nbf (integer64)：                1762500635 (2025-11-07 14:30:35:0000(+07:00) Friday L)
+      ┣ iss (string)：                   ruoyi.net.issuer
+      ┣ aud (string)：                   ruoyi.net.audience
+      ┣ ━━━━━━━━━━━━━━━  请求头信息 ━━━━━━━━━━━━━━━
+      ┣ 
+      ┣ Accept：                         application/json, text/plain, */*
+      ┣ Accept-Encoding：                gzip, deflate, br, zstd
+      ┣ Accept-Language：                en-US,en;q=0.9,vi;q=0.8
+      ┣ Authorization：                  Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJsb2dpbl91c2VyX2tleSI6ImEyNDczZTE3LTdjOWQtNGQ3YS1iOWY3LTI0MTlkZTgzZjc3NCIsIlVzZXJJZCI6MSwiVXNlck5hbWUiOiJhZG1pbiIsIkRlcHRJZCI6MTAzLCJleHAiOjE3NjMxMDU0MzUsImlhdCI6MTc2MjUwMDYzNSwibmJmIjoxNzYyNTAwNjM1LCJpc3MiOiJydW95aS5uZXQuaXNzdWVyIiwiYXVkIjoicnVveWkubmV0LmF1ZGllbmNlIn0.F8XX2AUefWrf1PeXazK9p4DtJZTQvKR6bV88JHtKaSk
+      ┣ Connection：                     close
+      ┣ Cookie：                         lang=en; Hm_lvt_3824e56a483ef95673d119166354712c=1761450141; .AspNetCore.Identity.Application=CfDJ8A_pruwfiuBFp_pFvYUTjgSCWWfo3Z47qZAjJE7FoJwOBU7JrpJzjuolrAeFzEwbNF5VkEIkB1K7Xw8YY4ADMgafZlElHia02YYyFnD-DqFWWHndOLt8TtLTDC_nf2LjPK2Z8uOezwyLZaxqTkKYswBf2vdQbBhP2xxqTk2yel9bdUSGdUsU5gDbVhvuu3HjxQefiZLg4UvttRgQzHMrvKpPNo7Zi2Cs3i-ZnSkjK8xID6zNmWmIpocuEQU1m05bo8bl0PbouQEKWEj8T_McPUiAB6Wsbx1CYIH_dyaxvfwSc8jVqNrfUwiOtL8HSeXuhgflYVo-E0Lw15XV8QBycaFNSdjokmWmtzx_o5_yUZBIbl64PKw64RA296cSOBL2FjxrIIALZkH7qUvHi4kJUM3LOJ9gVwaVBtWf_XTz2qJJ2HYT4JU7GNzu2bc8VeseFZoJ7S4Q04cdiz0M_ha96WcTbJ7g4btRGt1OPl0X4DcFAUh5lZmiB-Fkt1SwmyVzD23oy2CFzJ8_a_P_J00S2RRdWzWuQLil2ePO_jQeTtYAuykK-uECd3pZTukdqrxynJEMZp61pcElQQ22qJmNMhGjmHrZ10V4oqt4TgiYeVWC99-udGrZL9sbrjyvzppfag9xuPEav4b_gofla2vHe2pboyxEL0cTvAmIvP5sPa5UVgV_F_3Di_y5ehMswQjnwX0Q6inKFnKyN0cfqrpURWi_VPGZbICp37SjSCfo2LJMzYZ9H8rUKkBk_bBOfO5GLswRvsUgmmivB3dmrlIg9fxE_FIveH84nfU7E6XAlpzOPd0iLrufYDFAzSFh1xPHADIgiZwNzeuGylg0DOHc1MY; rememberMe=true; CurrentLanguageATTW=zh-tw; username=admin; sidebarStatus=1; password=qIH6csdiwhn1nZL+xvtfy7OWqj1jeeLSIX14zT0Cz35CoqQmxQuU3+pUpD5A11/vPycosUB9xmLNhMuxSK6GwA==; Admin-Token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJsb2dpbl91c2VyX2tleSI6ImEyNDczZTE3LTdjOWQtNGQ3YS1iOWY3LTI0MTlkZTgzZjc3NCIsIlVzZXJJZCI6MSwiVXNlck5hbWUiOiJhZG1pbiIsIkRlcHRJZCI6MTAzLCJleHAiOjE3NjMxMDU0MzUsImlhdCI6MTc2MjUwMDYzNSwibmJmIjoxNzYyNTAwNjM1LCJpc3MiOiJydW95aS5uZXQuaXNzdWVyIiwiYXVkIjoicnVveWkubmV0LmF1ZGllbmNlIn0.F8XX2AUefWrf1PeXazK9p4DtJZTQvKR6bV88JHtKaSk; language=zh
+      ┣ Host：                           localhost:44326
+      ┣ Referer：                        http://localhost:51/index
+      ┣ User-Agent：                     Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/141.0.0.0 Safari/537.36
+      ┣ x-forwarded-host：               localhost:51
+      ┣ x-forwarded-port：               51
+      ┣ X-Original-Proto：               https
+      ┣ sec-fetch-dest：                 empty
+      ┣ sec-fetch-mode：                 cors
+      ┣ sec-fetch-site：                 same-origin
+      ┣ sec-ch-ua-mobile：               ?0
+      ┣ sec-ch-ua：                      "Google Chrome";v="141", "Not?A_Brand";v="8", "Chromium";v="141"
+      ┣ sec-ch-ua-platform：             "Windows"
+      ┣ X-Original-For：                 127.0.0.1:64008
+      ┣ ━━━━━━━━━━━━━━━  返回信息 ━━━━━━━━━━━━━━━
+      ┣ HTTP响应状态码：                 200
+      ┣ 原始类型：                       System.Threading.Tasks.Task<AttcMN.Framework.AjaxResult>
+      ┣ 最终类型：                       
+      ┣ 最终返回值：                     null
+      ┣ ━━━━━━━━━━━━━━━  异常信息 ━━━━━━━━━━━━━━━
+      ┣ 类型：                           AttcMN.Framework.Exceptions.ServiceException
+      ┣ 消息：                           获取用户信息异常
+      ┣ 错误堆栈：                       at AttcMN.Common.Utils.SecurityUtils.GetLoginUser() in D:\Project\gitlocal\AttcnMN\AttcMN.Common\Utils\SecurityUtils.cs:line 52
+         at AttcMN.Admin.SysLoginController.GetInfo() in D:\Project\gitlocal\AttcnMN\AttcMN.System\Controllers\SysLoginController.cs:line 80
+         at lambda_method35(Closure, Object)
+         at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.AwaitableObjectResultExecutor.Execute(ActionContext actionContext, IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+         at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Logged|12_1(ControllerActionInvoker invoker)
+         at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+      ┗━━━━━━━━━━━  Logging Monitor ━━━━━━━━━━━      
+      ++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+      AttcMN.Framework.Exceptions.ServiceException: 获取用户信息异常
+         at AttcMN.Common.Utils.SecurityUtils.GetLoginUser() in D:\Project\gitlocal\AttcnMN\AttcMN.Common\Utils\SecurityUtils.cs:line 52
+         at AttcMN.Admin.SysLoginController.GetInfo() in D:\Project\gitlocal\AttcnMN\AttcMN.System\Controllers\SysLoginController.cs:line 80
+         at lambda_method35(Closure, Object)
+         at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.AwaitableObjectResultExecutor.Execute(ActionContext actionContext, IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+         at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Logged|12_1(ControllerActionInvoker invoker)
+         at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+      ++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+fail: 2025-11-07 15:11:21.5158119 +07:00 Friday L AttcMN.Framework.Filters.GlobalExceptionFilter[0] #94
+      GlobalException      
+      ++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+      AttcMN.Framework.Exceptions.ServiceException: 获取用户信息异常
+         at AttcMN.Common.Utils.SecurityUtils.GetLoginUser() in D:\Project\gitlocal\AttcnMN\AttcMN.Common\Utils\SecurityUtils.cs:line 52
+         at AttcMN.Admin.SysLoginController.GetInfo() in D:\Project\gitlocal\AttcnMN\AttcMN.System\Controllers\SysLoginController.cs:line 80
+         at lambda_method35(Closure, Object)
+         at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.AwaitableObjectResultExecutor.Execute(ActionContext actionContext, IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+         at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Logged|12_1(ControllerActionInvoker invoker)
+         at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+         at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+         at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+         at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeInnerFilterAsync()
+      --- End of stack trace from previous location ---
+         at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeNextExceptionFilterAsync>g__Awaited|26_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+      ++++++++++++++++++++++++++++++++++++++++++++++++++++++++

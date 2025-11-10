@@ -1,0 +1,336 @@
+fail: 2025-10-31 11:03:07.2937286 +07:00 Friday L System.Logging.LoggingMonitor[0] #36
+      ┏━━━━━━━━━━━  Logging Monitor ━━━━━━━━━━━
+      ┣ AttcMN.Admin.SampleController.Get
+      ┣ 
+      ┣ 控制器名称：                SampleController
+      ┣ 操作名称：                  Get
+      ┣ 显示名称：                  
+      ┣ 路由信息：                  [area]: ; [controller]: Sample; [action]: Get
+      ┣ 请求方式：                  GET
+      ┣ 请求地址：                  https://localhost:44326/favicon.ico
+      ┣ 来源地址：                  https://localhost:44326/
+      ┣ 请求端源：                  client
+      ┣ 浏览器标识：                Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/141.0.0.0 Safari/537.36
+      ┣ 客户端区域语言：            en-US,en;q=0.9,vi;q=0.8
+      ┣ 客户端 IP 地址：            0.0.0.1
+      ┣ 服务端 IP 地址：            0.0.0.1
+      ┣ 客户端连接 ID：             00-4d40ee3cb6de861f5a574ccc663f2cb8-845027e0bc40db17-00
+      ┣ 服务线程 ID：               #27
+      ┣ 执行耗时：                  4402ms
+      ┣ ━━━━━━━━━━━━━━━  Cookies ━━━━━━━━━━━━━━━
+      ┣ 请求端：                    lang=en; Hm_lvt_3824e56a483ef95673d119166354712c=1761450141; .AspNetCore.Identity.Application=CfDJ8A_pruwfiuBFp_pFvYUTjgSCWWfo3Z47qZAjJE7FoJwOBU7JrpJzjuolrAeFzEwbNF5VkEIkB1K7Xw8YY4ADMgafZlElHia02YYyFnD-DqFWWHndOLt8TtLTDC_nf2LjPK2Z8uOezwyLZaxqTkKYswBf2vdQbBhP2xxqTk2yel9bdUSGdUsU5gDbVhvuu3HjxQefiZLg4UvttRgQzHMrvKpPNo7Zi2Cs3i-ZnSkjK8xID6zNmWmIpocuEQU1m05bo8bl0PbouQEKWEj8T_McPUiAB6Wsbx1CYIH_dyaxvfwSc8jVqNrfUwiOtL8HSeXuhgflYVo-E0Lw15XV8QBycaFNSdjokmWmtzx_o5_yUZBIbl64PKw64RA296cSOBL2FjxrIIALZkH7qUvHi4kJUM3LOJ9gVwaVBtWf_XTz2qJJ2HYT4JU7GNzu2bc8VeseFZoJ7S4Q04cdiz0M_ha96WcTbJ7g4btRGt1OPl0X4DcFAUh5lZmiB-Fkt1SwmyVzD23oy2CFzJ8_a_P_J00S2RRdWzWuQLil2ePO_jQeTtYAuykK-uECd3pZTukdqrxynJEMZp61pcElQQ22qJmNMhGjmHrZ10V4oqt4TgiYeVWC99-udGrZL9sbrjyvzppfag9xuPEav4b_gofla2vHe2pboyxEL0cTvAmIvP5sPa5UVgV_F_3Di_y5ehMswQjnwX0Q6inKFnKyN0cfqrpURWi_VPGZbICp37SjSCfo2LJMzYZ9H8rUKkBk_bBOfO5GLswRvsUgmmivB3dmrlIg9fxE_FIveH84nfU7E6XAlpzOPd0iLrufYDFAzSFh1xPHADIgiZwNzeuGylg0DOHc1MY; rememberMe=true; CurrentLanguageATTW=zh-tw; username=admin; password=BH96YS7OkPctLgNjvoIlL6dy650IZMv+gzhR2iO53nWosX2khh2YtQ2Ir7VoH+3j7vxVH1XoPwkkM25f7mXvcA==; ASP.NET_SessionId=uto23ghviljzcrv0jbsvgpdx
+      ┣ 响应端：                    
+      ┣ ━━━━━━━━━━━━━━━  系统信息 ━━━━━━━━━━━━━━━
+      ┣ 系统名称：                  Microsoft Windows 10.0.26200
+      ┣ 系统架构：                  X64
+      ┣ 基础框架：                  AttcMN.Framework v1.0.0.0
+      ┣ .NET 架构：                 .NET 8.0.21
+      ┣ ━━━━━━━━━━━━━━━  启动信息 ━━━━━━━━━━━━━━━
+      ┣ 运行环境：                  Development
+      ┣ 启动程序集：                AttcMN.Admin
+      ┣ 进程名称：                  iisexpress
+      ┣ 托管程序：                  iisexpress
+      ┣ ━━━━━━━━━━━━━━━  请求头信息 ━━━━━━━━━━━━━━━
+      ┣ 
+      ┣ Accept：                    image/avif,image/webp,image/apng,image/svg+xml,image/*,*/*;q=0.8
+      ┣ Accept-Encoding：           gzip, deflate, br, zstd
+      ┣ Accept-Language：           en-US,en;q=0.9,vi;q=0.8
+      ┣ Connection：                close
+      ┣ Cookie：                    lang=en; Hm_lvt_3824e56a483ef95673d119166354712c=1761450141; .AspNetCore.Identity.Application=CfDJ8A_pruwfiuBFp_pFvYUTjgSCWWfo3Z47qZAjJE7FoJwOBU7JrpJzjuolrAeFzEwbNF5VkEIkB1K7Xw8YY4ADMgafZlElHia02YYyFnD-DqFWWHndOLt8TtLTDC_nf2LjPK2Z8uOezwyLZaxqTkKYswBf2vdQbBhP2xxqTk2yel9bdUSGdUsU5gDbVhvuu3HjxQefiZLg4UvttRgQzHMrvKpPNo7Zi2Cs3i-ZnSkjK8xID6zNmWmIpocuEQU1m05bo8bl0PbouQEKWEj8T_McPUiAB6Wsbx1CYIH_dyaxvfwSc8jVqNrfUwiOtL8HSeXuhgflYVo-E0Lw15XV8QBycaFNSdjokmWmtzx_o5_yUZBIbl64PKw64RA296cSOBL2FjxrIIALZkH7qUvHi4kJUM3LOJ9gVwaVBtWf_XTz2qJJ2HYT4JU7GNzu2bc8VeseFZoJ7S4Q04cdiz0M_ha96WcTbJ7g4btRGt1OPl0X4DcFAUh5lZmiB-Fkt1SwmyVzD23oy2CFzJ8_a_P_J00S2RRdWzWuQLil2ePO_jQeTtYAuykK-uECd3pZTukdqrxynJEMZp61pcElQQ22qJmNMhGjmHrZ10V4oqt4TgiYeVWC99-udGrZL9sbrjyvzppfag9xuPEav4b_gofla2vHe2pboyxEL0cTvAmIvP5sPa5UVgV_F_3Di_y5ehMswQjnwX0Q6inKFnKyN0cfqrpURWi_VPGZbICp37SjSCfo2LJMzYZ9H8rUKkBk_bBOfO5GLswRvsUgmmivB3dmrlIg9fxE_FIveH84nfU7E6XAlpzOPd0iLrufYDFAzSFh1xPHADIgiZwNzeuGylg0DOHc1MY; rememberMe=true; CurrentLanguageATTW=zh-tw; username=admin; password=BH96YS7OkPctLgNjvoIlL6dy650IZMv+gzhR2iO53nWosX2khh2YtQ2Ir7VoH+3j7vxVH1XoPwkkM25f7mXvcA==; ASP.NET_SessionId=uto23ghviljzcrv0jbsvgpdx
+      ┣ Host：                      localhost:44326
+      ┣ Referer：                   https://localhost:44326/
+      ┣ User-Agent：                Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/141.0.0.0 Safari/537.36
+      ┣ sec-ch-ua-platform：        "Windows"
+      ┣ sec-ch-ua：                 "Google Chrome";v="141", "Not?A_Brand";v="8", "Chromium";v="141"
+      ┣ sec-ch-ua-mobile：          ?0
+      ┣ sec-fetch-site：            same-origin
+      ┣ sec-fetch-mode：            no-cors
+      ┣ sec-fetch-dest：            image
+      ┣ priority：                  u=1, i
+      ┣ ━━━━━━━━━━━━━━━  返回信息 ━━━━━━━━━━━━━━━
+      ┣ HTTP响应状态码：            200
+      ┣ 原始类型：                  System.Threading.Tasks.Task<AttcMN.Data.Slave.Dtos.SlaveSysUserDto>
+      ┣ 最终类型：                  
+      ┣ 最终返回值：                null
+      ┣ ━━━━━━━━━━━━━━━  异常信息 ━━━━━━━━━━━━━━━
+      ┣ 类型：                      SqlSugar.SqlSugarException
+      ┣ 消息：                      Unable to connect to any of the specified MySQL hosts.
+      ┣ 错误堆栈：                  at SqlSugar.MySqlProvider.GetDataReaderAsync(String sql, SugarParameter[] parameters)
+         at SqlSugar.QueryableProvider`1.GetDataAsync[TResult](KeyValuePair`2 sqlObj)
+         at SqlSugar.QueryableProvider`1._ToListAsync[TResult]()
+         at SqlSugar.QueryableProvider`1.FirstAsync()
+         at SqlSugar.QueryableProvider`1.FirstAsync(Expression`1 expression)
+         at SqlSugar.SqlSugarRepository`1.FirstOrDefaultAsync(Expression`1 whereExpression) in D:\Project\AttcMN\AttcMN.Net\AttcMN.Framework\SqlSugar\Repositories\SqlSugarRepository.cs:line 204
+         at AttcMN.Common.Data.BaseRepository`2.FirstOrDefaultAsync(Expression`1 predicate) in D:\Project\AttcMN\AttcMN.Net\AttcMN.Common\Data\BaseRepository.cs:line 194
+         at AttcMN.Common.Data.BaseService`2.FirstOrDefaultAsync(Expression`1 predicate) in D:\Project\AttcMN\AttcMN.Net\AttcMN.Common\Data\BaseService.cs:line 125
+         at AttcMN.System.Slave.Services.SysUserService.GetAsync(Nullable`1 id) in D:\Project\AttcMN\AttcMN.Net\AttcMN.System\Slave\Services\SysUserService.cs:line 31
+         at AttcMN.Admin.SampleController.Get(Nullable`1 id) in D:\Project\AttcMN\AttcMN.Net\AttcMN.Admin\Controllers\SampleController.cs:line 38
+         at lambda_method35(Closure, Object)
+         at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.AwaitableObjectResultExecutor.Execute(ActionContext actionContext, IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+         at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Logged|12_1(ControllerActionInvoker invoker)
+         at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+      ┗━━━━━━━━━━━  Logging Monitor ━━━━━━━━━━━      
+      ++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+      SqlSugar.SqlSugarException: Unable to connect to any of the specified MySQL hosts.
+         at SqlSugar.MySqlProvider.GetDataReaderAsync(String sql, SugarParameter[] parameters)
+         at SqlSugar.QueryableProvider`1.GetDataAsync[TResult](KeyValuePair`2 sqlObj)
+         at SqlSugar.QueryableProvider`1._ToListAsync[TResult]()
+         at SqlSugar.QueryableProvider`1.FirstAsync()
+         at SqlSugar.QueryableProvider`1.FirstAsync(Expression`1 expression)
+         at SqlSugar.SqlSugarRepository`1.FirstOrDefaultAsync(Expression`1 whereExpression) in D:\Project\AttcMN\AttcMN.Net\AttcMN.Framework\SqlSugar\Repositories\SqlSugarRepository.cs:line 204
+         at AttcMN.Common.Data.BaseRepository`2.FirstOrDefaultAsync(Expression`1 predicate) in D:\Project\AttcMN\AttcMN.Net\AttcMN.Common\Data\BaseRepository.cs:line 194
+         at AttcMN.Common.Data.BaseService`2.FirstOrDefaultAsync(Expression`1 predicate) in D:\Project\AttcMN\AttcMN.Net\AttcMN.Common\Data\BaseService.cs:line 125
+         at AttcMN.System.Slave.Services.SysUserService.GetAsync(Nullable`1 id) in D:\Project\AttcMN\AttcMN.Net\AttcMN.System\Slave\Services\SysUserService.cs:line 31
+         at AttcMN.Admin.SampleController.Get(Nullable`1 id) in D:\Project\AttcMN\AttcMN.Net\AttcMN.Admin\Controllers\SampleController.cs:line 38
+         at lambda_method35(Closure, Object)
+         at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.AwaitableObjectResultExecutor.Execute(ActionContext actionContext, IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+         at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Logged|12_1(ControllerActionInvoker invoker)
+         at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+      ++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+fail: 2025-10-31 11:03:07.3052374 +07:00 Friday L AttcMN.Framework.Filters.GlobalExceptionFilter[0] #36
+      GlobalException      
+      ++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+      SqlSugar.SqlSugarException: Unable to connect to any of the specified MySQL hosts.
+         at SqlSugar.MySqlProvider.GetDataReaderAsync(String sql, SugarParameter[] parameters)
+         at SqlSugar.QueryableProvider`1.GetDataAsync[TResult](KeyValuePair`2 sqlObj)
+         at SqlSugar.QueryableProvider`1._ToListAsync[TResult]()
+         at SqlSugar.QueryableProvider`1.FirstAsync()
+         at SqlSugar.QueryableProvider`1.FirstAsync(Expression`1 expression)
+         at SqlSugar.SqlSugarRepository`1.FirstOrDefaultAsync(Expression`1 whereExpression) in D:\Project\AttcMN\AttcMN.Net\AttcMN.Framework\SqlSugar\Repositories\SqlSugarRepository.cs:line 204
+         at AttcMN.Common.Data.BaseRepository`2.FirstOrDefaultAsync(Expression`1 predicate) in D:\Project\AttcMN\AttcMN.Net\AttcMN.Common\Data\BaseRepository.cs:line 194
+         at AttcMN.Common.Data.BaseService`2.FirstOrDefaultAsync(Expression`1 predicate) in D:\Project\AttcMN\AttcMN.Net\AttcMN.Common\Data\BaseService.cs:line 125
+         at AttcMN.System.Slave.Services.SysUserService.GetAsync(Nullable`1 id) in D:\Project\AttcMN\AttcMN.Net\AttcMN.System\Slave\Services\SysUserService.cs:line 31
+         at AttcMN.Admin.SampleController.Get(Nullable`1 id) in D:\Project\AttcMN\AttcMN.Net\AttcMN.Admin\Controllers\SampleController.cs:line 38
+         at lambda_method35(Closure, Object)
+         at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.AwaitableObjectResultExecutor.Execute(ActionContext actionContext, IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+         at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Logged|12_1(ControllerActionInvoker invoker)
+         at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+         at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+         at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+         at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeInnerFilterAsync>g__Awaited|13_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+         at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeNextExceptionFilterAsync>g__Awaited|26_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+      ++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+fail: 2025-10-31 11:03:49.1915646 +07:00 Friday L System.Logging.LoggingMonitor[0] #35
+      ┏━━━━━━━━━━━  Logging Monitor ━━━━━━━━━━━
+      ┣ AttcMN.Admin.SampleController.Get
+      ┣ 
+      ┣ 控制器名称：                SampleController
+      ┣ 操作名称：                  Get
+      ┣ 显示名称：                  
+      ┣ 路由信息：                  [area]: ; [controller]: Sample; [action]: Get
+      ┣ 请求方式：                  GET
+      ┣ 请求地址：                  https://localhost:44326/favicon.ico
+      ┣ 来源地址：                  https://localhost:44326/
+      ┣ 请求端源：                  client
+      ┣ 浏览器标识：                Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/141.0.0.0 Safari/537.36
+      ┣ 客户端区域语言：            en-US,en;q=0.9,vi;q=0.8
+      ┣ 客户端 IP 地址：            0.0.0.1
+      ┣ 服务端 IP 地址：            0.0.0.1
+      ┣ 客户端连接 ID：             00-4ffffbff0ace02c5196a9ceac928b0e1-415d90ab49d97823-00
+      ┣ 服务线程 ID：               #37
+      ┣ 执行耗时：                  4367ms
+      ┣ ━━━━━━━━━━━━━━━  Cookies ━━━━━━━━━━━━━━━
+      ┣ 请求端：                    lang=en; Hm_lvt_3824e56a483ef95673d119166354712c=1761450141; .AspNetCore.Identity.Application=CfDJ8A_pruwfiuBFp_pFvYUTjgSCWWfo3Z47qZAjJE7FoJwOBU7JrpJzjuolrAeFzEwbNF5VkEIkB1K7Xw8YY4ADMgafZlElHia02YYyFnD-DqFWWHndOLt8TtLTDC_nf2LjPK2Z8uOezwyLZaxqTkKYswBf2vdQbBhP2xxqTk2yel9bdUSGdUsU5gDbVhvuu3HjxQefiZLg4UvttRgQzHMrvKpPNo7Zi2Cs3i-ZnSkjK8xID6zNmWmIpocuEQU1m05bo8bl0PbouQEKWEj8T_McPUiAB6Wsbx1CYIH_dyaxvfwSc8jVqNrfUwiOtL8HSeXuhgflYVo-E0Lw15XV8QBycaFNSdjokmWmtzx_o5_yUZBIbl64PKw64RA296cSOBL2FjxrIIALZkH7qUvHi4kJUM3LOJ9gVwaVBtWf_XTz2qJJ2HYT4JU7GNzu2bc8VeseFZoJ7S4Q04cdiz0M_ha96WcTbJ7g4btRGt1OPl0X4DcFAUh5lZmiB-Fkt1SwmyVzD23oy2CFzJ8_a_P_J00S2RRdWzWuQLil2ePO_jQeTtYAuykK-uECd3pZTukdqrxynJEMZp61pcElQQ22qJmNMhGjmHrZ10V4oqt4TgiYeVWC99-udGrZL9sbrjyvzppfag9xuPEav4b_gofla2vHe2pboyxEL0cTvAmIvP5sPa5UVgV_F_3Di_y5ehMswQjnwX0Q6inKFnKyN0cfqrpURWi_VPGZbICp37SjSCfo2LJMzYZ9H8rUKkBk_bBOfO5GLswRvsUgmmivB3dmrlIg9fxE_FIveH84nfU7E6XAlpzOPd0iLrufYDFAzSFh1xPHADIgiZwNzeuGylg0DOHc1MY; rememberMe=true; CurrentLanguageATTW=zh-tw; username=admin; password=BH96YS7OkPctLgNjvoIlL6dy650IZMv+gzhR2iO53nWosX2khh2YtQ2Ir7VoH+3j7vxVH1XoPwkkM25f7mXvcA==; ASP.NET_SessionId=uto23ghviljzcrv0jbsvgpdx
+      ┣ 响应端：                    
+      ┣ ━━━━━━━━━━━━━━━  系统信息 ━━━━━━━━━━━━━━━
+      ┣ 系统名称：                  Microsoft Windows 10.0.26200
+      ┣ 系统架构：                  X64
+      ┣ 基础框架：                  AttcMN.Framework v1.0.0.0
+      ┣ .NET 架构：                 .NET 8.0.21
+      ┣ ━━━━━━━━━━━━━━━  启动信息 ━━━━━━━━━━━━━━━
+      ┣ 运行环境：                  Development
+      ┣ 启动程序集：                AttcMN.Admin
+      ┣ 进程名称：                  iisexpress
+      ┣ 托管程序：                  iisexpress
+      ┣ ━━━━━━━━━━━━━━━  请求头信息 ━━━━━━━━━━━━━━━
+      ┣ 
+      ┣ Accept：                    image/avif,image/webp,image/apng,image/svg+xml,image/*,*/*;q=0.8
+      ┣ Accept-Encoding：           gzip, deflate, br, zstd
+      ┣ Accept-Language：           en-US,en;q=0.9,vi;q=0.8
+      ┣ Connection：                close
+      ┣ Cookie：                    lang=en; Hm_lvt_3824e56a483ef95673d119166354712c=1761450141; .AspNetCore.Identity.Application=CfDJ8A_pruwfiuBFp_pFvYUTjgSCWWfo3Z47qZAjJE7FoJwOBU7JrpJzjuolrAeFzEwbNF5VkEIkB1K7Xw8YY4ADMgafZlElHia02YYyFnD-DqFWWHndOLt8TtLTDC_nf2LjPK2Z8uOezwyLZaxqTkKYswBf2vdQbBhP2xxqTk2yel9bdUSGdUsU5gDbVhvuu3HjxQefiZLg4UvttRgQzHMrvKpPNo7Zi2Cs3i-ZnSkjK8xID6zNmWmIpocuEQU1m05bo8bl0PbouQEKWEj8T_McPUiAB6Wsbx1CYIH_dyaxvfwSc8jVqNrfUwiOtL8HSeXuhgflYVo-E0Lw15XV8QBycaFNSdjokmWmtzx_o5_yUZBIbl64PKw64RA296cSOBL2FjxrIIALZkH7qUvHi4kJUM3LOJ9gVwaVBtWf_XTz2qJJ2HYT4JU7GNzu2bc8VeseFZoJ7S4Q04cdiz0M_ha96WcTbJ7g4btRGt1OPl0X4DcFAUh5lZmiB-Fkt1SwmyVzD23oy2CFzJ8_a_P_J00S2RRdWzWuQLil2ePO_jQeTtYAuykK-uECd3pZTukdqrxynJEMZp61pcElQQ22qJmNMhGjmHrZ10V4oqt4TgiYeVWC99-udGrZL9sbrjyvzppfag9xuPEav4b_gofla2vHe2pboyxEL0cTvAmIvP5sPa5UVgV_F_3Di_y5ehMswQjnwX0Q6inKFnKyN0cfqrpURWi_VPGZbICp37SjSCfo2LJMzYZ9H8rUKkBk_bBOfO5GLswRvsUgmmivB3dmrlIg9fxE_FIveH84nfU7E6XAlpzOPd0iLrufYDFAzSFh1xPHADIgiZwNzeuGylg0DOHc1MY; rememberMe=true; CurrentLanguageATTW=zh-tw; username=admin; password=BH96YS7OkPctLgNjvoIlL6dy650IZMv+gzhR2iO53nWosX2khh2YtQ2Ir7VoH+3j7vxVH1XoPwkkM25f7mXvcA==; ASP.NET_SessionId=uto23ghviljzcrv0jbsvgpdx
+      ┣ Host：                      localhost:44326
+      ┣ Referer：                   https://localhost:44326/
+      ┣ User-Agent：                Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/141.0.0.0 Safari/537.36
+      ┣ sec-ch-ua-platform：        "Windows"
+      ┣ sec-ch-ua：                 "Google Chrome";v="141", "Not?A_Brand";v="8", "Chromium";v="141"
+      ┣ sec-ch-ua-mobile：          ?0
+      ┣ sec-fetch-site：            same-origin
+      ┣ sec-fetch-mode：            no-cors
+      ┣ sec-fetch-dest：            image
+      ┣ priority：                  u=1, i
+      ┣ ━━━━━━━━━━━━━━━  返回信息 ━━━━━━━━━━━━━━━
+      ┣ HTTP响应状态码：            200
+      ┣ 原始类型：                  System.Threading.Tasks.Task<AttcMN.Data.Slave.Dtos.SlaveSysUserDto>
+      ┣ 最终类型：                  
+      ┣ 最终返回值：                null
+      ┣ ━━━━━━━━━━━━━━━  异常信息 ━━━━━━━━━━━━━━━
+      ┣ 类型：                      SqlSugar.SqlSugarException
+      ┣ 消息：                      Unable to connect to any of the specified MySQL hosts.
+      ┣ 错误堆栈：                  at SqlSugar.MySqlProvider.GetDataReaderAsync(String sql, SugarParameter[] parameters)
+         at SqlSugar.QueryableProvider`1.GetDataAsync[TResult](KeyValuePair`2 sqlObj)
+         at SqlSugar.QueryableProvider`1._ToListAsync[TResult]()
+         at SqlSugar.QueryableProvider`1.FirstAsync()
+         at SqlSugar.QueryableProvider`1.FirstAsync(Expression`1 expression)
+         at SqlSugar.SqlSugarRepository`1.FirstOrDefaultAsync(Expression`1 whereExpression) in D:\Project\AttcMN\AttcMN.Net\AttcMN.Framework\SqlSugar\Repositories\SqlSugarRepository.cs:line 204
+         at AttcMN.Common.Data.BaseRepository`2.FirstOrDefaultAsync(Expression`1 predicate) in D:\Project\AttcMN\AttcMN.Net\AttcMN.Common\Data\BaseRepository.cs:line 194
+         at AttcMN.Common.Data.BaseService`2.FirstOrDefaultAsync(Expression`1 predicate) in D:\Project\AttcMN\AttcMN.Net\AttcMN.Common\Data\BaseService.cs:line 125
+         at AttcMN.System.Slave.Services.SysUserService.GetAsync(Nullable`1 id) in D:\Project\AttcMN\AttcMN.Net\AttcMN.System\Slave\Services\SysUserService.cs:line 31
+         at AttcMN.Admin.SampleController.Get(Nullable`1 id) in D:\Project\AttcMN\AttcMN.Net\AttcMN.Admin\Controllers\SampleController.cs:line 38
+         at lambda_method35(Closure, Object)
+         at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.AwaitableObjectResultExecutor.Execute(ActionContext actionContext, IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+         at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Logged|12_1(ControllerActionInvoker invoker)
+         at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+      ┗━━━━━━━━━━━  Logging Monitor ━━━━━━━━━━━      
+      ++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+      SqlSugar.SqlSugarException: Unable to connect to any of the specified MySQL hosts.
+         at SqlSugar.MySqlProvider.GetDataReaderAsync(String sql, SugarParameter[] parameters)
+         at SqlSugar.QueryableProvider`1.GetDataAsync[TResult](KeyValuePair`2 sqlObj)
+         at SqlSugar.QueryableProvider`1._ToListAsync[TResult]()
+         at SqlSugar.QueryableProvider`1.FirstAsync()
+         at SqlSugar.QueryableProvider`1.FirstAsync(Expression`1 expression)
+         at SqlSugar.SqlSugarRepository`1.FirstOrDefaultAsync(Expression`1 whereExpression) in D:\Project\AttcMN\AttcMN.Net\AttcMN.Framework\SqlSugar\Repositories\SqlSugarRepository.cs:line 204
+         at AttcMN.Common.Data.BaseRepository`2.FirstOrDefaultAsync(Expression`1 predicate) in D:\Project\AttcMN\AttcMN.Net\AttcMN.Common\Data\BaseRepository.cs:line 194
+         at AttcMN.Common.Data.BaseService`2.FirstOrDefaultAsync(Expression`1 predicate) in D:\Project\AttcMN\AttcMN.Net\AttcMN.Common\Data\BaseService.cs:line 125
+         at AttcMN.System.Slave.Services.SysUserService.GetAsync(Nullable`1 id) in D:\Project\AttcMN\AttcMN.Net\AttcMN.System\Slave\Services\SysUserService.cs:line 31
+         at AttcMN.Admin.SampleController.Get(Nullable`1 id) in D:\Project\AttcMN\AttcMN.Net\AttcMN.Admin\Controllers\SampleController.cs:line 38
+         at lambda_method35(Closure, Object)
+         at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.AwaitableObjectResultExecutor.Execute(ActionContext actionContext, IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+         at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Logged|12_1(ControllerActionInvoker invoker)
+         at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+      ++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+fail: 2025-10-31 11:03:49.2009502 +07:00 Friday L AttcMN.Framework.Filters.GlobalExceptionFilter[0] #35
+      GlobalException      
+      ++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+      SqlSugar.SqlSugarException: Unable to connect to any of the specified MySQL hosts.
+         at SqlSugar.MySqlProvider.GetDataReaderAsync(String sql, SugarParameter[] parameters)
+         at SqlSugar.QueryableProvider`1.GetDataAsync[TResult](KeyValuePair`2 sqlObj)
+         at SqlSugar.QueryableProvider`1._ToListAsync[TResult]()
+         at SqlSugar.QueryableProvider`1.FirstAsync()
+         at SqlSugar.QueryableProvider`1.FirstAsync(Expression`1 expression)
+         at SqlSugar.SqlSugarRepository`1.FirstOrDefaultAsync(Expression`1 whereExpression) in D:\Project\AttcMN\AttcMN.Net\AttcMN.Framework\SqlSugar\Repositories\SqlSugarRepository.cs:line 204
+         at AttcMN.Common.Data.BaseRepository`2.FirstOrDefaultAsync(Expression`1 predicate) in D:\Project\AttcMN\AttcMN.Net\AttcMN.Common\Data\BaseRepository.cs:line 194
+         at AttcMN.Common.Data.BaseService`2.FirstOrDefaultAsync(Expression`1 predicate) in D:\Project\AttcMN\AttcMN.Net\AttcMN.Common\Data\BaseService.cs:line 125
+         at AttcMN.System.Slave.Services.SysUserService.GetAsync(Nullable`1 id) in D:\Project\AttcMN\AttcMN.Net\AttcMN.System\Slave\Services\SysUserService.cs:line 31
+         at AttcMN.Admin.SampleController.Get(Nullable`1 id) in D:\Project\AttcMN\AttcMN.Net\AttcMN.Admin\Controllers\SampleController.cs:line 38
+         at lambda_method35(Closure, Object)
+         at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.AwaitableObjectResultExecutor.Execute(ActionContext actionContext, IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+         at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Logged|12_1(ControllerActionInvoker invoker)
+         at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+         at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+         at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+         at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeInnerFilterAsync>g__Awaited|13_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+         at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeNextExceptionFilterAsync>g__Awaited|26_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+      ++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+fail: 2025-10-31 11:04:14.0548094 +07:00 Friday L System.Logging.LoggingMonitor[0] #11
+      ┏━━━━━━━━━━━  Logging Monitor ━━━━━━━━━━━
+      ┣ AttcMN.Admin.SampleController.Get
+      ┣ 
+      ┣ 控制器名称：                SampleController
+      ┣ 操作名称：                  Get
+      ┣ 显示名称：                  
+      ┣ 路由信息：                  [area]: ; [controller]: Sample; [action]: Get
+      ┣ 请求方式：                  GET
+      ┣ 请求地址：                  https://localhost:44326/favicon.ico
+      ┣ 来源地址：                  https://localhost:44326/swagger/System/swagger.json
+      ┣ 请求端源：                  client
+      ┣ 浏览器标识：                Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/141.0.0.0 Safari/537.36
+      ┣ 客户端区域语言：            en-US,en;q=0.9,vi;q=0.8
+      ┣ 客户端 IP 地址：            0.0.0.1
+      ┣ 服务端 IP 地址：            0.0.0.1
+      ┣ 客户端连接 ID：             00-6c99695c25453d44f9b0300166161ee3-bdace0e094448bda-00
+      ┣ 服务线程 ID：               #27
+      ┣ 执行耗时：                  4318ms
+      ┣ ━━━━━━━━━━━━━━━  Cookies ━━━━━━━━━━━━━━━
+      ┣ 请求端：                    lang=en; Hm_lvt_3824e56a483ef95673d119166354712c=1761450141; .AspNetCore.Identity.Application=CfDJ8A_pruwfiuBFp_pFvYUTjgSCWWfo3Z47qZAjJE7FoJwOBU7JrpJzjuolrAeFzEwbNF5VkEIkB1K7Xw8YY4ADMgafZlElHia02YYyFnD-DqFWWHndOLt8TtLTDC_nf2LjPK2Z8uOezwyLZaxqTkKYswBf2vdQbBhP2xxqTk2yel9bdUSGdUsU5gDbVhvuu3HjxQefiZLg4UvttRgQzHMrvKpPNo7Zi2Cs3i-ZnSkjK8xID6zNmWmIpocuEQU1m05bo8bl0PbouQEKWEj8T_McPUiAB6Wsbx1CYIH_dyaxvfwSc8jVqNrfUwiOtL8HSeXuhgflYVo-E0Lw15XV8QBycaFNSdjokmWmtzx_o5_yUZBIbl64PKw64RA296cSOBL2FjxrIIALZkH7qUvHi4kJUM3LOJ9gVwaVBtWf_XTz2qJJ2HYT4JU7GNzu2bc8VeseFZoJ7S4Q04cdiz0M_ha96WcTbJ7g4btRGt1OPl0X4DcFAUh5lZmiB-Fkt1SwmyVzD23oy2CFzJ8_a_P_J00S2RRdWzWuQLil2ePO_jQeTtYAuykK-uECd3pZTukdqrxynJEMZp61pcElQQ22qJmNMhGjmHrZ10V4oqt4TgiYeVWC99-udGrZL9sbrjyvzppfag9xuPEav4b_gofla2vHe2pboyxEL0cTvAmIvP5sPa5UVgV_F_3Di_y5ehMswQjnwX0Q6inKFnKyN0cfqrpURWi_VPGZbICp37SjSCfo2LJMzYZ9H8rUKkBk_bBOfO5GLswRvsUgmmivB3dmrlIg9fxE_FIveH84nfU7E6XAlpzOPd0iLrufYDFAzSFh1xPHADIgiZwNzeuGylg0DOHc1MY; rememberMe=true; CurrentLanguageATTW=zh-tw; username=admin; password=BH96YS7OkPctLgNjvoIlL6dy650IZMv+gzhR2iO53nWosX2khh2YtQ2Ir7VoH+3j7vxVH1XoPwkkM25f7mXvcA==; ASP.NET_SessionId=uto23ghviljzcrv0jbsvgpdx
+      ┣ 响应端：                    
+      ┣ ━━━━━━━━━━━━━━━  系统信息 ━━━━━━━━━━━━━━━
+      ┣ 系统名称：                  Microsoft Windows 10.0.26200
+      ┣ 系统架构：                  X64
+      ┣ 基础框架：                  AttcMN.Framework v1.0.0.0
+      ┣ .NET 架构：                 .NET 8.0.21
+      ┣ ━━━━━━━━━━━━━━━  启动信息 ━━━━━━━━━━━━━━━
+      ┣ 运行环境：                  Development
+      ┣ 启动程序集：                AttcMN.Admin
+      ┣ 进程名称：                  iisexpress
+      ┣ 托管程序：                  iisexpress
+      ┣ ━━━━━━━━━━━━━━━  请求头信息 ━━━━━━━━━━━━━━━
+      ┣ 
+      ┣ Accept：                    image/avif,image/webp,image/apng,image/svg+xml,image/*,*/*;q=0.8
+      ┣ Accept-Encoding：           gzip, deflate, br, zstd
+      ┣ Accept-Language：           en-US,en;q=0.9,vi;q=0.8
+      ┣ Connection：                close
+      ┣ Cookie：                    lang=en; Hm_lvt_3824e56a483ef95673d119166354712c=1761450141; .AspNetCore.Identity.Application=CfDJ8A_pruwfiuBFp_pFvYUTjgSCWWfo3Z47qZAjJE7FoJwOBU7JrpJzjuolrAeFzEwbNF5VkEIkB1K7Xw8YY4ADMgafZlElHia02YYyFnD-DqFWWHndOLt8TtLTDC_nf2LjPK2Z8uOezwyLZaxqTkKYswBf2vdQbBhP2xxqTk2yel9bdUSGdUsU5gDbVhvuu3HjxQefiZLg4UvttRgQzHMrvKpPNo7Zi2Cs3i-ZnSkjK8xID6zNmWmIpocuEQU1m05bo8bl0PbouQEKWEj8T_McPUiAB6Wsbx1CYIH_dyaxvfwSc8jVqNrfUwiOtL8HSeXuhgflYVo-E0Lw15XV8QBycaFNSdjokmWmtzx_o5_yUZBIbl64PKw64RA296cSOBL2FjxrIIALZkH7qUvHi4kJUM3LOJ9gVwaVBtWf_XTz2qJJ2HYT4JU7GNzu2bc8VeseFZoJ7S4Q04cdiz0M_ha96WcTbJ7g4btRGt1OPl0X4DcFAUh5lZmiB-Fkt1SwmyVzD23oy2CFzJ8_a_P_J00S2RRdWzWuQLil2ePO_jQeTtYAuykK-uECd3pZTukdqrxynJEMZp61pcElQQ22qJmNMhGjmHrZ10V4oqt4TgiYeVWC99-udGrZL9sbrjyvzppfag9xuPEav4b_gofla2vHe2pboyxEL0cTvAmIvP5sPa5UVgV_F_3Di_y5ehMswQjnwX0Q6inKFnKyN0cfqrpURWi_VPGZbICp37SjSCfo2LJMzYZ9H8rUKkBk_bBOfO5GLswRvsUgmmivB3dmrlIg9fxE_FIveH84nfU7E6XAlpzOPd0iLrufYDFAzSFh1xPHADIgiZwNzeuGylg0DOHc1MY; rememberMe=true; CurrentLanguageATTW=zh-tw; username=admin; password=BH96YS7OkPctLgNjvoIlL6dy650IZMv+gzhR2iO53nWosX2khh2YtQ2Ir7VoH+3j7vxVH1XoPwkkM25f7mXvcA==; ASP.NET_SessionId=uto23ghviljzcrv0jbsvgpdx
+      ┣ Host：                      localhost:44326
+      ┣ Referer：                   https://localhost:44326/swagger/System/swagger.json
+      ┣ User-Agent：                Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/141.0.0.0 Safari/537.36
+      ┣ sec-ch-ua-platform：        "Windows"
+      ┣ sec-ch-ua：                 "Google Chrome";v="141", "Not?A_Brand";v="8", "Chromium";v="141"
+      ┣ sec-ch-ua-mobile：          ?0
+      ┣ sec-fetch-site：            same-origin
+      ┣ sec-fetch-mode：            no-cors
+      ┣ sec-fetch-dest：            image
+      ┣ priority：                  u=1, i
+      ┣ ━━━━━━━━━━━━━━━  返回信息 ━━━━━━━━━━━━━━━
+      ┣ HTTP响应状态码：            200
+      ┣ 原始类型：                  System.Threading.Tasks.Task<AttcMN.Data.Slave.Dtos.SlaveSysUserDto>
+      ┣ 最终类型：                  
+      ┣ 最终返回值：                null
+      ┣ ━━━━━━━━━━━━━━━  异常信息 ━━━━━━━━━━━━━━━
+      ┣ 类型：                      SqlSugar.SqlSugarException
+      ┣ 消息：                      Unable to connect to any of the specified MySQL hosts.
+      ┣ 错误堆栈：                  at SqlSugar.MySqlProvider.GetDataReaderAsync(String sql, SugarParameter[] parameters)
+         at SqlSugar.QueryableProvider`1.GetDataAsync[TResult](KeyValuePair`2 sqlObj)
+         at SqlSugar.QueryableProvider`1._ToListAsync[TResult]()
+         at SqlSugar.QueryableProvider`1.FirstAsync()
+         at SqlSugar.QueryableProvider`1.FirstAsync(Expression`1 expression)
+         at SqlSugar.SqlSugarRepository`1.FirstOrDefaultAsync(Expression`1 whereExpression) in D:\Project\AttcMN\AttcMN.Net\AttcMN.Framework\SqlSugar\Repositories\SqlSugarRepository.cs:line 204
+         at AttcMN.Common.Data.BaseRepository`2.FirstOrDefaultAsync(Expression`1 predicate) in D:\Project\AttcMN\AttcMN.Net\AttcMN.Common\Data\BaseRepository.cs:line 194
+         at AttcMN.Common.Data.BaseService`2.FirstOrDefaultAsync(Expression`1 predicate) in D:\Project\AttcMN\AttcMN.Net\AttcMN.Common\Data\BaseService.cs:line 125
+         at AttcMN.System.Slave.Services.SysUserService.GetAsync(Nullable`1 id) in D:\Project\AttcMN\AttcMN.Net\AttcMN.System\Slave\Services\SysUserService.cs:line 31
+         at AttcMN.Admin.SampleController.Get(Nullable`1 id) in D:\Project\AttcMN\AttcMN.Net\AttcMN.Admin\Controllers\SampleController.cs:line 38
+         at lambda_method35(Closure, Object)
+         at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.AwaitableObjectResultExecutor.Execute(ActionContext actionContext, IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+         at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Logged|12_1(ControllerActionInvoker invoker)
+         at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+      ┗━━━━━━━━━━━  Logging Monitor ━━━━━━━━━━━      
+      ++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+      SqlSugar.SqlSugarException: Unable to connect to any of the specified MySQL hosts.
+         at SqlSugar.MySqlProvider.GetDataReaderAsync(String sql, SugarParameter[] parameters)
+         at SqlSugar.QueryableProvider`1.GetDataAsync[TResult](KeyValuePair`2 sqlObj)
+         at SqlSugar.QueryableProvider`1._ToListAsync[TResult]()
+         at SqlSugar.QueryableProvider`1.FirstAsync()
+         at SqlSugar.QueryableProvider`1.FirstAsync(Expression`1 expression)
+         at SqlSugar.SqlSugarRepository`1.FirstOrDefaultAsync(Expression`1 whereExpression) in D:\Project\AttcMN\AttcMN.Net\AttcMN.Framework\SqlSugar\Repositories\SqlSugarRepository.cs:line 204
+         at AttcMN.Common.Data.BaseRepository`2.FirstOrDefaultAsync(Expression`1 predicate) in D:\Project\AttcMN\AttcMN.Net\AttcMN.Common\Data\BaseRepository.cs:line 194
+         at AttcMN.Common.Data.BaseService`2.FirstOrDefaultAsync(Expression`1 predicate) in D:\Project\AttcMN\AttcMN.Net\AttcMN.Common\Data\BaseService.cs:line 125
+         at AttcMN.System.Slave.Services.SysUserService.GetAsync(Nullable`1 id) in D:\Project\AttcMN\AttcMN.Net\AttcMN.System\Slave\Services\SysUserService.cs:line 31
+         at AttcMN.Admin.SampleController.Get(Nullable`1 id) in D:\Project\AttcMN\AttcMN.Net\AttcMN.Admin\Controllers\SampleController.cs:line 38
+         at lambda_method35(Closure, Object)
+         at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.AwaitableObjectResultExecutor.Execute(ActionContext actionContext, IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+         at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Logged|12_1(ControllerActionInvoker invoker)
+         at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+      ++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+fail: 2025-10-31 11:04:14.0621723 +07:00 Friday L AttcMN.Framework.Filters.GlobalExceptionFilter[0] #11
+      GlobalException      
+      ++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+      SqlSugar.SqlSugarException: Unable to connect to any of the specified MySQL hosts.
+         at SqlSugar.MySqlProvider.GetDataReaderAsync(String sql, SugarParameter[] parameters)
+         at SqlSugar.QueryableProvider`1.GetDataAsync[TResult](KeyValuePair`2 sqlObj)
+         at SqlSugar.QueryableProvider`1._ToListAsync[TResult]()
+         at SqlSugar.QueryableProvider`1.FirstAsync()
+         at SqlSugar.QueryableProvider`1.FirstAsync(Expression`1 expression)
+         at SqlSugar.SqlSugarRepository`1.FirstOrDefaultAsync(Expression`1 whereExpression) in D:\Project\AttcMN\AttcMN.Net\AttcMN.Framework\SqlSugar\Repositories\SqlSugarRepository.cs:line 204
+         at AttcMN.Common.Data.BaseRepository`2.FirstOrDefaultAsync(Expression`1 predicate) in D:\Project\AttcMN\AttcMN.Net\AttcMN.Common\Data\BaseRepository.cs:line 194
+         at AttcMN.Common.Data.BaseService`2.FirstOrDefaultAsync(Expression`1 predicate) in D:\Project\AttcMN\AttcMN.Net\AttcMN.Common\Data\BaseService.cs:line 125
+         at AttcMN.System.Slave.Services.SysUserService.GetAsync(Nullable`1 id) in D:\Project\AttcMN\AttcMN.Net\AttcMN.System\Slave\Services\SysUserService.cs:line 31
+         at AttcMN.Admin.SampleController.Get(Nullable`1 id) in D:\Project\AttcMN\AttcMN.Net\AttcMN.Admin\Controllers\SampleController.cs:line 38
+         at lambda_method35(Closure, Object)
+         at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.AwaitableObjectResultExecutor.Execute(ActionContext actionContext, IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+         at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Logged|12_1(ControllerActionInvoker invoker)
+         at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+         at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+         at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+         at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeInnerFilterAsync>g__Awaited|13_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+         at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeNextExceptionFilterAsync>g__Awaited|26_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+      ++++++++++++++++++++++++++++++++++++++++++++++++++++++++

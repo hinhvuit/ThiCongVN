@@ -1,0 +1,228 @@
+﻿<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>AttcMN.Admin</name>
+    </assembly>
+    <members>
+        <member name="F:AttcMN.Admin.Authorization.AuthorizationMiddlewareResultHandler.ALL_PERMISSION">
+            ?????霂?
+        </member>
+        <member name="M:AttcMN.Admin.Authorization.AuthorizationMiddlewareResultHandler.CheckAuthorize(Microsoft.AspNetCore.Http.HttpContext)">
+            <summary>
+            璉??Contoller??AppAuthorizeAttribute ??
+            </summary>
+        </member>
+        <member name="M:AttcMN.Admin.Authorization.AuthorizationMiddlewareResultHandler.HasPermi(System.String)">
+            <summary>
+            ?斗?臬???
+            </summary>
+        </member>
+        <member name="M:AttcMN.Admin.Authorization.AuthorizationMiddlewareResultHandler.HasAnyPermi(System.String[])">
+            <summary>
+            ?斗?臬???
+            </summary>
+        </member>
+        <member name="M:AttcMN.Admin.Authorization.AuthorizationMiddlewareResultHandler.HasPermissions(System.Collections.Generic.List{System.String},System.String)">
+            <summary>
+            ?斗?臬???
+            </summary>
+        </member>
+        <member name="T:AttcMN.Admin.Authorization.JwtHandler">
+            <summary>
+            JWT ???芸?銋???摨?
+            </summary>
+        </member>
+        <member name="M:AttcMN.Admin.Authorization.JwtHandler.HandleAsync(Microsoft.AspNetCore.Authorization.AuthorizationHandlerContext)">
+            <summary>
+            甇文?銝??⊿?, ??AuthorizationMiddlewareResultHandler ?⊿?, 餈??芸?銋ode
+            </summary>
+        </member>
+        <member name="T:AttcMN.Admin.CaptchaController">
+            <summary>
+            撉???雿???
+            ?? https://github.com/pojianbing/LazyCaptcha
+            </summary>
+        </member>
+        <member name="M:AttcMN.Admin.CaptchaController.GetCaptchaImage">
+            <summary>
+            ?瑕?撉???
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="T:AttcMN.Admin.IndexController">
+            <summary>
+            蝟餌???亙
+            </summary>
+        </member>
+        <member name="M:AttcMN.Admin.IndexController.GetDescription">
+            <summary>
+            ?瑕?蝟餌??膩
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="T:AttcMN.Admin.Sample.SampleController">
+            <summary>
+            蝷箔??亙
+            </summary>
+        </member>
+        <member name="M:AttcMN.Admin.Sample.SampleController.Get(System.Nullable{System.Int64})">
+            <summary>
+            隞?(slave) ?冽?亥砭
+            銵?SysUser ??雿掩銝?瘛餃??寞?[Tenant(DataConstants.Slave)]
+            </summary>
+        </member>
+        <member name="M:AttcMN.Admin.Sample.SampleController.RateLimit">
+            <summary>
+            ??
+            瘛餃??寞?[EnableRateLimiting(LimitType.Default)]
+            </summary>
+        </member>
+        <member name="M:AttcMN.Admin.Sample.SampleController.IpRateLimit">
+            <summary>
+            IP??
+            瘛餃??寞?[EnableRateLimiting(LimitType.IP)]
+            </summary>
+        </member>
+        <member name="T:AttcMN.System.Controllers.CacheController">
+            <summary>
+            蝻??
+            </summary>
+        </member>
+        <member name="M:AttcMN.System.Controllers.CacheController.GetCacheInfo">
+            <summary>
+            蝻??
+            </summary>
+        </member>
+        <member name="M:AttcMN.System.Controllers.CacheController.GetCacheNames">
+            <summary>
+            ??摮縑??
+            </summary>
+        </member>
+        <member name="M:AttcMN.System.Controllers.CacheController.GetCacheKeys(System.String)">
+            <summary>
+            ??摮?key
+            </summary>
+        </member>
+        <member name="M:AttcMN.System.Controllers.CacheController.GetCacheValue(System.String,System.String)">
+            <summary>
+            ??摮???
+            </summary>
+        </member>
+        <member name="M:AttcMN.System.Controllers.CacheController.ClearCacheName(System.String)">
+            <summary>
+            ??摮??斤?摮?
+            </summary>
+        </member>
+        <member name="M:AttcMN.System.Controllers.CacheController.ClearCacheKey(System.String)">
+            <summary>
+            ?ey?蝻?
+            </summary>
+        </member>
+        <member name="M:AttcMN.System.Controllers.CacheController.ClearCacheAll">
+            <summary>
+            ??券蝻?
+            </summary>
+        </member>
+        <member name="T:AttcMN.System.Controllers.DruidController">
+            <summary>
+            ?唳?(??甇文???
+            </summary>
+        </member>
+        <member name="M:AttcMN.System.Controllers.DruidController.GetDruidInfo">
+            <summary>
+            ?唳?
+            </summary>
+        </member>
+        <member name="T:AttcMN.System.Controllers.ServerController">
+            <summary>
+            ??函???
+            </summary>
+        </member>
+        <member name="M:AttcMN.System.Controllers.ServerController.GetServerInfo">
+            <summary>
+            ??函???
+            </summary>
+        </member>
+        <member name="T:AttcMN.System.Controllers.SysLogininforController">
+            <summary>
+            蝟餌?霈輸霈啣?
+            </summary>
+        </member>
+        <member name="M:AttcMN.System.Controllers.SysLogininforController.GetSysLogininforList(AttcMN.Data.Dtos.SysLogininforDto)">
+            <summary>
+            ?亥砭蝟餌?霈輸霈啣??”
+            </summary>
+        </member>
+        <member name="M:AttcMN.System.Controllers.SysLogininforController.Get(System.Int64)">
+            <summary>
+            ?瑕? 蝟餌?霈輸霈啣? 霂衣?靽⊥
+            </summary>
+        </member>
+        <member name="M:AttcMN.System.Controllers.SysLogininforController.Add(AttcMN.Data.Dtos.SysLogininforDto)">
+            <summary>
+            ?啣? 蝟餌?霈輸霈啣?
+            </summary>
+        </member>
+        <member name="M:AttcMN.System.Controllers.SysLogininforController.Edit(AttcMN.Data.Dtos.SysLogininforDto)">
+            <summary>
+            靽格 蝟餌?霈輸霈啣?
+            </summary>
+        </member>
+        <member name="M:AttcMN.System.Controllers.SysLogininforController.Remove(System.String)">
+            <summary>
+            ? 蝟餌?霈輸霈啣?
+            </summary>
+        </member>
+        <member name="M:AttcMN.System.Controllers.SysLogininforController.Import(Microsoft.AspNetCore.Http.IFormFile)">
+            <summary>
+            撖澆 蝟餌?霈輸霈啣?
+            </summary>
+        </member>
+        <member name="M:AttcMN.System.Controllers.SysLogininforController.Export(AttcMN.Data.Dtos.SysLogininforDto)">
+            <summary>
+            撖澆 蝟餌?霈輸霈啣?
+            </summary>
+        </member>
+        <member name="T:AttcMN.System.Controllers.SysOperLogController">
+            <summary>
+            ???亙?霈啣?
+            </summary>
+        </member>
+        <member name="M:AttcMN.System.Controllers.SysOperLogController.GetSysOperLogList(AttcMN.System.Data.Dtos.SysOperLogDto)">
+            <summary>
+            ?亥砭???亙?霈啣??”
+            </summary>
+        </member>
+        <member name="M:AttcMN.System.Controllers.SysOperLogController.Remove(System.String)">
+            <summary>
+            ? ???亙?霈啣?
+            </summary>
+        </member>
+        <member name="M:AttcMN.System.Controllers.SysOperLogController.Clean">
+            <summary>
+            ? ???亙?霈啣?
+            </summary>
+        </member>
+        <member name="M:AttcMN.System.Controllers.SysOperLogController.Export(AttcMN.System.Data.Dtos.SysOperLogDto)">
+            <summary>
+            撖澆 ???亙?霈啣?
+            </summary>
+        </member>
+        <member name="T:AttcMN.System.Controllers.SysUserOnlineController">
+            <summary>
+            ?函瑪?冽?
+            </summary>
+        </member>
+        <member name="M:AttcMN.System.Controllers.SysUserOnlineController.GetSysOperLogList(System.String,System.String)">
+            <summary>
+            ?亥砭???亙?霈啣??”
+            </summary>
+        </member>
+        <member name="M:AttcMN.System.Controllers.SysUserOnlineController.ForceLogout(System.String)">
+            <summary>
+            撘粹?冽
+            </summary>
+        </member>
+    </members>
+</doc>
+

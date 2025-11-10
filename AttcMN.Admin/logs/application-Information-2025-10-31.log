@@ -1,0 +1,672 @@
+info: 2025-10-31 11:03:02.2043702 +07:00 Friday L Microsoft.Hosting.Lifetime[0] #1
+      Application started. Press Ctrl+C to shut down.
+info: 2025-10-31 11:03:02.2089115 +07:00 Friday L Microsoft.Hosting.Lifetime[0] #1
+      Hosting environment: Development
+info: 2025-10-31 11:03:02.2116905 +07:00 Friday L Microsoft.Hosting.Lifetime[0] #1
+      Content root path: D:\Project\AttcMN\AttcMN.Net\AttcMN.Admin
+info: 2025-10-31 11:03:44.3492023 +07:00 Friday L Microsoft.Hosting.Lifetime[0] #1
+      Application started. Press Ctrl+C to shut down.
+info: 2025-10-31 11:03:44.3576178 +07:00 Friday L Microsoft.Hosting.Lifetime[0] #1
+      Hosting environment: Development
+info: 2025-10-31 11:03:44.3592779 +07:00 Friday L Microsoft.Hosting.Lifetime[0] #1
+      Content root path: D:\Project\AttcMN\AttcMN.Net\AttcMN.Admin
+info: 2025-10-31 11:06:57.6200182 +07:00 Friday L Microsoft.Hosting.Lifetime[0] #1
+      Application started. Press Ctrl+C to shut down.
+info: 2025-10-31 11:06:57.6278642 +07:00 Friday L Microsoft.Hosting.Lifetime[0] #1
+      Hosting environment: Development
+info: 2025-10-31 11:06:57.6342287 +07:00 Friday L Microsoft.Hosting.Lifetime[0] #1
+      Content root path: D:\Project\AttcMN\AttcMN.Net\AttcMN.Admin
+info: 2025-10-31 11:06:58.1559422 +07:00 Friday L System.Logging.LoggingMonitor[0] #10
+      ┏━━━━━━━━━━━  Logging Monitor ━━━━━━━━━━━
+      ┣ AttcMN.Admin.SampleController.Get
+      ┣ 
+      ┣ 控制器名称：                SampleController
+      ┣ 操作名称：                  Get
+      ┣ 显示名称：                  
+      ┣ 路由信息：                  [area]: ; [controller]: Sample; [action]: Get
+      ┣ 请求方式：                  GET
+      ┣ 请求地址：                  https://localhost:44326/favicon.ico
+      ┣ 来源地址：                  https://localhost:44326/
+      ┣ 请求端源：                  client
+      ┣ 浏览器标识：                Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/141.0.0.0 Safari/537.36
+      ┣ 客户端区域语言：            en-US,en;q=0.9,vi;q=0.8
+      ┣ 客户端 IP 地址：            0.0.0.1
+      ┣ 服务端 IP 地址：            0.0.0.1
+      ┣ 客户端连接 ID：             00-3f29e9125434a2119934907a1b00b661-a0f733cdb2301dde-00
+      ┣ 服务线程 ID：               #34
+      ┣ 执行耗时：                  73ms
+      ┣ ━━━━━━━━━━━━━━━  Cookies ━━━━━━━━━━━━━━━
+      ┣ 请求端：                    lang=en; Hm_lvt_3824e56a483ef95673d119166354712c=1761450141; .AspNetCore.Identity.Application=CfDJ8A_pruwfiuBFp_pFvYUTjgSCWWfo3Z47qZAjJE7FoJwOBU7JrpJzjuolrAeFzEwbNF5VkEIkB1K7Xw8YY4ADMgafZlElHia02YYyFnD-DqFWWHndOLt8TtLTDC_nf2LjPK2Z8uOezwyLZaxqTkKYswBf2vdQbBhP2xxqTk2yel9bdUSGdUsU5gDbVhvuu3HjxQefiZLg4UvttRgQzHMrvKpPNo7Zi2Cs3i-ZnSkjK8xID6zNmWmIpocuEQU1m05bo8bl0PbouQEKWEj8T_McPUiAB6Wsbx1CYIH_dyaxvfwSc8jVqNrfUwiOtL8HSeXuhgflYVo-E0Lw15XV8QBycaFNSdjokmWmtzx_o5_yUZBIbl64PKw64RA296cSOBL2FjxrIIALZkH7qUvHi4kJUM3LOJ9gVwaVBtWf_XTz2qJJ2HYT4JU7GNzu2bc8VeseFZoJ7S4Q04cdiz0M_ha96WcTbJ7g4btRGt1OPl0X4DcFAUh5lZmiB-Fkt1SwmyVzD23oy2CFzJ8_a_P_J00S2RRdWzWuQLil2ePO_jQeTtYAuykK-uECd3pZTukdqrxynJEMZp61pcElQQ22qJmNMhGjmHrZ10V4oqt4TgiYeVWC99-udGrZL9sbrjyvzppfag9xuPEav4b_gofla2vHe2pboyxEL0cTvAmIvP5sPa5UVgV_F_3Di_y5ehMswQjnwX0Q6inKFnKyN0cfqrpURWi_VPGZbICp37SjSCfo2LJMzYZ9H8rUKkBk_bBOfO5GLswRvsUgmmivB3dmrlIg9fxE_FIveH84nfU7E6XAlpzOPd0iLrufYDFAzSFh1xPHADIgiZwNzeuGylg0DOHc1MY; rememberMe=true; CurrentLanguageATTW=zh-tw; username=admin; password=BH96YS7OkPctLgNjvoIlL6dy650IZMv+gzhR2iO53nWosX2khh2YtQ2Ir7VoH+3j7vxVH1XoPwkkM25f7mXvcA==; ASP.NET_SessionId=uto23ghviljzcrv0jbsvgpdx
+      ┣ 响应端：                    
+      ┣ ━━━━━━━━━━━━━━━  系统信息 ━━━━━━━━━━━━━━━
+      ┣ 系统名称：                  Microsoft Windows 10.0.26200
+      ┣ 系统架构：                  X64
+      ┣ 基础框架：                  AttcMN.Framework v1.0.0.0
+      ┣ .NET 架构：                 .NET 8.0.21
+      ┣ ━━━━━━━━━━━━━━━  启动信息 ━━━━━━━━━━━━━━━
+      ┣ 运行环境：                  Development
+      ┣ 启动程序集：                AttcMN.Admin
+      ┣ 进程名称：                  iisexpress
+      ┣ 托管程序：                  iisexpress
+      ┣ ━━━━━━━━━━━━━━━  请求头信息 ━━━━━━━━━━━━━━━
+      ┣ 
+      ┣ Accept：                    image/avif,image/webp,image/apng,image/svg+xml,image/*,*/*;q=0.8
+      ┣ Accept-Encoding：           gzip, deflate, br, zstd
+      ┣ Accept-Language：           en-US,en;q=0.9,vi;q=0.8
+      ┣ Connection：                close
+      ┣ Cookie：                    lang=en; Hm_lvt_3824e56a483ef95673d119166354712c=1761450141; .AspNetCore.Identity.Application=CfDJ8A_pruwfiuBFp_pFvYUTjgSCWWfo3Z47qZAjJE7FoJwOBU7JrpJzjuolrAeFzEwbNF5VkEIkB1K7Xw8YY4ADMgafZlElHia02YYyFnD-DqFWWHndOLt8TtLTDC_nf2LjPK2Z8uOezwyLZaxqTkKYswBf2vdQbBhP2xxqTk2yel9bdUSGdUsU5gDbVhvuu3HjxQefiZLg4UvttRgQzHMrvKpPNo7Zi2Cs3i-ZnSkjK8xID6zNmWmIpocuEQU1m05bo8bl0PbouQEKWEj8T_McPUiAB6Wsbx1CYIH_dyaxvfwSc8jVqNrfUwiOtL8HSeXuhgflYVo-E0Lw15XV8QBycaFNSdjokmWmtzx_o5_yUZBIbl64PKw64RA296cSOBL2FjxrIIALZkH7qUvHi4kJUM3LOJ9gVwaVBtWf_XTz2qJJ2HYT4JU7GNzu2bc8VeseFZoJ7S4Q04cdiz0M_ha96WcTbJ7g4btRGt1OPl0X4DcFAUh5lZmiB-Fkt1SwmyVzD23oy2CFzJ8_a_P_J00S2RRdWzWuQLil2ePO_jQeTtYAuykK-uECd3pZTukdqrxynJEMZp61pcElQQ22qJmNMhGjmHrZ10V4oqt4TgiYeVWC99-udGrZL9sbrjyvzppfag9xuPEav4b_gofla2vHe2pboyxEL0cTvAmIvP5sPa5UVgV_F_3Di_y5ehMswQjnwX0Q6inKFnKyN0cfqrpURWi_VPGZbICp37SjSCfo2LJMzYZ9H8rUKkBk_bBOfO5GLswRvsUgmmivB3dmrlIg9fxE_FIveH84nfU7E6XAlpzOPd0iLrufYDFAzSFh1xPHADIgiZwNzeuGylg0DOHc1MY; rememberMe=true; CurrentLanguageATTW=zh-tw; username=admin; password=BH96YS7OkPctLgNjvoIlL6dy650IZMv+gzhR2iO53nWosX2khh2YtQ2Ir7VoH+3j7vxVH1XoPwkkM25f7mXvcA==; ASP.NET_SessionId=uto23ghviljzcrv0jbsvgpdx
+      ┣ Host：                      localhost:44326
+      ┣ Referer：                   https://localhost:44326/
+      ┣ User-Agent：                Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/141.0.0.0 Safari/537.36
+      ┣ sec-ch-ua-platform：        "Windows"
+      ┣ sec-ch-ua：                 "Google Chrome";v="141", "Not?A_Brand";v="8", "Chromium";v="141"
+      ┣ sec-ch-ua-mobile：          ?0
+      ┣ sec-fetch-site：            same-origin
+      ┣ sec-fetch-mode：            no-cors
+      ┣ sec-fetch-dest：            image
+      ┣ priority：                  u=1, i
+      ┣ ━━━━━━━━━━━━━━━  返回信息 ━━━━━━━━━━━━━━━
+      ┣ HTTP响应状态码：            200
+      ┣ 原始类型：                  System.Threading.Tasks.Task<AttcMN.Data.Slave.Dtos.SlaveSysUserDto>
+      ┣ 最终类型：                  
+      ┣ 最终返回值：                null
+      ┗━━━━━━━━━━━  Logging Monitor ━━━━━━━━━━━
+info: 2025-10-31 11:07:06.6263274 +07:00 Friday L System.Logging.LoggingMonitor[0] #46
+      ┏━━━━━━━━━━━  Logging Monitor ━━━━━━━━━━━
+      ┣ AttcMN.Admin.SampleController.Get
+      ┣ 
+      ┣ 控制器名称：                SampleController
+      ┣ 操作名称：                  Get
+      ┣ 显示名称：                  
+      ┣ 路由信息：                  [area]: ; [controller]: Sample; [action]: Get
+      ┣ 请求方式：                  GET
+      ┣ 请求地址：                  https://localhost:44326/favicon.ico
+      ┣ 来源地址：                  https://localhost:44326/swagger/System/swagger.json
+      ┣ 请求端源：                  client
+      ┣ 浏览器标识：                Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/141.0.0.0 Safari/537.36
+      ┣ 客户端区域语言：            en-US,en;q=0.9,vi;q=0.8
+      ┣ 客户端 IP 地址：            0.0.0.1
+      ┣ 服务端 IP 地址：            0.0.0.1
+      ┣ 客户端连接 ID：             00-9085846280eba8643b77a4ea79728586-1bc449f34293f6f8-00
+      ┣ 服务线程 ID：               #47
+      ┣ 执行耗时：                  10ms
+      ┣ ━━━━━━━━━━━━━━━  Cookies ━━━━━━━━━━━━━━━
+      ┣ 请求端：                    lang=en; Hm_lvt_3824e56a483ef95673d119166354712c=1761450141; .AspNetCore.Identity.Application=CfDJ8A_pruwfiuBFp_pFvYUTjgSCWWfo3Z47qZAjJE7FoJwOBU7JrpJzjuolrAeFzEwbNF5VkEIkB1K7Xw8YY4ADMgafZlElHia02YYyFnD-DqFWWHndOLt8TtLTDC_nf2LjPK2Z8uOezwyLZaxqTkKYswBf2vdQbBhP2xxqTk2yel9bdUSGdUsU5gDbVhvuu3HjxQefiZLg4UvttRgQzHMrvKpPNo7Zi2Cs3i-ZnSkjK8xID6zNmWmIpocuEQU1m05bo8bl0PbouQEKWEj8T_McPUiAB6Wsbx1CYIH_dyaxvfwSc8jVqNrfUwiOtL8HSeXuhgflYVo-E0Lw15XV8QBycaFNSdjokmWmtzx_o5_yUZBIbl64PKw64RA296cSOBL2FjxrIIALZkH7qUvHi4kJUM3LOJ9gVwaVBtWf_XTz2qJJ2HYT4JU7GNzu2bc8VeseFZoJ7S4Q04cdiz0M_ha96WcTbJ7g4btRGt1OPl0X4DcFAUh5lZmiB-Fkt1SwmyVzD23oy2CFzJ8_a_P_J00S2RRdWzWuQLil2ePO_jQeTtYAuykK-uECd3pZTukdqrxynJEMZp61pcElQQ22qJmNMhGjmHrZ10V4oqt4TgiYeVWC99-udGrZL9sbrjyvzppfag9xuPEav4b_gofla2vHe2pboyxEL0cTvAmIvP5sPa5UVgV_F_3Di_y5ehMswQjnwX0Q6inKFnKyN0cfqrpURWi_VPGZbICp37SjSCfo2LJMzYZ9H8rUKkBk_bBOfO5GLswRvsUgmmivB3dmrlIg9fxE_FIveH84nfU7E6XAlpzOPd0iLrufYDFAzSFh1xPHADIgiZwNzeuGylg0DOHc1MY; rememberMe=true; CurrentLanguageATTW=zh-tw; username=admin; password=BH96YS7OkPctLgNjvoIlL6dy650IZMv+gzhR2iO53nWosX2khh2YtQ2Ir7VoH+3j7vxVH1XoPwkkM25f7mXvcA==; ASP.NET_SessionId=uto23ghviljzcrv0jbsvgpdx
+      ┣ 响应端：                    
+      ┣ ━━━━━━━━━━━━━━━  系统信息 ━━━━━━━━━━━━━━━
+      ┣ 系统名称：                  Microsoft Windows 10.0.26200
+      ┣ 系统架构：                  X64
+      ┣ 基础框架：                  AttcMN.Framework v1.0.0.0
+      ┣ .NET 架构：                 .NET 8.0.21
+      ┣ ━━━━━━━━━━━━━━━  启动信息 ━━━━━━━━━━━━━━━
+      ┣ 运行环境：                  Development
+      ┣ 启动程序集：                AttcMN.Admin
+      ┣ 进程名称：                  iisexpress
+      ┣ 托管程序：                  iisexpress
+      ┣ ━━━━━━━━━━━━━━━  请求头信息 ━━━━━━━━━━━━━━━
+      ┣ 
+      ┣ Accept：                    image/avif,image/webp,image/apng,image/svg+xml,image/*,*/*;q=0.8
+      ┣ Accept-Encoding：           gzip, deflate, br, zstd
+      ┣ Accept-Language：           en-US,en;q=0.9,vi;q=0.8
+      ┣ Connection：                close
+      ┣ Cookie：                    lang=en; Hm_lvt_3824e56a483ef95673d119166354712c=1761450141; .AspNetCore.Identity.Application=CfDJ8A_pruwfiuBFp_pFvYUTjgSCWWfo3Z47qZAjJE7FoJwOBU7JrpJzjuolrAeFzEwbNF5VkEIkB1K7Xw8YY4ADMgafZlElHia02YYyFnD-DqFWWHndOLt8TtLTDC_nf2LjPK2Z8uOezwyLZaxqTkKYswBf2vdQbBhP2xxqTk2yel9bdUSGdUsU5gDbVhvuu3HjxQefiZLg4UvttRgQzHMrvKpPNo7Zi2Cs3i-ZnSkjK8xID6zNmWmIpocuEQU1m05bo8bl0PbouQEKWEj8T_McPUiAB6Wsbx1CYIH_dyaxvfwSc8jVqNrfUwiOtL8HSeXuhgflYVo-E0Lw15XV8QBycaFNSdjokmWmtzx_o5_yUZBIbl64PKw64RA296cSOBL2FjxrIIALZkH7qUvHi4kJUM3LOJ9gVwaVBtWf_XTz2qJJ2HYT4JU7GNzu2bc8VeseFZoJ7S4Q04cdiz0M_ha96WcTbJ7g4btRGt1OPl0X4DcFAUh5lZmiB-Fkt1SwmyVzD23oy2CFzJ8_a_P_J00S2RRdWzWuQLil2ePO_jQeTtYAuykK-uECd3pZTukdqrxynJEMZp61pcElQQ22qJmNMhGjmHrZ10V4oqt4TgiYeVWC99-udGrZL9sbrjyvzppfag9xuPEav4b_gofla2vHe2pboyxEL0cTvAmIvP5sPa5UVgV_F_3Di_y5ehMswQjnwX0Q6inKFnKyN0cfqrpURWi_VPGZbICp37SjSCfo2LJMzYZ9H8rUKkBk_bBOfO5GLswRvsUgmmivB3dmrlIg9fxE_FIveH84nfU7E6XAlpzOPd0iLrufYDFAzSFh1xPHADIgiZwNzeuGylg0DOHc1MY; rememberMe=true; CurrentLanguageATTW=zh-tw; username=admin; password=BH96YS7OkPctLgNjvoIlL6dy650IZMv+gzhR2iO53nWosX2khh2YtQ2Ir7VoH+3j7vxVH1XoPwkkM25f7mXvcA==; ASP.NET_SessionId=uto23ghviljzcrv0jbsvgpdx
+      ┣ Host：                      localhost:44326
+      ┣ Referer：                   https://localhost:44326/swagger/System/swagger.json
+      ┣ User-Agent：                Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/141.0.0.0 Safari/537.36
+      ┣ sec-ch-ua-platform：        "Windows"
+      ┣ sec-ch-ua：                 "Google Chrome";v="141", "Not?A_Brand";v="8", "Chromium";v="141"
+      ┣ sec-ch-ua-mobile：          ?0
+      ┣ sec-fetch-site：            same-origin
+      ┣ sec-fetch-mode：            no-cors
+      ┣ sec-fetch-dest：            image
+      ┣ priority：                  u=1, i
+      ┣ ━━━━━━━━━━━━━━━  返回信息 ━━━━━━━━━━━━━━━
+      ┣ HTTP响应状态码：            200
+      ┣ 原始类型：                  System.Threading.Tasks.Task<AttcMN.Data.Slave.Dtos.SlaveSysUserDto>
+      ┣ 最终类型：                  
+      ┣ 最终返回值：                null
+      ┗━━━━━━━━━━━  Logging Monitor ━━━━━━━━━━━
+info: 2025-10-31 11:08:52.4319790 +07:00 Friday L Microsoft.Hosting.Lifetime[0] #1
+      Application started. Press Ctrl+C to shut down.
+info: 2025-10-31 11:08:52.4411767 +07:00 Friday L Microsoft.Hosting.Lifetime[0] #1
+      Hosting environment: Development
+info: 2025-10-31 11:08:52.4474978 +07:00 Friday L Microsoft.Hosting.Lifetime[0] #1
+      Content root path: D:\Project\AttcMN\AttcMN.Net\AttcMN.Admin
+info: 2025-10-31 11:08:52.9092372 +07:00 Friday L System.Logging.LoggingMonitor[0] #27
+      ┏━━━━━━━━━━━  Logging Monitor ━━━━━━━━━━━
+      ┣ AttcMN.Admin.SampleController.Get
+      ┣ 
+      ┣ 控制器名称：                SampleController
+      ┣ 操作名称：                  Get
+      ┣ 显示名称：                  
+      ┣ 路由信息：                  [area]: ; [controller]: Sample; [action]: Get
+      ┣ 请求方式：                  GET
+      ┣ 请求地址：                  https://localhost:44326/favicon.ico
+      ┣ 来源地址：                  https://localhost:44326/
+      ┣ 请求端源：                  client
+      ┣ 浏览器标识：                Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/141.0.0.0 Safari/537.36
+      ┣ 客户端区域语言：            en-US,en;q=0.9,vi;q=0.8
+      ┣ 客户端 IP 地址：            0.0.0.1
+      ┣ 服务端 IP 地址：            0.0.0.1
+      ┣ 客户端连接 ID：             00-635e59f90c68e0b135b045ae9a493d39-5f753c224d5176b9-00
+      ┣ 服务线程 ID：               #34
+      ┣ 执行耗时：                  74ms
+      ┣ ━━━━━━━━━━━━━━━  Cookies ━━━━━━━━━━━━━━━
+      ┣ 请求端：                    lang=en; Hm_lvt_3824e56a483ef95673d119166354712c=1761450141; .AspNetCore.Identity.Application=CfDJ8A_pruwfiuBFp_pFvYUTjgSCWWfo3Z47qZAjJE7FoJwOBU7JrpJzjuolrAeFzEwbNF5VkEIkB1K7Xw8YY4ADMgafZlElHia02YYyFnD-DqFWWHndOLt8TtLTDC_nf2LjPK2Z8uOezwyLZaxqTkKYswBf2vdQbBhP2xxqTk2yel9bdUSGdUsU5gDbVhvuu3HjxQefiZLg4UvttRgQzHMrvKpPNo7Zi2Cs3i-ZnSkjK8xID6zNmWmIpocuEQU1m05bo8bl0PbouQEKWEj8T_McPUiAB6Wsbx1CYIH_dyaxvfwSc8jVqNrfUwiOtL8HSeXuhgflYVo-E0Lw15XV8QBycaFNSdjokmWmtzx_o5_yUZBIbl64PKw64RA296cSOBL2FjxrIIALZkH7qUvHi4kJUM3LOJ9gVwaVBtWf_XTz2qJJ2HYT4JU7GNzu2bc8VeseFZoJ7S4Q04cdiz0M_ha96WcTbJ7g4btRGt1OPl0X4DcFAUh5lZmiB-Fkt1SwmyVzD23oy2CFzJ8_a_P_J00S2RRdWzWuQLil2ePO_jQeTtYAuykK-uECd3pZTukdqrxynJEMZp61pcElQQ22qJmNMhGjmHrZ10V4oqt4TgiYeVWC99-udGrZL9sbrjyvzppfag9xuPEav4b_gofla2vHe2pboyxEL0cTvAmIvP5sPa5UVgV_F_3Di_y5ehMswQjnwX0Q6inKFnKyN0cfqrpURWi_VPGZbICp37SjSCfo2LJMzYZ9H8rUKkBk_bBOfO5GLswRvsUgmmivB3dmrlIg9fxE_FIveH84nfU7E6XAlpzOPd0iLrufYDFAzSFh1xPHADIgiZwNzeuGylg0DOHc1MY; rememberMe=true; CurrentLanguageATTW=zh-tw; username=admin; password=BH96YS7OkPctLgNjvoIlL6dy650IZMv+gzhR2iO53nWosX2khh2YtQ2Ir7VoH+3j7vxVH1XoPwkkM25f7mXvcA==; ASP.NET_SessionId=uto23ghviljzcrv0jbsvgpdx
+      ┣ 响应端：                    
+      ┣ ━━━━━━━━━━━━━━━  系统信息 ━━━━━━━━━━━━━━━
+      ┣ 系统名称：                  Microsoft Windows 10.0.26200
+      ┣ 系统架构：                  X64
+      ┣ 基础框架：                  AttcMN.Framework v1.0.0.0
+      ┣ .NET 架构：                 .NET 8.0.21
+      ┣ ━━━━━━━━━━━━━━━  启动信息 ━━━━━━━━━━━━━━━
+      ┣ 运行环境：                  Development
+      ┣ 启动程序集：                AttcMN.Admin
+      ┣ 进程名称：                  iisexpress
+      ┣ 托管程序：                  iisexpress
+      ┣ ━━━━━━━━━━━━━━━  请求头信息 ━━━━━━━━━━━━━━━
+      ┣ 
+      ┣ Accept：                    image/avif,image/webp,image/apng,image/svg+xml,image/*,*/*;q=0.8
+      ┣ Accept-Encoding：           gzip, deflate, br, zstd
+      ┣ Accept-Language：           en-US,en;q=0.9,vi;q=0.8
+      ┣ Connection：                close
+      ┣ Cookie：                    lang=en; Hm_lvt_3824e56a483ef95673d119166354712c=1761450141; .AspNetCore.Identity.Application=CfDJ8A_pruwfiuBFp_pFvYUTjgSCWWfo3Z47qZAjJE7FoJwOBU7JrpJzjuolrAeFzEwbNF5VkEIkB1K7Xw8YY4ADMgafZlElHia02YYyFnD-DqFWWHndOLt8TtLTDC_nf2LjPK2Z8uOezwyLZaxqTkKYswBf2vdQbBhP2xxqTk2yel9bdUSGdUsU5gDbVhvuu3HjxQefiZLg4UvttRgQzHMrvKpPNo7Zi2Cs3i-ZnSkjK8xID6zNmWmIpocuEQU1m05bo8bl0PbouQEKWEj8T_McPUiAB6Wsbx1CYIH_dyaxvfwSc8jVqNrfUwiOtL8HSeXuhgflYVo-E0Lw15XV8QBycaFNSdjokmWmtzx_o5_yUZBIbl64PKw64RA296cSOBL2FjxrIIALZkH7qUvHi4kJUM3LOJ9gVwaVBtWf_XTz2qJJ2HYT4JU7GNzu2bc8VeseFZoJ7S4Q04cdiz0M_ha96WcTbJ7g4btRGt1OPl0X4DcFAUh5lZmiB-Fkt1SwmyVzD23oy2CFzJ8_a_P_J00S2RRdWzWuQLil2ePO_jQeTtYAuykK-uECd3pZTukdqrxynJEMZp61pcElQQ22qJmNMhGjmHrZ10V4oqt4TgiYeVWC99-udGrZL9sbrjyvzppfag9xuPEav4b_gofla2vHe2pboyxEL0cTvAmIvP5sPa5UVgV_F_3Di_y5ehMswQjnwX0Q6inKFnKyN0cfqrpURWi_VPGZbICp37SjSCfo2LJMzYZ9H8rUKkBk_bBOfO5GLswRvsUgmmivB3dmrlIg9fxE_FIveH84nfU7E6XAlpzOPd0iLrufYDFAzSFh1xPHADIgiZwNzeuGylg0DOHc1MY; rememberMe=true; CurrentLanguageATTW=zh-tw; username=admin; password=BH96YS7OkPctLgNjvoIlL6dy650IZMv+gzhR2iO53nWosX2khh2YtQ2Ir7VoH+3j7vxVH1XoPwkkM25f7mXvcA==; ASP.NET_SessionId=uto23ghviljzcrv0jbsvgpdx
+      ┣ Host：                      localhost:44326
+      ┣ Referer：                   https://localhost:44326/
+      ┣ User-Agent：                Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/141.0.0.0 Safari/537.36
+      ┣ sec-ch-ua-platform：        "Windows"
+      ┣ sec-ch-ua：                 "Google Chrome";v="141", "Not?A_Brand";v="8", "Chromium";v="141"
+      ┣ sec-ch-ua-mobile：          ?0
+      ┣ sec-fetch-site：            same-origin
+      ┣ sec-fetch-mode：            no-cors
+      ┣ sec-fetch-dest：            image
+      ┣ priority：                  u=1, i
+      ┣ ━━━━━━━━━━━━━━━  返回信息 ━━━━━━━━━━━━━━━
+      ┣ HTTP响应状态码：            200
+      ┣ 原始类型：                  System.Threading.Tasks.Task<AttcMN.Data.Slave.Dtos.SlaveSysUserDto>
+      ┣ 最终类型：                  
+      ┣ 最终返回值：                null
+      ┗━━━━━━━━━━━  Logging Monitor ━━━━━━━━━━━
+info: 2025-10-31 11:15:42.4186055 +07:00 Friday L Microsoft.Hosting.Lifetime[0] #1
+      Application started. Press Ctrl+C to shut down.
+info: 2025-10-31 11:15:42.4341210 +07:00 Friday L Microsoft.Hosting.Lifetime[0] #1
+      Hosting environment: Development
+info: 2025-10-31 11:15:42.4361068 +07:00 Friday L Microsoft.Hosting.Lifetime[0] #1
+      Content root path: D:\Project\AttcMN\AttcMN.Net\AttcMN.Admin
+info: 2025-10-31 11:15:42.9262631 +07:00 Friday L System.Logging.LoggingMonitor[0] #27
+      ┏━━━━━━━━━━━  Logging Monitor ━━━━━━━━━━━
+      ┣ AttcMN.Admin.SampleController.Get
+      ┣ 
+      ┣ 控制器名称：                SampleController
+      ┣ 操作名称：                  Get
+      ┣ 显示名称：                  
+      ┣ 路由信息：                  [area]: ; [controller]: Sample; [action]: Get
+      ┣ 请求方式：                  GET
+      ┣ 请求地址：                  https://localhost:44326/favicon.ico
+      ┣ 来源地址：                  https://localhost:44326/
+      ┣ 请求端源：                  client
+      ┣ 浏览器标识：                Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/141.0.0.0 Safari/537.36
+      ┣ 客户端区域语言：            en-US,en;q=0.9,vi;q=0.8
+      ┣ 客户端 IP 地址：            0.0.0.1
+      ┣ 服务端 IP 地址：            0.0.0.1
+      ┣ 客户端连接 ID：             00-8adb6562e9016996c2e728217fa90d53-ba3e5b2709a84c89-00
+      ┣ 服务线程 ID：               #34
+      ┣ 执行耗时：                  70ms
+      ┣ ━━━━━━━━━━━━━━━  Cookies ━━━━━━━━━━━━━━━
+      ┣ 请求端：                    lang=en; Hm_lvt_3824e56a483ef95673d119166354712c=1761450141; .AspNetCore.Identity.Application=CfDJ8A_pruwfiuBFp_pFvYUTjgSCWWfo3Z47qZAjJE7FoJwOBU7JrpJzjuolrAeFzEwbNF5VkEIkB1K7Xw8YY4ADMgafZlElHia02YYyFnD-DqFWWHndOLt8TtLTDC_nf2LjPK2Z8uOezwyLZaxqTkKYswBf2vdQbBhP2xxqTk2yel9bdUSGdUsU5gDbVhvuu3HjxQefiZLg4UvttRgQzHMrvKpPNo7Zi2Cs3i-ZnSkjK8xID6zNmWmIpocuEQU1m05bo8bl0PbouQEKWEj8T_McPUiAB6Wsbx1CYIH_dyaxvfwSc8jVqNrfUwiOtL8HSeXuhgflYVo-E0Lw15XV8QBycaFNSdjokmWmtzx_o5_yUZBIbl64PKw64RA296cSOBL2FjxrIIALZkH7qUvHi4kJUM3LOJ9gVwaVBtWf_XTz2qJJ2HYT4JU7GNzu2bc8VeseFZoJ7S4Q04cdiz0M_ha96WcTbJ7g4btRGt1OPl0X4DcFAUh5lZmiB-Fkt1SwmyVzD23oy2CFzJ8_a_P_J00S2RRdWzWuQLil2ePO_jQeTtYAuykK-uECd3pZTukdqrxynJEMZp61pcElQQ22qJmNMhGjmHrZ10V4oqt4TgiYeVWC99-udGrZL9sbrjyvzppfag9xuPEav4b_gofla2vHe2pboyxEL0cTvAmIvP5sPa5UVgV_F_3Di_y5ehMswQjnwX0Q6inKFnKyN0cfqrpURWi_VPGZbICp37SjSCfo2LJMzYZ9H8rUKkBk_bBOfO5GLswRvsUgmmivB3dmrlIg9fxE_FIveH84nfU7E6XAlpzOPd0iLrufYDFAzSFh1xPHADIgiZwNzeuGylg0DOHc1MY; rememberMe=true; CurrentLanguageATTW=zh-tw; username=admin; password=BH96YS7OkPctLgNjvoIlL6dy650IZMv+gzhR2iO53nWosX2khh2YtQ2Ir7VoH+3j7vxVH1XoPwkkM25f7mXvcA==; ASP.NET_SessionId=uto23ghviljzcrv0jbsvgpdx
+      ┣ 响应端：                    
+      ┣ ━━━━━━━━━━━━━━━  系统信息 ━━━━━━━━━━━━━━━
+      ┣ 系统名称：                  Microsoft Windows 10.0.26200
+      ┣ 系统架构：                  X64
+      ┣ 基础框架：                  AttcMN.Framework v1.0.0.0
+      ┣ .NET 架构：                 .NET 8.0.21
+      ┣ ━━━━━━━━━━━━━━━  启动信息 ━━━━━━━━━━━━━━━
+      ┣ 运行环境：                  Development
+      ┣ 启动程序集：                AttcMN.Admin
+      ┣ 进程名称：                  iisexpress
+      ┣ 托管程序：                  iisexpress
+      ┣ ━━━━━━━━━━━━━━━  请求头信息 ━━━━━━━━━━━━━━━
+      ┣ 
+      ┣ Accept：                    image/avif,image/webp,image/apng,image/svg+xml,image/*,*/*;q=0.8
+      ┣ Accept-Encoding：           gzip, deflate, br, zstd
+      ┣ Accept-Language：           en-US,en;q=0.9,vi;q=0.8
+      ┣ Connection：                close
+      ┣ Cookie：                    lang=en; Hm_lvt_3824e56a483ef95673d119166354712c=1761450141; .AspNetCore.Identity.Application=CfDJ8A_pruwfiuBFp_pFvYUTjgSCWWfo3Z47qZAjJE7FoJwOBU7JrpJzjuolrAeFzEwbNF5VkEIkB1K7Xw8YY4ADMgafZlElHia02YYyFnD-DqFWWHndOLt8TtLTDC_nf2LjPK2Z8uOezwyLZaxqTkKYswBf2vdQbBhP2xxqTk2yel9bdUSGdUsU5gDbVhvuu3HjxQefiZLg4UvttRgQzHMrvKpPNo7Zi2Cs3i-ZnSkjK8xID6zNmWmIpocuEQU1m05bo8bl0PbouQEKWEj8T_McPUiAB6Wsbx1CYIH_dyaxvfwSc8jVqNrfUwiOtL8HSeXuhgflYVo-E0Lw15XV8QBycaFNSdjokmWmtzx_o5_yUZBIbl64PKw64RA296cSOBL2FjxrIIALZkH7qUvHi4kJUM3LOJ9gVwaVBtWf_XTz2qJJ2HYT4JU7GNzu2bc8VeseFZoJ7S4Q04cdiz0M_ha96WcTbJ7g4btRGt1OPl0X4DcFAUh5lZmiB-Fkt1SwmyVzD23oy2CFzJ8_a_P_J00S2RRdWzWuQLil2ePO_jQeTtYAuykK-uECd3pZTukdqrxynJEMZp61pcElQQ22qJmNMhGjmHrZ10V4oqt4TgiYeVWC99-udGrZL9sbrjyvzppfag9xuPEav4b_gofla2vHe2pboyxEL0cTvAmIvP5sPa5UVgV_F_3Di_y5ehMswQjnwX0Q6inKFnKyN0cfqrpURWi_VPGZbICp37SjSCfo2LJMzYZ9H8rUKkBk_bBOfO5GLswRvsUgmmivB3dmrlIg9fxE_FIveH84nfU7E6XAlpzOPd0iLrufYDFAzSFh1xPHADIgiZwNzeuGylg0DOHc1MY; rememberMe=true; CurrentLanguageATTW=zh-tw; username=admin; password=BH96YS7OkPctLgNjvoIlL6dy650IZMv+gzhR2iO53nWosX2khh2YtQ2Ir7VoH+3j7vxVH1XoPwkkM25f7mXvcA==; ASP.NET_SessionId=uto23ghviljzcrv0jbsvgpdx
+      ┣ Host：                      localhost:44326
+      ┣ Referer：                   https://localhost:44326/
+      ┣ User-Agent：                Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/141.0.0.0 Safari/537.36
+      ┣ sec-ch-ua-platform：        "Windows"
+      ┣ sec-ch-ua：                 "Google Chrome";v="141", "Not?A_Brand";v="8", "Chromium";v="141"
+      ┣ sec-ch-ua-mobile：          ?0
+      ┣ sec-fetch-site：            same-origin
+      ┣ sec-fetch-mode：            no-cors
+      ┣ sec-fetch-dest：            image
+      ┣ priority：                  u=1, i
+      ┣ ━━━━━━━━━━━━━━━  返回信息 ━━━━━━━━━━━━━━━
+      ┣ HTTP响应状态码：            200
+      ┣ 原始类型：                  System.Threading.Tasks.Task<AttcMN.Data.Slave.Dtos.SlaveSysUserDto>
+      ┣ 最终类型：                  
+      ┣ 最终返回值：                null
+      ┗━━━━━━━━━━━  Logging Monitor ━━━━━━━━━━━
+info: 2025-10-31 11:19:45.6900317 +07:00 Friday L Microsoft.Hosting.Lifetime[0] #1
+      Application started. Press Ctrl+C to shut down.
+info: 2025-10-31 11:19:45.7056900 +07:00 Friday L Microsoft.Hosting.Lifetime[0] #1
+      Hosting environment: Development
+info: 2025-10-31 11:19:45.7076663 +07:00 Friday L Microsoft.Hosting.Lifetime[0] #1
+      Content root path: D:\Project\AttcMN\AttcMN.Net\AttcMN.Admin
+info: 2025-10-31 11:19:46.1967634 +07:00 Friday L System.Logging.LoggingMonitor[0] #11
+      ┏━━━━━━━━━━━  Logging Monitor ━━━━━━━━━━━
+      ┣ AttcMN.Admin.SampleController.Get
+      ┣ 
+      ┣ 控制器名称：                SampleController
+      ┣ 操作名称：                  Get
+      ┣ 显示名称：                  
+      ┣ 路由信息：                  [area]: ; [controller]: Sample; [action]: Get
+      ┣ 请求方式：                  GET
+      ┣ 请求地址：                  https://localhost:44326/favicon.ico
+      ┣ 来源地址：                  https://localhost:44326/
+      ┣ 请求端源：                  client
+      ┣ 浏览器标识：                Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/141.0.0.0 Safari/537.36
+      ┣ 客户端区域语言：            en-US,en;q=0.9,vi;q=0.8
+      ┣ 客户端 IP 地址：            0.0.0.1
+      ┣ 服务端 IP 地址：            0.0.0.1
+      ┣ 客户端连接 ID：             00-941e5449e211adfab649cc25af73125a-873ac01353717e97-00
+      ┣ 服务线程 ID：               #27
+      ┣ 执行耗时：                  68ms
+      ┣ ━━━━━━━━━━━━━━━  Cookies ━━━━━━━━━━━━━━━
+      ┣ 请求端：                    lang=en; Hm_lvt_3824e56a483ef95673d119166354712c=1761450141; .AspNetCore.Identity.Application=CfDJ8A_pruwfiuBFp_pFvYUTjgSCWWfo3Z47qZAjJE7FoJwOBU7JrpJzjuolrAeFzEwbNF5VkEIkB1K7Xw8YY4ADMgafZlElHia02YYyFnD-DqFWWHndOLt8TtLTDC_nf2LjPK2Z8uOezwyLZaxqTkKYswBf2vdQbBhP2xxqTk2yel9bdUSGdUsU5gDbVhvuu3HjxQefiZLg4UvttRgQzHMrvKpPNo7Zi2Cs3i-ZnSkjK8xID6zNmWmIpocuEQU1m05bo8bl0PbouQEKWEj8T_McPUiAB6Wsbx1CYIH_dyaxvfwSc8jVqNrfUwiOtL8HSeXuhgflYVo-E0Lw15XV8QBycaFNSdjokmWmtzx_o5_yUZBIbl64PKw64RA296cSOBL2FjxrIIALZkH7qUvHi4kJUM3LOJ9gVwaVBtWf_XTz2qJJ2HYT4JU7GNzu2bc8VeseFZoJ7S4Q04cdiz0M_ha96WcTbJ7g4btRGt1OPl0X4DcFAUh5lZmiB-Fkt1SwmyVzD23oy2CFzJ8_a_P_J00S2RRdWzWuQLil2ePO_jQeTtYAuykK-uECd3pZTukdqrxynJEMZp61pcElQQ22qJmNMhGjmHrZ10V4oqt4TgiYeVWC99-udGrZL9sbrjyvzppfag9xuPEav4b_gofla2vHe2pboyxEL0cTvAmIvP5sPa5UVgV_F_3Di_y5ehMswQjnwX0Q6inKFnKyN0cfqrpURWi_VPGZbICp37SjSCfo2LJMzYZ9H8rUKkBk_bBOfO5GLswRvsUgmmivB3dmrlIg9fxE_FIveH84nfU7E6XAlpzOPd0iLrufYDFAzSFh1xPHADIgiZwNzeuGylg0DOHc1MY; rememberMe=true; CurrentLanguageATTW=zh-tw; username=admin; password=BH96YS7OkPctLgNjvoIlL6dy650IZMv+gzhR2iO53nWosX2khh2YtQ2Ir7VoH+3j7vxVH1XoPwkkM25f7mXvcA==; ASP.NET_SessionId=uto23ghviljzcrv0jbsvgpdx
+      ┣ 响应端：                    
+      ┣ ━━━━━━━━━━━━━━━  系统信息 ━━━━━━━━━━━━━━━
+      ┣ 系统名称：                  Microsoft Windows 10.0.26200
+      ┣ 系统架构：                  X64
+      ┣ 基础框架：                  AttcMN.Framework v1.0.0.0
+      ┣ .NET 架构：                 .NET 8.0.21
+      ┣ ━━━━━━━━━━━━━━━  启动信息 ━━━━━━━━━━━━━━━
+      ┣ 运行环境：                  Development
+      ┣ 启动程序集：                AttcMN.Admin
+      ┣ 进程名称：                  iisexpress
+      ┣ 托管程序：                  iisexpress
+      ┣ ━━━━━━━━━━━━━━━  请求头信息 ━━━━━━━━━━━━━━━
+      ┣ 
+      ┣ Accept：                    image/avif,image/webp,image/apng,image/svg+xml,image/*,*/*;q=0.8
+      ┣ Accept-Encoding：           gzip, deflate, br, zstd
+      ┣ Accept-Language：           en-US,en;q=0.9,vi;q=0.8
+      ┣ Connection：                close
+      ┣ Cookie：                    lang=en; Hm_lvt_3824e56a483ef95673d119166354712c=1761450141; .AspNetCore.Identity.Application=CfDJ8A_pruwfiuBFp_pFvYUTjgSCWWfo3Z47qZAjJE7FoJwOBU7JrpJzjuolrAeFzEwbNF5VkEIkB1K7Xw8YY4ADMgafZlElHia02YYyFnD-DqFWWHndOLt8TtLTDC_nf2LjPK2Z8uOezwyLZaxqTkKYswBf2vdQbBhP2xxqTk2yel9bdUSGdUsU5gDbVhvuu3HjxQefiZLg4UvttRgQzHMrvKpPNo7Zi2Cs3i-ZnSkjK8xID6zNmWmIpocuEQU1m05bo8bl0PbouQEKWEj8T_McPUiAB6Wsbx1CYIH_dyaxvfwSc8jVqNrfUwiOtL8HSeXuhgflYVo-E0Lw15XV8QBycaFNSdjokmWmtzx_o5_yUZBIbl64PKw64RA296cSOBL2FjxrIIALZkH7qUvHi4kJUM3LOJ9gVwaVBtWf_XTz2qJJ2HYT4JU7GNzu2bc8VeseFZoJ7S4Q04cdiz0M_ha96WcTbJ7g4btRGt1OPl0X4DcFAUh5lZmiB-Fkt1SwmyVzD23oy2CFzJ8_a_P_J00S2RRdWzWuQLil2ePO_jQeTtYAuykK-uECd3pZTukdqrxynJEMZp61pcElQQ22qJmNMhGjmHrZ10V4oqt4TgiYeVWC99-udGrZL9sbrjyvzppfag9xuPEav4b_gofla2vHe2pboyxEL0cTvAmIvP5sPa5UVgV_F_3Di_y5ehMswQjnwX0Q6inKFnKyN0cfqrpURWi_VPGZbICp37SjSCfo2LJMzYZ9H8rUKkBk_bBOfO5GLswRvsUgmmivB3dmrlIg9fxE_FIveH84nfU7E6XAlpzOPd0iLrufYDFAzSFh1xPHADIgiZwNzeuGylg0DOHc1MY; rememberMe=true; CurrentLanguageATTW=zh-tw; username=admin; password=BH96YS7OkPctLgNjvoIlL6dy650IZMv+gzhR2iO53nWosX2khh2YtQ2Ir7VoH+3j7vxVH1XoPwkkM25f7mXvcA==; ASP.NET_SessionId=uto23ghviljzcrv0jbsvgpdx
+      ┣ Host：                      localhost:44326
+      ┣ Referer：                   https://localhost:44326/
+      ┣ User-Agent：                Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/141.0.0.0 Safari/537.36
+      ┣ sec-ch-ua-platform：        "Windows"
+      ┣ sec-ch-ua：                 "Google Chrome";v="141", "Not?A_Brand";v="8", "Chromium";v="141"
+      ┣ sec-ch-ua-mobile：          ?0
+      ┣ sec-fetch-site：            same-origin
+      ┣ sec-fetch-mode：            no-cors
+      ┣ sec-fetch-dest：            image
+      ┣ priority：                  u=1, i
+      ┣ ━━━━━━━━━━━━━━━  返回信息 ━━━━━━━━━━━━━━━
+      ┣ HTTP响应状态码：            200
+      ┣ 原始类型：                  System.Threading.Tasks.Task<AttcMN.Data.Slave.Dtos.SlaveSysUserDto>
+      ┣ 最终类型：                  
+      ┣ 最终返回值：                null
+      ┗━━━━━━━━━━━  Logging Monitor ━━━━━━━━━━━
+info: 2025-10-31 11:51:23.8138606 +07:00 Friday L Microsoft.Hosting.Lifetime[0] #1
+      Application started. Press Ctrl+C to shut down.
+info: 2025-10-31 11:51:23.8289253 +07:00 Friday L Microsoft.Hosting.Lifetime[0] #1
+      Hosting environment: Development
+info: 2025-10-31 11:51:23.8309816 +07:00 Friday L Microsoft.Hosting.Lifetime[0] #1
+      Content root path: D:\Project\AttcMN\AttcMN.Net\AttcMN.Admin
+info: 2025-10-31 11:51:24.3946056 +07:00 Friday L System.Logging.LoggingMonitor[0] #11
+      ┏━━━━━━━━━━━  Logging Monitor ━━━━━━━━━━━
+      ┣ AttcMN.Admin.SampleController.Get
+      ┣ 
+      ┣ 控制器名称：                SampleController
+      ┣ 操作名称：                  Get
+      ┣ 显示名称：                  
+      ┣ 路由信息：                  [area]: ; [controller]: Sample; [action]: Get
+      ┣ 请求方式：                  GET
+      ┣ 请求地址：                  https://localhost:44326/favicon.ico
+      ┣ 来源地址：                  https://localhost:44326/
+      ┣ 请求端源：                  client
+      ┣ 浏览器标识：                Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/141.0.0.0 Safari/537.36
+      ┣ 客户端区域语言：            en-US,en;q=0.9,vi;q=0.8
+      ┣ 客户端 IP 地址：            0.0.0.1
+      ┣ 服务端 IP 地址：            0.0.0.1
+      ┣ 客户端连接 ID：             00-4b3c37a09fc848faca1ab0a0d46bb443-28fc5cca956610f9-00
+      ┣ 服务线程 ID：               #34
+      ┣ 执行耗时：                  71ms
+      ┣ ━━━━━━━━━━━━━━━  Cookies ━━━━━━━━━━━━━━━
+      ┣ 请求端：                    lang=en; Hm_lvt_3824e56a483ef95673d119166354712c=1761450141; .AspNetCore.Identity.Application=CfDJ8A_pruwfiuBFp_pFvYUTjgSCWWfo3Z47qZAjJE7FoJwOBU7JrpJzjuolrAeFzEwbNF5VkEIkB1K7Xw8YY4ADMgafZlElHia02YYyFnD-DqFWWHndOLt8TtLTDC_nf2LjPK2Z8uOezwyLZaxqTkKYswBf2vdQbBhP2xxqTk2yel9bdUSGdUsU5gDbVhvuu3HjxQefiZLg4UvttRgQzHMrvKpPNo7Zi2Cs3i-ZnSkjK8xID6zNmWmIpocuEQU1m05bo8bl0PbouQEKWEj8T_McPUiAB6Wsbx1CYIH_dyaxvfwSc8jVqNrfUwiOtL8HSeXuhgflYVo-E0Lw15XV8QBycaFNSdjokmWmtzx_o5_yUZBIbl64PKw64RA296cSOBL2FjxrIIALZkH7qUvHi4kJUM3LOJ9gVwaVBtWf_XTz2qJJ2HYT4JU7GNzu2bc8VeseFZoJ7S4Q04cdiz0M_ha96WcTbJ7g4btRGt1OPl0X4DcFAUh5lZmiB-Fkt1SwmyVzD23oy2CFzJ8_a_P_J00S2RRdWzWuQLil2ePO_jQeTtYAuykK-uECd3pZTukdqrxynJEMZp61pcElQQ22qJmNMhGjmHrZ10V4oqt4TgiYeVWC99-udGrZL9sbrjyvzppfag9xuPEav4b_gofla2vHe2pboyxEL0cTvAmIvP5sPa5UVgV_F_3Di_y5ehMswQjnwX0Q6inKFnKyN0cfqrpURWi_VPGZbICp37SjSCfo2LJMzYZ9H8rUKkBk_bBOfO5GLswRvsUgmmivB3dmrlIg9fxE_FIveH84nfU7E6XAlpzOPd0iLrufYDFAzSFh1xPHADIgiZwNzeuGylg0DOHc1MY; rememberMe=true; CurrentLanguageATTW=zh-tw; username=admin; password=BH96YS7OkPctLgNjvoIlL6dy650IZMv+gzhR2iO53nWosX2khh2YtQ2Ir7VoH+3j7vxVH1XoPwkkM25f7mXvcA==; ASP.NET_SessionId=uto23ghviljzcrv0jbsvgpdx
+      ┣ 响应端：                    
+      ┣ ━━━━━━━━━━━━━━━  系统信息 ━━━━━━━━━━━━━━━
+      ┣ 系统名称：                  Microsoft Windows 10.0.26200
+      ┣ 系统架构：                  X64
+      ┣ 基础框架：                  AttcMN.Framework v1.0.0.0
+      ┣ .NET 架构：                 .NET 8.0.21
+      ┣ ━━━━━━━━━━━━━━━  启动信息 ━━━━━━━━━━━━━━━
+      ┣ 运行环境：                  Development
+      ┣ 启动程序集：                AttcMN.Admin
+      ┣ 进程名称：                  iisexpress
+      ┣ 托管程序：                  iisexpress
+      ┣ ━━━━━━━━━━━━━━━  请求头信息 ━━━━━━━━━━━━━━━
+      ┣ 
+      ┣ Accept：                    image/avif,image/webp,image/apng,image/svg+xml,image/*,*/*;q=0.8
+      ┣ Accept-Encoding：           gzip, deflate, br, zstd
+      ┣ Accept-Language：           en-US,en;q=0.9,vi;q=0.8
+      ┣ Connection：                close
+      ┣ Cookie：                    lang=en; Hm_lvt_3824e56a483ef95673d119166354712c=1761450141; .AspNetCore.Identity.Application=CfDJ8A_pruwfiuBFp_pFvYUTjgSCWWfo3Z47qZAjJE7FoJwOBU7JrpJzjuolrAeFzEwbNF5VkEIkB1K7Xw8YY4ADMgafZlElHia02YYyFnD-DqFWWHndOLt8TtLTDC_nf2LjPK2Z8uOezwyLZaxqTkKYswBf2vdQbBhP2xxqTk2yel9bdUSGdUsU5gDbVhvuu3HjxQefiZLg4UvttRgQzHMrvKpPNo7Zi2Cs3i-ZnSkjK8xID6zNmWmIpocuEQU1m05bo8bl0PbouQEKWEj8T_McPUiAB6Wsbx1CYIH_dyaxvfwSc8jVqNrfUwiOtL8HSeXuhgflYVo-E0Lw15XV8QBycaFNSdjokmWmtzx_o5_yUZBIbl64PKw64RA296cSOBL2FjxrIIALZkH7qUvHi4kJUM3LOJ9gVwaVBtWf_XTz2qJJ2HYT4JU7GNzu2bc8VeseFZoJ7S4Q04cdiz0M_ha96WcTbJ7g4btRGt1OPl0X4DcFAUh5lZmiB-Fkt1SwmyVzD23oy2CFzJ8_a_P_J00S2RRdWzWuQLil2ePO_jQeTtYAuykK-uECd3pZTukdqrxynJEMZp61pcElQQ22qJmNMhGjmHrZ10V4oqt4TgiYeVWC99-udGrZL9sbrjyvzppfag9xuPEav4b_gofla2vHe2pboyxEL0cTvAmIvP5sPa5UVgV_F_3Di_y5ehMswQjnwX0Q6inKFnKyN0cfqrpURWi_VPGZbICp37SjSCfo2LJMzYZ9H8rUKkBk_bBOfO5GLswRvsUgmmivB3dmrlIg9fxE_FIveH84nfU7E6XAlpzOPd0iLrufYDFAzSFh1xPHADIgiZwNzeuGylg0DOHc1MY; rememberMe=true; CurrentLanguageATTW=zh-tw; username=admin; password=BH96YS7OkPctLgNjvoIlL6dy650IZMv+gzhR2iO53nWosX2khh2YtQ2Ir7VoH+3j7vxVH1XoPwkkM25f7mXvcA==; ASP.NET_SessionId=uto23ghviljzcrv0jbsvgpdx
+      ┣ Host：                      localhost:44326
+      ┣ Referer：                   https://localhost:44326/
+      ┣ User-Agent：                Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/141.0.0.0 Safari/537.36
+      ┣ sec-ch-ua-platform：        "Windows"
+      ┣ sec-ch-ua：                 "Google Chrome";v="141", "Not?A_Brand";v="8", "Chromium";v="141"
+      ┣ sec-ch-ua-mobile：          ?0
+      ┣ sec-fetch-site：            same-origin
+      ┣ sec-fetch-mode：            no-cors
+      ┣ sec-fetch-dest：            image
+      ┣ priority：                  u=1, i
+      ┣ ━━━━━━━━━━━━━━━  返回信息 ━━━━━━━━━━━━━━━
+      ┣ HTTP响应状态码：            200
+      ┣ 原始类型：                  System.Threading.Tasks.Task<AttcMN.Data.Slave.Dtos.SlaveSysUserDto>
+      ┣ 最终类型：                  
+      ┣ 最终返回值：                null
+      ┗━━━━━━━━━━━  Logging Monitor ━━━━━━━━━━━
+info: 2025-10-31 13:09:27.6581512 +07:00 Friday L Microsoft.Hosting.Lifetime[0] #1
+      Application started. Press Ctrl+C to shut down.
+info: 2025-10-31 13:09:27.6629767 +07:00 Friday L Microsoft.Hosting.Lifetime[0] #1
+      Hosting environment: Development
+info: 2025-10-31 13:09:27.6918784 +07:00 Friday L Microsoft.Hosting.Lifetime[0] #1
+      Content root path: D:\Project\AttcMN\AttcMN.Net\AttcMN.Admin
+info: 2025-10-31 13:09:28.4787110 +07:00 Friday L System.Logging.LoggingMonitor[0] #11
+      ┏━━━━━━━━━━━  Logging Monitor ━━━━━━━━━━━
+      ┣ AttcMN.Admin.SampleController.Get
+      ┣ 
+      ┣ 控制器名称：                SampleController
+      ┣ 操作名称：                  Get
+      ┣ 显示名称：                  
+      ┣ 路由信息：                  [area]: ; [controller]: Sample; [action]: Get
+      ┣ 请求方式：                  GET
+      ┣ 请求地址：                  https://localhost:44326/favicon.ico
+      ┣ 来源地址：                  https://localhost:44326/
+      ┣ 请求端源：                  client
+      ┣ 浏览器标识：                Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/141.0.0.0 Safari/537.36
+      ┣ 客户端区域语言：            en-US,en;q=0.9,vi;q=0.8
+      ┣ 客户端 IP 地址：            0.0.0.1
+      ┣ 服务端 IP 地址：            0.0.0.1
+      ┣ 客户端连接 ID：             00-cd4b485b5e9b775b72c3fd4134f61c09-6ad1aef88d5cb025-00
+      ┣ 服务线程 ID：               #35
+      ┣ 执行耗时：                  201ms
+      ┣ ━━━━━━━━━━━━━━━  Cookies ━━━━━━━━━━━━━━━
+      ┣ 请求端：                    lang=en; Hm_lvt_3824e56a483ef95673d119166354712c=1761450141; .AspNetCore.Identity.Application=CfDJ8A_pruwfiuBFp_pFvYUTjgSCWWfo3Z47qZAjJE7FoJwOBU7JrpJzjuolrAeFzEwbNF5VkEIkB1K7Xw8YY4ADMgafZlElHia02YYyFnD-DqFWWHndOLt8TtLTDC_nf2LjPK2Z8uOezwyLZaxqTkKYswBf2vdQbBhP2xxqTk2yel9bdUSGdUsU5gDbVhvuu3HjxQefiZLg4UvttRgQzHMrvKpPNo7Zi2Cs3i-ZnSkjK8xID6zNmWmIpocuEQU1m05bo8bl0PbouQEKWEj8T_McPUiAB6Wsbx1CYIH_dyaxvfwSc8jVqNrfUwiOtL8HSeXuhgflYVo-E0Lw15XV8QBycaFNSdjokmWmtzx_o5_yUZBIbl64PKw64RA296cSOBL2FjxrIIALZkH7qUvHi4kJUM3LOJ9gVwaVBtWf_XTz2qJJ2HYT4JU7GNzu2bc8VeseFZoJ7S4Q04cdiz0M_ha96WcTbJ7g4btRGt1OPl0X4DcFAUh5lZmiB-Fkt1SwmyVzD23oy2CFzJ8_a_P_J00S2RRdWzWuQLil2ePO_jQeTtYAuykK-uECd3pZTukdqrxynJEMZp61pcElQQ22qJmNMhGjmHrZ10V4oqt4TgiYeVWC99-udGrZL9sbrjyvzppfag9xuPEav4b_gofla2vHe2pboyxEL0cTvAmIvP5sPa5UVgV_F_3Di_y5ehMswQjnwX0Q6inKFnKyN0cfqrpURWi_VPGZbICp37SjSCfo2LJMzYZ9H8rUKkBk_bBOfO5GLswRvsUgmmivB3dmrlIg9fxE_FIveH84nfU7E6XAlpzOPd0iLrufYDFAzSFh1xPHADIgiZwNzeuGylg0DOHc1MY; rememberMe=true; CurrentLanguageATTW=zh-tw; username=admin; password=BH96YS7OkPctLgNjvoIlL6dy650IZMv+gzhR2iO53nWosX2khh2YtQ2Ir7VoH+3j7vxVH1XoPwkkM25f7mXvcA==; ASP.NET_SessionId=uto23ghviljzcrv0jbsvgpdx
+      ┣ 响应端：                    
+      ┣ ━━━━━━━━━━━━━━━  系统信息 ━━━━━━━━━━━━━━━
+      ┣ 系统名称：                  Microsoft Windows 10.0.26200
+      ┣ 系统架构：                  X64
+      ┣ 基础框架：                  AttcMN.Framework v1.0.0.0
+      ┣ .NET 架构：                 .NET 8.0.21
+      ┣ ━━━━━━━━━━━━━━━  启动信息 ━━━━━━━━━━━━━━━
+      ┣ 运行环境：                  Development
+      ┣ 启动程序集：                AttcMN.Admin
+      ┣ 进程名称：                  iisexpress
+      ┣ 托管程序：                  iisexpress
+      ┣ ━━━━━━━━━━━━━━━  请求头信息 ━━━━━━━━━━━━━━━
+      ┣ 
+      ┣ Accept：                    image/avif,image/webp,image/apng,image/svg+xml,image/*,*/*;q=0.8
+      ┣ Accept-Encoding：           gzip, deflate, br, zstd
+      ┣ Accept-Language：           en-US,en;q=0.9,vi;q=0.8
+      ┣ Connection：                close
+      ┣ Cookie：                    lang=en; Hm_lvt_3824e56a483ef95673d119166354712c=1761450141; .AspNetCore.Identity.Application=CfDJ8A_pruwfiuBFp_pFvYUTjgSCWWfo3Z47qZAjJE7FoJwOBU7JrpJzjuolrAeFzEwbNF5VkEIkB1K7Xw8YY4ADMgafZlElHia02YYyFnD-DqFWWHndOLt8TtLTDC_nf2LjPK2Z8uOezwyLZaxqTkKYswBf2vdQbBhP2xxqTk2yel9bdUSGdUsU5gDbVhvuu3HjxQefiZLg4UvttRgQzHMrvKpPNo7Zi2Cs3i-ZnSkjK8xID6zNmWmIpocuEQU1m05bo8bl0PbouQEKWEj8T_McPUiAB6Wsbx1CYIH_dyaxvfwSc8jVqNrfUwiOtL8HSeXuhgflYVo-E0Lw15XV8QBycaFNSdjokmWmtzx_o5_yUZBIbl64PKw64RA296cSOBL2FjxrIIALZkH7qUvHi4kJUM3LOJ9gVwaVBtWf_XTz2qJJ2HYT4JU7GNzu2bc8VeseFZoJ7S4Q04cdiz0M_ha96WcTbJ7g4btRGt1OPl0X4DcFAUh5lZmiB-Fkt1SwmyVzD23oy2CFzJ8_a_P_J00S2RRdWzWuQLil2ePO_jQeTtYAuykK-uECd3pZTukdqrxynJEMZp61pcElQQ22qJmNMhGjmHrZ10V4oqt4TgiYeVWC99-udGrZL9sbrjyvzppfag9xuPEav4b_gofla2vHe2pboyxEL0cTvAmIvP5sPa5UVgV_F_3Di_y5ehMswQjnwX0Q6inKFnKyN0cfqrpURWi_VPGZbICp37SjSCfo2LJMzYZ9H8rUKkBk_bBOfO5GLswRvsUgmmivB3dmrlIg9fxE_FIveH84nfU7E6XAlpzOPd0iLrufYDFAzSFh1xPHADIgiZwNzeuGylg0DOHc1MY; rememberMe=true; CurrentLanguageATTW=zh-tw; username=admin; password=BH96YS7OkPctLgNjvoIlL6dy650IZMv+gzhR2iO53nWosX2khh2YtQ2Ir7VoH+3j7vxVH1XoPwkkM25f7mXvcA==; ASP.NET_SessionId=uto23ghviljzcrv0jbsvgpdx
+      ┣ Host：                      localhost:44326
+      ┣ Referer：                   https://localhost:44326/
+      ┣ User-Agent：                Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/141.0.0.0 Safari/537.36
+      ┣ sec-ch-ua-platform：        "Windows"
+      ┣ sec-ch-ua：                 "Google Chrome";v="141", "Not?A_Brand";v="8", "Chromium";v="141"
+      ┣ sec-ch-ua-mobile：          ?0
+      ┣ sec-fetch-site：            same-origin
+      ┣ sec-fetch-mode：            no-cors
+      ┣ sec-fetch-dest：            image
+      ┣ priority：                  u=1, i
+      ┣ ━━━━━━━━━━━━━━━  返回信息 ━━━━━━━━━━━━━━━
+      ┣ HTTP响应状态码：            200
+      ┣ 原始类型：                  System.Threading.Tasks.Task<AttcMN.Data.Slave.Dtos.SlaveSysUserDto>
+      ┣ 最终类型：                  
+      ┣ 最终返回值：                null
+      ┗━━━━━━━━━━━  Logging Monitor ━━━━━━━━━━━
+info: 2025-10-31 13:45:39.3251907 +07:00 Friday L Microsoft.Hosting.Lifetime[0] #1
+      Application started. Press Ctrl+C to shut down.
+info: 2025-10-31 13:45:39.3528618 +07:00 Friday L Microsoft.Hosting.Lifetime[0] #1
+      Hosting environment: Development
+info: 2025-10-31 13:45:39.3553276 +07:00 Friday L Microsoft.Hosting.Lifetime[0] #1
+      Content root path: D:\Project\AttcMN\AttcMN.Net\AttcMN.Admin
+info: 2025-10-31 13:45:39.9868219 +07:00 Friday L System.Logging.LoggingMonitor[0] #10
+      ┏━━━━━━━━━━━  Logging Monitor ━━━━━━━━━━━
+      ┣ AttcMN.Admin.SampleController.Get
+      ┣ 
+      ┣ 控制器名称：                SampleController
+      ┣ 操作名称：                  Get
+      ┣ 显示名称：                  
+      ┣ 路由信息：                  [area]: ; [controller]: Sample; [action]: Get
+      ┣ 请求方式：                  GET
+      ┣ 请求地址：                  https://localhost:44326/favicon.ico
+      ┣ 来源地址：                  https://localhost:44326/
+      ┣ 请求端源：                  client
+      ┣ 浏览器标识：                Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/141.0.0.0 Safari/537.36
+      ┣ 客户端区域语言：            en-US,en;q=0.9,vi;q=0.8
+      ┣ 客户端 IP 地址：            0.0.0.1
+      ┣ 服务端 IP 地址：            0.0.0.1
+      ┣ 客户端连接 ID：             00-d039bc679eca7e26c19a22767d694eac-f92a9b4f480b7304-00
+      ┣ 服务线程 ID：               #36
+      ┣ 执行耗时：                  87ms
+      ┣ ━━━━━━━━━━━━━━━  Cookies ━━━━━━━━━━━━━━━
+      ┣ 请求端：                    lang=en; Hm_lvt_3824e56a483ef95673d119166354712c=1761450141; .AspNetCore.Identity.Application=CfDJ8A_pruwfiuBFp_pFvYUTjgSCWWfo3Z47qZAjJE7FoJwOBU7JrpJzjuolrAeFzEwbNF5VkEIkB1K7Xw8YY4ADMgafZlElHia02YYyFnD-DqFWWHndOLt8TtLTDC_nf2LjPK2Z8uOezwyLZaxqTkKYswBf2vdQbBhP2xxqTk2yel9bdUSGdUsU5gDbVhvuu3HjxQefiZLg4UvttRgQzHMrvKpPNo7Zi2Cs3i-ZnSkjK8xID6zNmWmIpocuEQU1m05bo8bl0PbouQEKWEj8T_McPUiAB6Wsbx1CYIH_dyaxvfwSc8jVqNrfUwiOtL8HSeXuhgflYVo-E0Lw15XV8QBycaFNSdjokmWmtzx_o5_yUZBIbl64PKw64RA296cSOBL2FjxrIIALZkH7qUvHi4kJUM3LOJ9gVwaVBtWf_XTz2qJJ2HYT4JU7GNzu2bc8VeseFZoJ7S4Q04cdiz0M_ha96WcTbJ7g4btRGt1OPl0X4DcFAUh5lZmiB-Fkt1SwmyVzD23oy2CFzJ8_a_P_J00S2RRdWzWuQLil2ePO_jQeTtYAuykK-uECd3pZTukdqrxynJEMZp61pcElQQ22qJmNMhGjmHrZ10V4oqt4TgiYeVWC99-udGrZL9sbrjyvzppfag9xuPEav4b_gofla2vHe2pboyxEL0cTvAmIvP5sPa5UVgV_F_3Di_y5ehMswQjnwX0Q6inKFnKyN0cfqrpURWi_VPGZbICp37SjSCfo2LJMzYZ9H8rUKkBk_bBOfO5GLswRvsUgmmivB3dmrlIg9fxE_FIveH84nfU7E6XAlpzOPd0iLrufYDFAzSFh1xPHADIgiZwNzeuGylg0DOHc1MY; rememberMe=true; CurrentLanguageATTW=zh-tw; username=admin; password=BH96YS7OkPctLgNjvoIlL6dy650IZMv+gzhR2iO53nWosX2khh2YtQ2Ir7VoH+3j7vxVH1XoPwkkM25f7mXvcA==; ASP.NET_SessionId=uto23ghviljzcrv0jbsvgpdx
+      ┣ 响应端：                    
+      ┣ ━━━━━━━━━━━━━━━  系统信息 ━━━━━━━━━━━━━━━
+      ┣ 系统名称：                  Microsoft Windows 10.0.26200
+      ┣ 系统架构：                  X64
+      ┣ 基础框架：                  AttcMN.Framework v1.0.0.0
+      ┣ .NET 架构：                 .NET 8.0.21
+      ┣ ━━━━━━━━━━━━━━━  启动信息 ━━━━━━━━━━━━━━━
+      ┣ 运行环境：                  Development
+      ┣ 启动程序集：                AttcMN.Admin
+      ┣ 进程名称：                  iisexpress
+      ┣ 托管程序：                  iisexpress
+      ┣ ━━━━━━━━━━━━━━━  请求头信息 ━━━━━━━━━━━━━━━
+      ┣ 
+      ┣ Accept：                    image/avif,image/webp,image/apng,image/svg+xml,image/*,*/*;q=0.8
+      ┣ Accept-Encoding：           gzip, deflate, br, zstd
+      ┣ Accept-Language：           en-US,en;q=0.9,vi;q=0.8
+      ┣ Connection：                close
+      ┣ Cookie：                    lang=en; Hm_lvt_3824e56a483ef95673d119166354712c=1761450141; .AspNetCore.Identity.Application=CfDJ8A_pruwfiuBFp_pFvYUTjgSCWWfo3Z47qZAjJE7FoJwOBU7JrpJzjuolrAeFzEwbNF5VkEIkB1K7Xw8YY4ADMgafZlElHia02YYyFnD-DqFWWHndOLt8TtLTDC_nf2LjPK2Z8uOezwyLZaxqTkKYswBf2vdQbBhP2xxqTk2yel9bdUSGdUsU5gDbVhvuu3HjxQefiZLg4UvttRgQzHMrvKpPNo7Zi2Cs3i-ZnSkjK8xID6zNmWmIpocuEQU1m05bo8bl0PbouQEKWEj8T_McPUiAB6Wsbx1CYIH_dyaxvfwSc8jVqNrfUwiOtL8HSeXuhgflYVo-E0Lw15XV8QBycaFNSdjokmWmtzx_o5_yUZBIbl64PKw64RA296cSOBL2FjxrIIALZkH7qUvHi4kJUM3LOJ9gVwaVBtWf_XTz2qJJ2HYT4JU7GNzu2bc8VeseFZoJ7S4Q04cdiz0M_ha96WcTbJ7g4btRGt1OPl0X4DcFAUh5lZmiB-Fkt1SwmyVzD23oy2CFzJ8_a_P_J00S2RRdWzWuQLil2ePO_jQeTtYAuykK-uECd3pZTukdqrxynJEMZp61pcElQQ22qJmNMhGjmHrZ10V4oqt4TgiYeVWC99-udGrZL9sbrjyvzppfag9xuPEav4b_gofla2vHe2pboyxEL0cTvAmIvP5sPa5UVgV_F_3Di_y5ehMswQjnwX0Q6inKFnKyN0cfqrpURWi_VPGZbICp37SjSCfo2LJMzYZ9H8rUKkBk_bBOfO5GLswRvsUgmmivB3dmrlIg9fxE_FIveH84nfU7E6XAlpzOPd0iLrufYDFAzSFh1xPHADIgiZwNzeuGylg0DOHc1MY; rememberMe=true; CurrentLanguageATTW=zh-tw; username=admin; password=BH96YS7OkPctLgNjvoIlL6dy650IZMv+gzhR2iO53nWosX2khh2YtQ2Ir7VoH+3j7vxVH1XoPwkkM25f7mXvcA==; ASP.NET_SessionId=uto23ghviljzcrv0jbsvgpdx
+      ┣ Host：                      localhost:44326
+      ┣ Referer：                   https://localhost:44326/
+      ┣ User-Agent：                Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/141.0.0.0 Safari/537.36
+      ┣ sec-ch-ua-platform：        "Windows"
+      ┣ sec-ch-ua：                 "Google Chrome";v="141", "Not?A_Brand";v="8", "Chromium";v="141"
+      ┣ sec-ch-ua-mobile：          ?0
+      ┣ sec-fetch-site：            same-origin
+      ┣ sec-fetch-mode：            no-cors
+      ┣ sec-fetch-dest：            image
+      ┣ priority：                  u=1, i
+      ┣ ━━━━━━━━━━━━━━━  返回信息 ━━━━━━━━━━━━━━━
+      ┣ HTTP响应状态码：            200
+      ┣ 原始类型：                  System.Threading.Tasks.Task<AttcMN.Data.Slave.Dtos.SlaveSysUserDto>
+      ┣ 最终类型：                  
+      ┣ 最终返回值：                null
+      ┗━━━━━━━━━━━  Logging Monitor ━━━━━━━━━━━
+info: 2025-10-31 13:46:57.3815897 +07:00 Friday L System.Logging.LoggingMonitor[0] #33
+      ┏━━━━━━━━━━━  Logging Monitor ━━━━━━━━━━━
+      ┣ AttcMN.Admin.CaptchaController.GetCaptchaImage
+      ┣ 
+      ┣ 控制器名称：                CaptchaController
+      ┣ 操作名称：                  GetCaptchaImage
+      ┣ 显示名称：                  
+      ┣ 路由信息：                  [area]: ; [controller]: Captcha; [action]: GetCaptchaImage
+      ┣ 请求方式：                  GET
+      ┣ 请求地址：                  https://localhost:44326/captchaImage
+      ┣ 来源地址：                  https://localhost:44326/api-doc/index.html?urls.primaryName=Common
+      ┣ 请求端源：                  swagger
+      ┣ 浏览器标识：                Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/141.0.0.0 Safari/537.36
+      ┣ 客户端区域语言：            en-US,en;q=0.9,vi;q=0.8
+      ┣ 客户端 IP 地址：            0.0.0.1
+      ┣ 服务端 IP 地址：            0.0.0.1
+      ┣ 客户端连接 ID：             00-27f29e9ec86bacd972ad540e2dc1da16-2da82cfa40d6761d-00
+      ┣ 服务线程 ID：               #33
+      ┣ 执行耗时：                  60ms
+      ┣ ━━━━━━━━━━━━━━━  Cookies ━━━━━━━━━━━━━━━
+      ┣ 请求端：                    lang=en; Hm_lvt_3824e56a483ef95673d119166354712c=1761450141; .AspNetCore.Identity.Application=CfDJ8A_pruwfiuBFp_pFvYUTjgSCWWfo3Z47qZAjJE7FoJwOBU7JrpJzjuolrAeFzEwbNF5VkEIkB1K7Xw8YY4ADMgafZlElHia02YYyFnD-DqFWWHndOLt8TtLTDC_nf2LjPK2Z8uOezwyLZaxqTkKYswBf2vdQbBhP2xxqTk2yel9bdUSGdUsU5gDbVhvuu3HjxQefiZLg4UvttRgQzHMrvKpPNo7Zi2Cs3i-ZnSkjK8xID6zNmWmIpocuEQU1m05bo8bl0PbouQEKWEj8T_McPUiAB6Wsbx1CYIH_dyaxvfwSc8jVqNrfUwiOtL8HSeXuhgflYVo-E0Lw15XV8QBycaFNSdjokmWmtzx_o5_yUZBIbl64PKw64RA296cSOBL2FjxrIIALZkH7qUvHi4kJUM3LOJ9gVwaVBtWf_XTz2qJJ2HYT4JU7GNzu2bc8VeseFZoJ7S4Q04cdiz0M_ha96WcTbJ7g4btRGt1OPl0X4DcFAUh5lZmiB-Fkt1SwmyVzD23oy2CFzJ8_a_P_J00S2RRdWzWuQLil2ePO_jQeTtYAuykK-uECd3pZTukdqrxynJEMZp61pcElQQ22qJmNMhGjmHrZ10V4oqt4TgiYeVWC99-udGrZL9sbrjyvzppfag9xuPEav4b_gofla2vHe2pboyxEL0cTvAmIvP5sPa5UVgV_F_3Di_y5ehMswQjnwX0Q6inKFnKyN0cfqrpURWi_VPGZbICp37SjSCfo2LJMzYZ9H8rUKkBk_bBOfO5GLswRvsUgmmivB3dmrlIg9fxE_FIveH84nfU7E6XAlpzOPd0iLrufYDFAzSFh1xPHADIgiZwNzeuGylg0DOHc1MY; rememberMe=true; CurrentLanguageATTW=zh-tw; username=admin; password=BH96YS7OkPctLgNjvoIlL6dy650IZMv+gzhR2iO53nWosX2khh2YtQ2Ir7VoH+3j7vxVH1XoPwkkM25f7mXvcA==; ASP.NET_SessionId=uto23ghviljzcrv0jbsvgpdx
+      ┣ 响应端：                    
+      ┣ ━━━━━━━━━━━━━━━  系统信息 ━━━━━━━━━━━━━━━
+      ┣ 系统名称：                  Microsoft Windows 10.0.26200
+      ┣ 系统架构：                  X64
+      ┣ 基础框架：                  AttcMN.Framework v1.0.0.0
+      ┣ .NET 架构：                 .NET 8.0.21
+      ┣ ━━━━━━━━━━━━━━━  启动信息 ━━━━━━━━━━━━━━━
+      ┣ 运行环境：                  Development
+      ┣ 启动程序集：                AttcMN.Admin
+      ┣ 进程名称：                  iisexpress
+      ┣ 托管程序：                  iisexpress
+      ┣ ━━━━━━━━━━━━━━━  请求头信息 ━━━━━━━━━━━━━━━
+      ┣ 
+      ┣ Accept：                    */*
+      ┣ Accept-Encoding：           gzip, deflate, br, zstd
+      ┣ Accept-Language：           en-US,en;q=0.9,vi;q=0.8
+      ┣ Connection：                close
+      ┣ Cookie：                    lang=en; Hm_lvt_3824e56a483ef95673d119166354712c=1761450141; .AspNetCore.Identity.Application=CfDJ8A_pruwfiuBFp_pFvYUTjgSCWWfo3Z47qZAjJE7FoJwOBU7JrpJzjuolrAeFzEwbNF5VkEIkB1K7Xw8YY4ADMgafZlElHia02YYyFnD-DqFWWHndOLt8TtLTDC_nf2LjPK2Z8uOezwyLZaxqTkKYswBf2vdQbBhP2xxqTk2yel9bdUSGdUsU5gDbVhvuu3HjxQefiZLg4UvttRgQzHMrvKpPNo7Zi2Cs3i-ZnSkjK8xID6zNmWmIpocuEQU1m05bo8bl0PbouQEKWEj8T_McPUiAB6Wsbx1CYIH_dyaxvfwSc8jVqNrfUwiOtL8HSeXuhgflYVo-E0Lw15XV8QBycaFNSdjokmWmtzx_o5_yUZBIbl64PKw64RA296cSOBL2FjxrIIALZkH7qUvHi4kJUM3LOJ9gVwaVBtWf_XTz2qJJ2HYT4JU7GNzu2bc8VeseFZoJ7S4Q04cdiz0M_ha96WcTbJ7g4btRGt1OPl0X4DcFAUh5lZmiB-Fkt1SwmyVzD23oy2CFzJ8_a_P_J00S2RRdWzWuQLil2ePO_jQeTtYAuykK-uECd3pZTukdqrxynJEMZp61pcElQQ22qJmNMhGjmHrZ10V4oqt4TgiYeVWC99-udGrZL9sbrjyvzppfag9xuPEav4b_gofla2vHe2pboyxEL0cTvAmIvP5sPa5UVgV_F_3Di_y5ehMswQjnwX0Q6inKFnKyN0cfqrpURWi_VPGZbICp37SjSCfo2LJMzYZ9H8rUKkBk_bBOfO5GLswRvsUgmmivB3dmrlIg9fxE_FIveH84nfU7E6XAlpzOPd0iLrufYDFAzSFh1xPHADIgiZwNzeuGylg0DOHc1MY; rememberMe=true; CurrentLanguageATTW=zh-tw; username=admin; password=BH96YS7OkPctLgNjvoIlL6dy650IZMv+gzhR2iO53nWosX2khh2YtQ2Ir7VoH+3j7vxVH1XoPwkkM25f7mXvcA==; ASP.NET_SessionId=uto23ghviljzcrv0jbsvgpdx
+      ┣ Host：                      localhost:44326
+      ┣ Referer：                   https://localhost:44326/api-doc/index.html?urls.primaryName=Common
+      ┣ User-Agent：                Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/141.0.0.0 Safari/537.36
+      ┣ sec-ch-ua-platform：        "Windows"
+      ┣ request-from：              swagger
+      ┣ sec-ch-ua：                 "Google Chrome";v="141", "Not?A_Brand";v="8", "Chromium";v="141"
+      ┣ sec-ch-ua-mobile：          ?0
+      ┣ sec-fetch-site：            same-origin
+      ┣ sec-fetch-mode：            cors
+      ┣ sec-fetch-dest：            empty
+      ┣ priority：                  u=1, i
+      ┣ ━━━━━━━━━━━━━━━  返回信息 ━━━━━━━━━━━━━━━
+      ┣ HTTP响应状态码：            200
+      ┣ 原始类型：                  System.Object
+      ┣ 最终类型：                  <>f__AnonymousType1<System.String, System.String>
+      ┣ 最终返回值：                {"uuid":"a59d28fc-a79d-4ad0-97d9-68d9a7ba1aba","img":"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"}
+      ┗━━━━━━━━━━━  Logging Monitor ━━━━━━━━━━━
+info: 2025-10-31 16:33:00.6503562 +07:00 Friday L Microsoft.Hosting.Lifetime[0] #1
+      Application started. Press Ctrl+C to shut down.
+info: 2025-10-31 16:33:00.6614572 +07:00 Friday L Microsoft.Hosting.Lifetime[0] #1
+      Hosting environment: Development
+info: 2025-10-31 16:33:00.6741653 +07:00 Friday L Microsoft.Hosting.Lifetime[0] #1
+      Content root path: D:\Project\AttcMN\AttcMN.Net\AttcMN.Admin
+info: 2025-10-31 16:33:01.3147961 +07:00 Friday L System.Logging.LoggingMonitor[0] #36
+      ┏━━━━━━━━━━━  Logging Monitor ━━━━━━━━━━━
+      ┣ AttcMN.Admin.SampleController.Get
+      ┣ 
+      ┣ 控制器名称：                SampleController
+      ┣ 操作名称：                  Get
+      ┣ 显示名称：                  
+      ┣ 路由信息：                  [area]: ; [controller]: Sample; [action]: Get
+      ┣ 请求方式：                  GET
+      ┣ 请求地址：                  https://localhost:44326/favicon.ico
+      ┣ 来源地址：                  https://localhost:44326/
+      ┣ 请求端源：                  client
+      ┣ 浏览器标识：                Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/141.0.0.0 Safari/537.36
+      ┣ 客户端区域语言：            en-US,en;q=0.9,vi;q=0.8
+      ┣ 客户端 IP 地址：            0.0.0.1
+      ┣ 服务端 IP 地址：            0.0.0.1
+      ┣ 客户端连接 ID：             00-c1f00a8d289d7c57cd40d69d8f19573a-317d6f99f4c2c4cb-00
+      ┣ 服务线程 ID：               #10
+      ┣ 执行耗时：                  117ms
+      ┣ ━━━━━━━━━━━━━━━  Cookies ━━━━━━━━━━━━━━━
+      ┣ 请求端：                    lang=en; Hm_lvt_3824e56a483ef95673d119166354712c=1761450141; .AspNetCore.Identity.Application=CfDJ8A_pruwfiuBFp_pFvYUTjgSCWWfo3Z47qZAjJE7FoJwOBU7JrpJzjuolrAeFzEwbNF5VkEIkB1K7Xw8YY4ADMgafZlElHia02YYyFnD-DqFWWHndOLt8TtLTDC_nf2LjPK2Z8uOezwyLZaxqTkKYswBf2vdQbBhP2xxqTk2yel9bdUSGdUsU5gDbVhvuu3HjxQefiZLg4UvttRgQzHMrvKpPNo7Zi2Cs3i-ZnSkjK8xID6zNmWmIpocuEQU1m05bo8bl0PbouQEKWEj8T_McPUiAB6Wsbx1CYIH_dyaxvfwSc8jVqNrfUwiOtL8HSeXuhgflYVo-E0Lw15XV8QBycaFNSdjokmWmtzx_o5_yUZBIbl64PKw64RA296cSOBL2FjxrIIALZkH7qUvHi4kJUM3LOJ9gVwaVBtWf_XTz2qJJ2HYT4JU7GNzu2bc8VeseFZoJ7S4Q04cdiz0M_ha96WcTbJ7g4btRGt1OPl0X4DcFAUh5lZmiB-Fkt1SwmyVzD23oy2CFzJ8_a_P_J00S2RRdWzWuQLil2ePO_jQeTtYAuykK-uECd3pZTukdqrxynJEMZp61pcElQQ22qJmNMhGjmHrZ10V4oqt4TgiYeVWC99-udGrZL9sbrjyvzppfag9xuPEav4b_gofla2vHe2pboyxEL0cTvAmIvP5sPa5UVgV_F_3Di_y5ehMswQjnwX0Q6inKFnKyN0cfqrpURWi_VPGZbICp37SjSCfo2LJMzYZ9H8rUKkBk_bBOfO5GLswRvsUgmmivB3dmrlIg9fxE_FIveH84nfU7E6XAlpzOPd0iLrufYDFAzSFh1xPHADIgiZwNzeuGylg0DOHc1MY; rememberMe=true; CurrentLanguageATTW=zh-tw; username=admin; password=BH96YS7OkPctLgNjvoIlL6dy650IZMv+gzhR2iO53nWosX2khh2YtQ2Ir7VoH+3j7vxVH1XoPwkkM25f7mXvcA==; ASP.NET_SessionId=uto23ghviljzcrv0jbsvgpdx
+      ┣ 响应端：                    
+      ┣ ━━━━━━━━━━━━━━━  系统信息 ━━━━━━━━━━━━━━━
+      ┣ 系统名称：                  Microsoft Windows 10.0.26200
+      ┣ 系统架构：                  X64
+      ┣ 基础框架：                  AttcMN.Framework v1.0.0.0
+      ┣ .NET 架构：                 .NET 8.0.21
+      ┣ ━━━━━━━━━━━━━━━  启动信息 ━━━━━━━━━━━━━━━
+      ┣ 运行环境：                  Development
+      ┣ 启动程序集：                AttcMN.Admin
+      ┣ 进程名称：                  iisexpress
+      ┣ 托管程序：                  iisexpress
+      ┣ ━━━━━━━━━━━━━━━  请求头信息 ━━━━━━━━━━━━━━━
+      ┣ 
+      ┣ Accept：                    image/avif,image/webp,image/apng,image/svg+xml,image/*,*/*;q=0.8
+      ┣ Accept-Encoding：           gzip, deflate, br, zstd
+      ┣ Accept-Language：           en-US,en;q=0.9,vi;q=0.8
+      ┣ Connection：                close
+      ┣ Cookie：                    lang=en; Hm_lvt_3824e56a483ef95673d119166354712c=1761450141; .AspNetCore.Identity.Application=CfDJ8A_pruwfiuBFp_pFvYUTjgSCWWfo3Z47qZAjJE7FoJwOBU7JrpJzjuolrAeFzEwbNF5VkEIkB1K7Xw8YY4ADMgafZlElHia02YYyFnD-DqFWWHndOLt8TtLTDC_nf2LjPK2Z8uOezwyLZaxqTkKYswBf2vdQbBhP2xxqTk2yel9bdUSGdUsU5gDbVhvuu3HjxQefiZLg4UvttRgQzHMrvKpPNo7Zi2Cs3i-ZnSkjK8xID6zNmWmIpocuEQU1m05bo8bl0PbouQEKWEj8T_McPUiAB6Wsbx1CYIH_dyaxvfwSc8jVqNrfUwiOtL8HSeXuhgflYVo-E0Lw15XV8QBycaFNSdjokmWmtzx_o5_yUZBIbl64PKw64RA296cSOBL2FjxrIIALZkH7qUvHi4kJUM3LOJ9gVwaVBtWf_XTz2qJJ2HYT4JU7GNzu2bc8VeseFZoJ7S4Q04cdiz0M_ha96WcTbJ7g4btRGt1OPl0X4DcFAUh5lZmiB-Fkt1SwmyVzD23oy2CFzJ8_a_P_J00S2RRdWzWuQLil2ePO_jQeTtYAuykK-uECd3pZTukdqrxynJEMZp61pcElQQ22qJmNMhGjmHrZ10V4oqt4TgiYeVWC99-udGrZL9sbrjyvzppfag9xuPEav4b_gofla2vHe2pboyxEL0cTvAmIvP5sPa5UVgV_F_3Di_y5ehMswQjnwX0Q6inKFnKyN0cfqrpURWi_VPGZbICp37SjSCfo2LJMzYZ9H8rUKkBk_bBOfO5GLswRvsUgmmivB3dmrlIg9fxE_FIveH84nfU7E6XAlpzOPd0iLrufYDFAzSFh1xPHADIgiZwNzeuGylg0DOHc1MY; rememberMe=true; CurrentLanguageATTW=zh-tw; username=admin; password=BH96YS7OkPctLgNjvoIlL6dy650IZMv+gzhR2iO53nWosX2khh2YtQ2Ir7VoH+3j7vxVH1XoPwkkM25f7mXvcA==; ASP.NET_SessionId=uto23ghviljzcrv0jbsvgpdx
+      ┣ Host：                      localhost:44326
+      ┣ Referer：                   https://localhost:44326/
+      ┣ User-Agent：                Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/141.0.0.0 Safari/537.36
+      ┣ sec-ch-ua-platform：        "Windows"
+      ┣ sec-ch-ua：                 "Google Chrome";v="141", "Not?A_Brand";v="8", "Chromium";v="141"
+      ┣ sec-ch-ua-mobile：          ?0
+      ┣ sec-fetch-site：            same-origin
+      ┣ sec-fetch-mode：            no-cors
+      ┣ sec-fetch-dest：            image
+      ┣ priority：                  u=1, i
+      ┣ ━━━━━━━━━━━━━━━  返回信息 ━━━━━━━━━━━━━━━
+      ┣ HTTP响应状态码：            200
+      ┣ 原始类型：                  System.Threading.Tasks.Task<AttcMN.Data.Slave.Dtos.SlaveSysUserDto>
+      ┣ 最终类型：                  
+      ┣ 最终返回值：                null
+      ┗━━━━━━━━━━━  Logging Monitor ━━━━━━━━━━━
+info: 2025-10-31 16:38:10.7564725 +07:00 Friday L Microsoft.Hosting.Lifetime[0] #1
+      Application started. Press Ctrl+C to shut down.
+info: 2025-10-31 16:38:10.7603239 +07:00 Friday L Microsoft.Hosting.Lifetime[0] #1
+      Hosting environment: Development
+info: 2025-10-31 16:38:10.7624307 +07:00 Friday L Microsoft.Hosting.Lifetime[0] #1
+      Content root path: D:\Project\AttcMN\AttcMN.Net\AttcMN.Admin
+info: 2025-10-31 16:38:11.2955799 +07:00 Friday L System.Logging.LoggingMonitor[0] #10
+      ┏━━━━━━━━━━━  Logging Monitor ━━━━━━━━━━━
+      ┣ AttcMN.Admin.SampleController.Get
+      ┣ 
+      ┣ 控制器名称：                SampleController
+      ┣ 操作名称：                  Get
+      ┣ 显示名称：                  
+      ┣ 路由信息：                  [area]: ; [controller]: Sample; [action]: Get
+      ┣ 请求方式：                  GET
+      ┣ 请求地址：                  https://localhost:44326/favicon.ico
+      ┣ 来源地址：                  https://localhost:44326/
+      ┣ 请求端源：                  client
+      ┣ 浏览器标识：                Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/141.0.0.0 Safari/537.36
+      ┣ 客户端区域语言：            en-US,en;q=0.9,vi;q=0.8
+      ┣ 客户端 IP 地址：            0.0.0.1
+      ┣ 服务端 IP 地址：            0.0.0.1
+      ┣ 客户端连接 ID：             00-571b4edd5ac56b7f4fa9b1c9fdc47b76-9391ad61c5999a59-00
+      ┣ 服务线程 ID：               #36
+      ┣ 执行耗时：                  82ms
+      ┣ ━━━━━━━━━━━━━━━  Cookies ━━━━━━━━━━━━━━━
+      ┣ 请求端：                    lang=en; Hm_lvt_3824e56a483ef95673d119166354712c=1761450141; .AspNetCore.Identity.Application=CfDJ8A_pruwfiuBFp_pFvYUTjgSCWWfo3Z47qZAjJE7FoJwOBU7JrpJzjuolrAeFzEwbNF5VkEIkB1K7Xw8YY4ADMgafZlElHia02YYyFnD-DqFWWHndOLt8TtLTDC_nf2LjPK2Z8uOezwyLZaxqTkKYswBf2vdQbBhP2xxqTk2yel9bdUSGdUsU5gDbVhvuu3HjxQefiZLg4UvttRgQzHMrvKpPNo7Zi2Cs3i-ZnSkjK8xID6zNmWmIpocuEQU1m05bo8bl0PbouQEKWEj8T_McPUiAB6Wsbx1CYIH_dyaxvfwSc8jVqNrfUwiOtL8HSeXuhgflYVo-E0Lw15XV8QBycaFNSdjokmWmtzx_o5_yUZBIbl64PKw64RA296cSOBL2FjxrIIALZkH7qUvHi4kJUM3LOJ9gVwaVBtWf_XTz2qJJ2HYT4JU7GNzu2bc8VeseFZoJ7S4Q04cdiz0M_ha96WcTbJ7g4btRGt1OPl0X4DcFAUh5lZmiB-Fkt1SwmyVzD23oy2CFzJ8_a_P_J00S2RRdWzWuQLil2ePO_jQeTtYAuykK-uECd3pZTukdqrxynJEMZp61pcElQQ22qJmNMhGjmHrZ10V4oqt4TgiYeVWC99-udGrZL9sbrjyvzppfag9xuPEav4b_gofla2vHe2pboyxEL0cTvAmIvP5sPa5UVgV_F_3Di_y5ehMswQjnwX0Q6inKFnKyN0cfqrpURWi_VPGZbICp37SjSCfo2LJMzYZ9H8rUKkBk_bBOfO5GLswRvsUgmmivB3dmrlIg9fxE_FIveH84nfU7E6XAlpzOPd0iLrufYDFAzSFh1xPHADIgiZwNzeuGylg0DOHc1MY; rememberMe=true; CurrentLanguageATTW=zh-tw; username=admin; password=BH96YS7OkPctLgNjvoIlL6dy650IZMv+gzhR2iO53nWosX2khh2YtQ2Ir7VoH+3j7vxVH1XoPwkkM25f7mXvcA==; ASP.NET_SessionId=uto23ghviljzcrv0jbsvgpdx
+      ┣ 响应端：                    
+      ┣ ━━━━━━━━━━━━━━━  系统信息 ━━━━━━━━━━━━━━━
+      ┣ 系统名称：                  Microsoft Windows 10.0.26200
+      ┣ 系统架构：                  X64
+      ┣ 基础框架：                  AttcMN.Framework v1.0.0.0
+      ┣ .NET 架构：                 .NET 8.0.21
+      ┣ ━━━━━━━━━━━━━━━  启动信息 ━━━━━━━━━━━━━━━
+      ┣ 运行环境：                  Development
+      ┣ 启动程序集：                AttcMN.Admin
+      ┣ 进程名称：                  iisexpress
+      ┣ 托管程序：                  iisexpress
+      ┣ ━━━━━━━━━━━━━━━  请求头信息 ━━━━━━━━━━━━━━━
+      ┣ 
+      ┣ Accept：                    image/avif,image/webp,image/apng,image/svg+xml,image/*,*/*;q=0.8
+      ┣ Accept-Encoding：           gzip, deflate, br, zstd
+      ┣ Accept-Language：           en-US,en;q=0.9,vi;q=0.8
+      ┣ Connection：                close
+      ┣ Cookie：                    lang=en; Hm_lvt_3824e56a483ef95673d119166354712c=1761450141; .AspNetCore.Identity.Application=CfDJ8A_pruwfiuBFp_pFvYUTjgSCWWfo3Z47qZAjJE7FoJwOBU7JrpJzjuolrAeFzEwbNF5VkEIkB1K7Xw8YY4ADMgafZlElHia02YYyFnD-DqFWWHndOLt8TtLTDC_nf2LjPK2Z8uOezwyLZaxqTkKYswBf2vdQbBhP2xxqTk2yel9bdUSGdUsU5gDbVhvuu3HjxQefiZLg4UvttRgQzHMrvKpPNo7Zi2Cs3i-ZnSkjK8xID6zNmWmIpocuEQU1m05bo8bl0PbouQEKWEj8T_McPUiAB6Wsbx1CYIH_dyaxvfwSc8jVqNrfUwiOtL8HSeXuhgflYVo-E0Lw15XV8QBycaFNSdjokmWmtzx_o5_yUZBIbl64PKw64RA296cSOBL2FjxrIIALZkH7qUvHi4kJUM3LOJ9gVwaVBtWf_XTz2qJJ2HYT4JU7GNzu2bc8VeseFZoJ7S4Q04cdiz0M_ha96WcTbJ7g4btRGt1OPl0X4DcFAUh5lZmiB-Fkt1SwmyVzD23oy2CFzJ8_a_P_J00S2RRdWzWuQLil2ePO_jQeTtYAuykK-uECd3pZTukdqrxynJEMZp61pcElQQ22qJmNMhGjmHrZ10V4oqt4TgiYeVWC99-udGrZL9sbrjyvzppfag9xuPEav4b_gofla2vHe2pboyxEL0cTvAmIvP5sPa5UVgV_F_3Di_y5ehMswQjnwX0Q6inKFnKyN0cfqrpURWi_VPGZbICp37SjSCfo2LJMzYZ9H8rUKkBk_bBOfO5GLswRvsUgmmivB3dmrlIg9fxE_FIveH84nfU7E6XAlpzOPd0iLrufYDFAzSFh1xPHADIgiZwNzeuGylg0DOHc1MY; rememberMe=true; CurrentLanguageATTW=zh-tw; username=admin; password=BH96YS7OkPctLgNjvoIlL6dy650IZMv+gzhR2iO53nWosX2khh2YtQ2Ir7VoH+3j7vxVH1XoPwkkM25f7mXvcA==; ASP.NET_SessionId=uto23ghviljzcrv0jbsvgpdx
+      ┣ Host：                      localhost:44326
+      ┣ Referer：                   https://localhost:44326/
+      ┣ User-Agent：                Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/141.0.0.0 Safari/537.36
+      ┣ sec-ch-ua-platform：        "Windows"
+      ┣ sec-ch-ua：                 "Google Chrome";v="141", "Not?A_Brand";v="8", "Chromium";v="141"
+      ┣ sec-ch-ua-mobile：          ?0
+      ┣ sec-fetch-site：            same-origin
+      ┣ sec-fetch-mode：            no-cors
+      ┣ sec-fetch-dest：            image
+      ┣ priority：                  u=1, i
+      ┣ ━━━━━━━━━━━━━━━  返回信息 ━━━━━━━━━━━━━━━
+      ┣ HTTP响应状态码：            200
+      ┣ 原始类型：                  System.Threading.Tasks.Task<AttcMN.Data.Slave.Dtos.SlaveSysUserDto>
+      ┣ 最终类型：                  
+      ┣ 最终返回值：                null
+      ┗━━━━━━━━━━━  Logging Monitor ━━━━━━━━━━━

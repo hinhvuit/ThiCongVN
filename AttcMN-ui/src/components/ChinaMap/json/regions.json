@@ -1,0 +1,254 @@
+[
+  {
+    "name": "新疆维吾尔自治区",
+    "itemStyle": {
+      "areaColor": "#6db4ec",
+      "opacity": 1
+    }
+  },
+  {
+    "name": "内蒙古自治区",
+    "itemStyle": {
+      "areaColor": "#4fa1ea",
+      "opacity": 1
+    }
+  },
+  {
+    "name": "甘肃省",
+    "itemStyle": {
+      "areaColor": "#61adeb",
+      "opacity": 1
+    }
+  },
+  {
+    "name": "黑龙江省",
+    "itemStyle": {
+      "areaColor": "#64aeed",
+      "opacity": 1
+    }
+  },
+  {
+    "name": "吉林省",
+    "itemStyle": {
+      "areaColor": "#7ec0f0",
+      "opacity": 1
+    }
+  },
+  {
+    "name": "辽宁省",
+    "itemStyle": {
+      "areaColor": "#68b3ed",
+      "opacity": 1
+    }
+  },
+  {
+    "name": "河北省",
+    "itemStyle": {
+      "areaColor": "#c3edfb",
+      "opacity": 1
+    }
+  },
+  {
+    "name": "北京市",
+    "itemStyle": {
+      "areaColor": "#a4daf6",
+      "opacity": 1
+    }
+  },
+  {
+    "name": "天津市",
+    "itemStyle": {
+      "areaColor": "#b8e5f8",
+      "opacity": 1
+    }
+  },
+  {
+    "name": "西藏自治区",
+    "itemStyle": {
+      "areaColor": "#d8f9ff",
+      "opacity": 1
+    }
+  },
+  {
+    "name": "青海省",
+    "itemStyle": {
+      "areaColor": "#d8f9ff",
+      "opacity": 1
+    }
+  },
+  {
+    "name": "四川省",
+    "itemStyle": {
+      "areaColor": "#d8f9ff",
+      "opacity": 1
+    }
+  },
+  {
+    "name": "宁夏回族自治区",
+    "itemStyle": {
+      "areaColor": "#99d1f4",
+      "opacity": 1
+    }
+  },
+  {
+    "name": "陕西省",
+    "itemStyle": {
+      "areaColor": "#a3d8f7",
+      "opacity": 1
+    }
+  },
+  {
+    "name": "山西省",
+    "itemStyle": {
+      "areaColor": "#d4f6ff",
+      "opacity": 1
+    }
+  },
+  {
+    "name": "山东省",
+    "itemStyle": {
+      "areaColor": "#d6f7fe",
+      "opacity": 1
+    }
+  },
+  {
+    "name": "河南省",
+    "itemStyle": {
+      "areaColor": "#aadcf7",
+      "opacity": 1
+    }
+  },
+  {
+    "name": "江苏省",
+    "itemStyle": {
+      "areaColor": "#57a6eb",
+      "opacity": 1
+    }
+  },
+  {
+    "name": "陕西省",
+    "itemStyle": {
+      "areaColor": "#a3d8f7",
+      "opacity": 1
+    }
+  },
+  {
+    "name": "安徽省",
+    "itemStyle": {
+      "areaColor": "#bae7fa",
+      "opacity": 1
+    }
+  },
+  {
+    "name": "重庆市",
+    "itemStyle": {
+      "areaColor": "#7abdf1",
+      "opacity": 1
+    }
+  },
+  {
+    "name": "湖北省",
+    "itemStyle": {
+      "areaColor": "#a7daf5",
+      "opacity": 1
+    }
+  },
+  {
+    "name": "云南省",
+    "itemStyle": {
+      "areaColor": "#7dbff1",
+      "opacity": 1
+    }
+  },
+  {
+    "name": "贵州省",
+    "itemStyle": {
+      "areaColor": "#9ed5f4",
+      "opacity": 1
+    }
+  },
+  {
+    "name": "江西省",
+    "itemStyle": {
+      "areaColor": "#4fa1ea",
+      "opacity": 1
+    }
+  },
+  {
+    "name": "湖南省",
+    "itemStyle": {
+      "areaColor": "#bfeafb",
+      "opacity": 1
+    }
+  },
+  {
+    "name": "浙江省",
+    "itemStyle": {
+      "areaColor": "#99d1f6",
+      "opacity": 1
+    }
+  },
+  {
+    "name": "上海市",
+    "itemStyle": {
+      "areaColor": "#c1ecf0",
+      "opacity": 1
+    }
+  },
+  {
+    "name": "广西壮族自治区",
+    "itemStyle": {
+      "areaColor": "#b6e3f8",
+      "opacity": 1
+    }
+  },
+  {
+    "name": "广东省",
+    "itemStyle": {
+      "areaColor": "#defdff",
+      "opacity": 1
+    }
+  },
+  {
+    "name": "云南省",
+    "itemStyle": {
+      "areaColor": "#7dbff1",
+      "opacity": 1
+    }
+  },
+  {
+    "name": "福建省",
+    "itemStyle": {
+      "areaColor": "#d4f6ff",
+      "opacity": 1
+    }
+  },
+  {
+    "name": "海南省",
+    "itemStyle": {
+      "areaColor": "#9ed5f4",
+      "opacity": 1
+    }
+  },
+  {
+    "name": "台湾省",
+    "itemStyle": {
+      "areaColor": "#7dbff1",
+      "opacity": 1
+    }
+  },
+  {
+    "name": "香港特别行政区",
+    "itemStyle": {
+      "areaColor": "#7dbff1",
+      "opacity": 1
+    }
+  },
+  {
+    "name": "澳门特别行政区",
+    "itemStyle": {
+      "areaColor": "#7dbff1",
+      "opacity": 1
+    }
+  }
+]
