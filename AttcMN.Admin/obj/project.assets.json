@@ -7935,23 +7935,23 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\V0507223\\.nuget\\packages\\": {},
+    "C:\\Users\\Hinh\\.nuget\\packages\\": {},
     "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\Project\\gitlocal\\AttcnMN\\AttcMN.Admin\\AttcMN.Admin.csproj",
+      "projectUniqueName": "D:\\ThiCongVN\\AttcMN.Admin\\AttcMN.Admin.csproj",
       "projectName": "AttcMN.Admin",
-      "projectPath": "D:\\Project\\gitlocal\\AttcnMN\\AttcMN.Admin\\AttcMN.Admin.csproj",
-      "packagesPath": "C:\\Users\\V0507223\\.nuget\\packages\\",
-      "outputPath": "D:\\Project\\gitlocal\\AttcnMN\\AttcMN.Admin\\obj\\",
+      "projectPath": "D:\\ThiCongVN\\AttcMN.Admin\\AttcMN.Admin.csproj",
+      "packagesPath": "C:\\Users\\Hinh\\.nuget\\packages\\",
+      "outputPath": "D:\\ThiCongVN\\AttcMN.Admin\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
       ],
       "configFilePaths": [
-        "C:\\Users\\V0507223\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\Hinh\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
@@ -7960,23 +7960,24 @@
       ],
       "sources": {
         "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+        "C:\\Program Files\\dotnet\\library-packs": {},
         "https://api.nuget.org/v3/index.json": {}
       },
       "frameworks": {
         "net8.0": {
           "targetAlias": "net8.0",
           "projectReferences": {
-            "D:\\Project\\gitlocal\\AttcnMN\\AttcMN.Common\\AttcMN.Common.csproj": {
-              "projectPath": "D:\\Project\\gitlocal\\AttcnMN\\AttcMN.Common\\AttcMN.Common.csproj"
+            "D:\\ThiCongVN\\AttcMN.Common\\AttcMN.Common.csproj": {
+              "projectPath": "D:\\ThiCongVN\\AttcMN.Common\\AttcMN.Common.csproj"
             },
-            "D:\\Project\\gitlocal\\AttcnMN\\AttcMN.Data\\AttcMN.Data.csproj": {
-              "projectPath": "D:\\Project\\gitlocal\\AttcnMN\\AttcMN.Data\\AttcMN.Data.csproj"
+            "D:\\ThiCongVN\\AttcMN.Data\\AttcMN.Data.csproj": {
+              "projectPath": "D:\\ThiCongVN\\AttcMN.Data\\AttcMN.Data.csproj"
             },
-            "D:\\Project\\gitlocal\\AttcnMN\\AttcMN.Framework\\AttcMN.Framework.csproj": {
-              "projectPath": "D:\\Project\\gitlocal\\AttcnMN\\AttcMN.Framework\\AttcMN.Framework.csproj"
+            "D:\\ThiCongVN\\AttcMN.Framework\\AttcMN.Framework.csproj": {
+              "projectPath": "D:\\ThiCongVN\\AttcMN.Framework\\AttcMN.Framework.csproj"
             },
-            "D:\\Project\\gitlocal\\AttcnMN\\AttcMN.System\\AttcMN.System.csproj": {
-              "projectPath": "D:\\Project\\gitlocal\\AttcnMN\\AttcMN.System\\AttcMN.System.csproj"
+            "D:\\ThiCongVN\\AttcMN.System\\AttcMN.System.csproj": {
+              "projectPath": "D:\\ThiCongVN\\AttcMN.System\\AttcMN.System.csproj"
             }
           }
         }

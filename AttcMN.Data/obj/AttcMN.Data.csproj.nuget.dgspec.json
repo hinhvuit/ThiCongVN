@@ -1,23 +1,23 @@
 {
   "format": 1,
   "restore": {
-    "D:\\Project\\gitlocal\\AttcnMN\\AttcMN.Data\\AttcMN.Data.csproj": {}
+    "D:\\ThiCongVN\\AttcMN.Data\\AttcMN.Data.csproj": {}
   },
   "projects": {
-    "D:\\Project\\gitlocal\\AttcnMN\\AttcMN.Data\\AttcMN.Data.csproj": {
+    "D:\\ThiCongVN\\AttcMN.Data\\AttcMN.Data.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\Project\\gitlocal\\AttcnMN\\AttcMN.Data\\AttcMN.Data.csproj",
+        "projectUniqueName": "D:\\ThiCongVN\\AttcMN.Data\\AttcMN.Data.csproj",
         "projectName": "AttcMN.Data",
-        "projectPath": "D:\\Project\\gitlocal\\AttcnMN\\AttcMN.Data\\AttcMN.Data.csproj",
-        "packagesPath": "C:\\Users\\V0507223\\.nuget\\packages\\",
-        "outputPath": "D:\\Project\\gitlocal\\AttcnMN\\AttcMN.Data\\obj\\",
+        "projectPath": "D:\\ThiCongVN\\AttcMN.Data\\AttcMN.Data.csproj",
+        "packagesPath": "C:\\Users\\Hinh\\.nuget\\packages\\",
+        "outputPath": "D:\\ThiCongVN\\AttcMN.Data\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
-          "C:\\Users\\V0507223\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\Hinh\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
@@ -26,6 +26,7 @@
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\dotnet\\library-packs": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
